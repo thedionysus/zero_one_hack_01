@@ -76,17 +76,26 @@ All 5 series are generated regardless of flags (no special-casing the pipeline);
 
 ## 6. Dataset 2 — sourcing layer
 
+### 6.0 Two mixed sources (discovered during execution — REVISED)
+The raw file is **not** a single source. The `source` column holds two:
+- **`Afr`** — 1,433 rows, 401 **named towns**, median 1.26 USD/kg PPP. The Bonilla Cedrez farm-gate retail data the README documents.
+- **`LSMS`** — 4,793 rows, **blank `Town`**, median 1.16, present in only 11 of 131 country-years. Living Standards Measurement Study household-survey prices (undocumented in the README). **Each LSMS row carries full geo** (longitude/latitude/distPort, 4793/4793).
+
+**Decision (user-approved):** include **both** sources as **independent observations**. Rationale: the dataset's own `nat_avg` matches the all-rows median (|diff| 0.0013) far better than named-only (0.0124), i.e. the curators' national average already includes LSMS. The earlier "46 duplicate (country,year,town)" count was an artifact of treating every blank-`Town` LSMS row as one duplicated town; only **35 genuine named-town duplicate groups (36 extra rows)** exist.
+
 ### 6.1 Cleaning (applied before any rollup)
-- **Deduplicate:** 46 `(country, year, town)` rows are duplicated. **Average-collapse** each duplicate's price into a single town-year observation. Log collapsed rows in the sidecar.
-- **Low-price flag:** prices below **0.10 USD/kg PPP floor** (min observed is 0.01 — economically implausible for urea) are **flagged, not dropped**. Logged per town-year.
+- **Split by town label:** named-town rows vs blank-town (LSMS) rows.
+- **Deduplicate named towns only:** average-collapse the 35 genuine `(ISO, year, Town)` duplicate groups (36 extra rows) into one observation each. Blank-town LSMS rows are **never** collapsed — each is an independent observation. Net: 6226 − 36 = **6190** cleaned observations (1,397 named + 4,793 LSMS). Log collapsed named-town keys in the sidecar.
+- **Low-price flag:** prices below **0.10 USD/kg PPP floor** (min observed 0.01 — implausible for urea) are **flagged, not dropped**. Logged per observation.
 - **Standardize:** trim/normalize country & town casing. Join key is **ISO** (verified 1:1 with country name; sidesteps the `Cote d'Ivoire` apostrophe).
 - Prices verified: 0 zero/negative/empty.
 
 ### 6.2 `urea_country_year.csv` (one row per country×year)
-Columns: `ISO, country, year, median_price_usd_per_kg_ppp, mean_price, town_count, flagged_low_price_town_count, data_quality`.
-- **Median** is the primary statistic (robust; verified ≈ the dataset's own `nat_avg`, avg |diff| 0.0013 — `nat_avg` is effectively a median, not a mean). **Mean** retained for context.
-- `data_quality = review` when `flagged_low_price_town_count > 0` **or** `town_count < 3`, else `ok`.
-- Unbalanced panel preserved — no fabricated years.
+Columns: `ISO, country, year, median_price_usd_per_kg_ppp, mean_price, obs_count, n_afr_obs, n_lsms_obs, flagged_low_price_obs_count, data_quality`.
+- Aggregated over **all 6190 observations** (named + LSMS), reproducing the dataset's own `nat_avg`. **Median** is the primary statistic (robust; verified ≈ `nat_avg`, avg |diff| 0.0013). **Mean** retained for context.
+- `n_afr_obs` / `n_lsms_obs` give the per-source breakdown so the decision layer can see how much of a country-year is household-survey vs retail.
+- `data_quality = review` when `flagged_low_price_obs_count > 0` **or** `obs_count < 3`, else `ok`.
+- 131 country-years. Unbalanced panel preserved — no fabricated years.
 
 ### 6.3 `urea_country_summary.csv` (recency-aware, one row per country)
 Columns: `ISO, country, latest_year, latest_year_price, mean_price_all_years, years_covered, data_quality`.
@@ -95,8 +104,9 @@ Columns: `ISO, country, latest_year, latest_year_price, mean_price_all_years, ye
 - Rationale: the panel is unbalanced in recency (Niger ends 2013, Rwanda 2015–2018). Ranking on `latest_year_price` while *seeing* the recency flag prevents comparing a 2013 price against a 2018 price.
 
 ### 6.4 `dataset2_towns_geo.csv` (raw geo passthrough)
-Columns: `ISO, country, year, Town, longitude, latitude, distPort, price_usd_per_kg_ppp`.
-- Cleaned/deduped, **not aggregated**. Geo engineering (port mapping, inland haul, freight model) is deferred to the future shipping-cost work — no premature country-level aggregation.
+Columns: `source, ISO, country, year, Town, longitude, latitude, distPort, price_usd_per_kg_ppp`.
+- All **6190** cleaned observations (named `Afr` + blank-town `LSMS`); both carry full geo, so both are useful for the future shipping work. `source` column distinguishes them; `Town` is blank for LSMS rows.
+- Cleaned/deduped (named-town dups collapsed), **not aggregated**. Geo engineering (port mapping, inland haul, freight model) is deferred to the future shipping-cost work — no premature country-level aggregation.
 
 ## 7. Validation (`validate_processed.py`)
 - **Structural asserts (local):** row counts, no nulls in key columns, monotonic & gapless dates (dataset1), plausible value ranges.
