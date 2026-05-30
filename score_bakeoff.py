@@ -40,6 +40,11 @@ def assemble(manifest, processed_dir, bake_dir, fertilizers=None):
                  for v in fs.VARIANTS}
         winner, ordered = fs.rank_variants(cells)
         wm = cells[winner]
+        if wm is None:
+            champions[slug] = {"winner_variant": None,
+                               "error": "all variants unscoreable"}
+            rows.append((slug, None, ordered, cells))
+            continue
         fcast = _load(os.path.join(bake_dir, slug, winner, "forecast.json"))
         champions[slug] = {
             "winner_variant": winner,
@@ -70,10 +75,13 @@ def _render_markdown(rows):
            "| fertilizer | winner | MASE | RMSSE | MAPE% | cov80 | cov90 | beats naive? |",
            "|---|---|---|---|---|---|---|---|"]
     for slug, winner, _ordered, cells in rows:
-        m = cells[winner]
-        out.append(f"| {slug} | {winner} | {m['mase']:.2f} | {m['rmsse']:.2f} | "
-                   f"{m['mape']:.1f} | {m['cov80']:.0%} | {m['cov90']:.0%} | "
-                   f"{'YES' if m['mase'] < 1.0 else 'no'} |")
+        m = cells[winner] if winner is not None else None
+        if m is None:
+            out.append(f"| {slug} | none | — | — | — | — | — | NO DATA |")
+        else:
+            out.append(f"| {slug} | {winner} | {m['mase']:.2f} | {m['rmsse']:.2f} | "
+                       f"{m['mape']:.1f} | {m['cov80']:.0%} | {m['cov90']:.0%} | "
+                       f"{'YES' if m['mase'] < 1.0 else 'no'} |")
     out.append("\n## Per-variant detail\n")
     for slug, winner, ordered, cells in rows:
         out.append(f"### {slug} (winner: {winner})")

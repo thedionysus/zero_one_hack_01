@@ -1,4 +1,8 @@
+import json
+import os
+import tempfile
 import unittest
+
 from lib import forecast_scoring as fs
 from lib import ts_utils as tu
 
@@ -202,11 +206,6 @@ class TestBuildPayload(unittest.TestCase):
         self.assertNotIn("recency_factor", p)
 
 
-import json
-import os
-import tempfile
-
-
 class TestScoreBakeoffIntegration(unittest.TestCase):
     def test_assemble_picks_lower_mase_winner(self):
         import score_bakeoff
@@ -240,13 +239,16 @@ class TestScoreBakeoffIntegration(unittest.TestCase):
             for v, t in variants.items():
                 d = os.path.join(bake, "urea", v)
                 os.makedirs(d)
-                json.dump(t, open(os.path.join(d, "backtest_trajectories.json"), "w"))
-                json.dump(fcast, open(os.path.join(d, "forecast.json"), "w"))
+                with open(os.path.join(d, "backtest_trajectories.json"), "w") as fh:
+                    json.dump(t, fh)
+                with open(os.path.join(d, "forecast.json"), "w") as fh:
+                    json.dump(fcast, fh)
             manifest = {"last_real_date": last_real, "cells": {"urea": {
                 "ON": {"job_id": "a", "status": "completed"},
                 "MID": {"job_id": "b", "status": "completed"},
                 "OFF": {"job_id": "c", "status": "completed"}}}}
-            json.dump(manifest, open(os.path.join(bake, "manifest.json"), "w"))
+            with open(os.path.join(bake, "manifest.json"), "w") as fh:
+                json.dump(manifest, fh)
 
             champions, md = score_bakeoff.assemble(
                 manifest, proc, bake, fertilizers=["urea"])
@@ -254,4 +256,33 @@ class TestScoreBakeoffIntegration(unittest.TestCase):
         self.assertEqual(champions["urea"]["winner_variant"], "OFF")
         self.assertTrue(champions["urea"]["beats_naive"])  # OFF mase < 1
         self.assertIn("2026-06-01", champions["urea"]["forecast"])
+        self.assertIn("urea", md)
+
+    def test_all_variants_unscoreable_emits_sentinel(self):
+        import score_bakeoff
+        series = {tu.index_to_month(24240 + i): float(i) for i in range(24)}
+        last_real = tu.index_to_month(24240 + 23)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            proc = os.path.join(tmp, "processed")
+            bake = os.path.join(tmp, "bakeoff")
+            os.makedirs(proc)
+            with open(os.path.join(proc, "urea.json"), "w") as fh:
+                json.dump(series, fh)
+            # Create empty variant dirs — no backtest_trajectories.json anywhere
+            for v in ("ON", "MID", "OFF"):
+                os.makedirs(os.path.join(bake, "urea", v))
+            manifest = {"last_real_date": last_real, "cells": {"urea": {
+                "ON": {"job_id": "a", "status": "failed"},
+                "MID": {"job_id": "b", "status": "failed"},
+                "OFF": {"job_id": "c", "status": "failed"}}}}
+            with open(os.path.join(bake, "manifest.json"), "w") as fh:
+                json.dump(manifest, fh)
+
+            # Must not raise even though all variants are unscoreable
+            champions, md = score_bakeoff.assemble(
+                manifest, proc, bake, fertilizers=["urea"])
+
+        self.assertIsNone(champions["urea"]["winner_variant"])
+        self.assertIn("error", champions["urea"])
         self.assertIn("urea", md)
