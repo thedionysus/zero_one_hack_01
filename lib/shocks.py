@@ -1,8 +1,13 @@
-"""Forecast shock injector + decision diff (pure stdlib).
+"""Forecast shock injectors + decision diff (pure stdlib).
 
-v1 shock = a uniform level shift applied to the CORRECTED band; the decision
-consumes the corrected band directly, so one transform re-prices everything on
-the next solve. plan_diff gives the adaptive old->new render its payload.
+Two shocks on the CORRECTED band, which the decision consumes directly so one
+transform re-prices everything on the next solve:
+  - level_shift: a uniform factor on every quantile. Moves the EUR magnitude but
+    is decision-INERT (a constant factor leaves the cost-min argmin unchanged).
+  - trend_shift: a compounding monthly trend that steepens the forward curve, so
+    near-term buying becomes relatively cheaper and the decision can flip toward
+    BUY_NOW. This is the shock that drives the adaptive demo moment.
+plan_diff gives the adaptive old->new render its payload.
 """
 
 from lib.ts_utils import month_index
