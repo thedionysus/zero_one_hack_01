@@ -25,13 +25,13 @@ class TestAppSmoke(unittest.TestCase):
         at = self._run()
         self.assertGreaterEqual(len(at.metric), 1)
 
-    def test_trend_slider_can_flip_recommendation(self):
+    def test_trend_slider_flips_recommendation_metric(self):
         base = self._run()
-        base_recs = [m.value for m in base.metric]
+        base_rec = base.metric[0].value  # the Recommendation metric is rendered first
         at = AppTest.from_file("app/main.py", default_timeout=30).run()
         at.slider(key="trend").set_value(at.slider(key="trend").max).run()
-        shocked_recs = [m.value for m in at.metric]
-        self.assertNotEqual(base_recs, shocked_recs)
+        self.assertNotEqual(at.metric[0].value, base_rec)
+        self.assertIn(at.metric[0].value, {"BUY_NOW", "WAIT", "SPLIT", "COVERED"})
 
 
 if __name__ == "__main__":

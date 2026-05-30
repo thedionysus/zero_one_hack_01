@@ -85,17 +85,17 @@ def main():
     left, right = st.columns([3, 2])
     with left:
         st.plotly_chart(charts.forecast_figure(res["native"], res["corrected"], plan),
-                        use_container_width=True)
-        st.plotly_chart(charts.savings_figure(plan), use_container_width=True)
+                        width="stretch")
+        st.plotly_chart(charts.savings_figure(plan), width="stretch")
     with right:
         st.plotly_chart(charts.calibration_figure(res["cov80_native"],
                                                   res["cov80_corrected"]),
-                        use_container_width=True)
+                        width="stretch")
         t = res["trust"]
         st.metric("Trust score", f"{t['score']:.2f} ({t['label']})")
 
     st.subheader("All fertilizers — trust ranking")
-    st.dataframe(charts.trust_rows(cal), use_container_width=True, hide_index=True)
+    st.dataframe(charts.trust_rows(cal), width="stretch", hide_index=True)
 
 
 main()
