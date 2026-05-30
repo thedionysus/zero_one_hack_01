@@ -16,5 +16,26 @@ class TestDateHelpers(unittest.TestCase):
             self.assertEqual(ts_utils.index_to_month(ts_utils.month_index(d)), d)
 
 
+class TestStats(unittest.TestCase):
+    def test_mean(self):
+        self.assertAlmostEqual(ts_utils.mean([1.0, 2.0, 3.0]), 2.0)
+
+    def test_median_odd(self):
+        self.assertEqual(ts_utils.median([3, 1, 2]), 2)
+
+    def test_median_even(self):
+        self.assertEqual(ts_utils.median([1, 2, 3, 4]), 2.5)
+
+    def test_percentile_nearest_rank(self):
+        data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        self.assertEqual(ts_utils.percentile(data, 100), 10)
+        self.assertEqual(ts_utils.percentile(data, 50), 5)
+        self.assertEqual(ts_utils.percentile([42.0], 99), 42.0)
+
+    def test_percentile_empty_raises(self):
+        with self.assertRaises(ValueError):
+            ts_utils.percentile([], 99)
+
+
 if __name__ == "__main__":
     unittest.main()
