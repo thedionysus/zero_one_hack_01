@@ -20,85 +20,100 @@
       "ON": {
         "job_id": "daad457c-89b8-4bfb-8c89-9ce7a4141737",
         "status": "completed",
-        "eur_cost": 0.38
+        "eur_cost": 0.38,
+        "reused": false
       },
       "MID": {
         "job_id": "1ea5dc6f-ff26-49a5-bcc9-050618eac2f1",
         "status": "completed",
-        "eur_cost": 0.37
+        "eur_cost": 0.37,
+        "reused": false
       },
       "OFF": {
         "job_id": "2eca4ddd-6ee8-4b80-8b12-685f12a20cc9",
         "status": "completed",
-        "eur_cost": 0.43
+        "eur_cost": 0.43,
+        "reused": false
       }
     },
     "dap": {
       "ON": {
         "job_id": "99f7d952-8d3d-41cf-9bc4-accc2358974b",
         "status": "completed",
-        "eur_cost": 0.45
+        "eur_cost": 0.45,
+        "reused": false
       },
       "MID": {
         "job_id": "ad9a193c-fdb6-4471-8d73-4263a64dcfeb",
         "status": "completed",
-        "eur_cost": 0.46
+        "eur_cost": 0.46,
+        "reused": false
       },
       "OFF": {
         "job_id": "68f3ba5f-1c7a-4313-8c3b-a5d1b11cc96b",
         "status": "completed",
-        "eur_cost": 0.43
+        "eur_cost": 0.43,
+        "reused": false
       }
     },
     "mop": {
       "ON": {
         "job_id": "b101b2a7-e110-4dfa-841f-87cda8cf2402",
         "status": "completed",
-        "eur_cost": 1.33
+        "eur_cost": 1.33,
+        "reused": false
       },
       "MID": {
         "job_id": "d33f8ab5-6377-4820-8981-779607edd2a3",
         "status": "completed",
-        "eur_cost": 1.33
+        "eur_cost": 1.33,
+        "reused": false
       },
       "OFF": {
         "job_id": "9dd1df58-0186-4824-afbb-cb25029aca63",
         "status": "completed",
-        "eur_cost": 1.27
+        "eur_cost": 1.27,
+        "reused": false
       }
     },
     "tsp": {
       "ON": {
         "job_id": "e4bb7c55-3001-4f0c-9953-bf81d96c67f3",
         "status": "completed",
-        "eur_cost": 2.0
+        "eur_cost": 2.0,
+        "reused": false
       },
       "MID": {
         "job_id": "7c50cc50-d842-4052-9b63-a41e92281e1c",
         "status": "completed",
-        "eur_cost": 2.03
+        "eur_cost": 2.03,
+        "reused": false
       },
       "OFF": {
         "job_id": "8a579ece-089f-404e-a418-37f1e61db257",
         "status": "completed",
-        "eur_cost": 1.34
+        "eur_cost": 1.34,
+        "reused": false
       }
     },
     "phosphate-rock": {
       "ON": {
         "job_id": "791855ce-7597-435c-baf3-80bfb1f97e56",
         "status": "completed",
-        "eur_cost": 2.36
+        "eur_cost": 2.36,
+        "reused": false
       },
       "MID": {
         "job_id": "b20fe1ce-001a-4e02-8325-76823f5e6dc5",
         "status": "completed",
-        "eur_cost": 1.97
+        "eur_cost": 1.97,
+        "reused": false
       },
       "OFF": {
         "job_id": "cfc3e23d-9a5c-4385-951e-7f7dd460d770",
         "status": "completed",
-        "eur_cost": 1.49
+        "eur_cost": 1.49,
+        "reused": false
       }
     }
   }

@@ -36,7 +36,7 @@ def main():
             with open(path, "w") as fh:
                 json.dump(payload, fh)
             cells[slug][variant] = {"job_id": None, "status": "pending",
-                                    "eur_cost": None}
+                                    "eur_cost": None, "reused": False}
     manifest = {
         "config": {"soft_horizon": 12, "backtest": True,
                    "accept_stale_latest_data": True,

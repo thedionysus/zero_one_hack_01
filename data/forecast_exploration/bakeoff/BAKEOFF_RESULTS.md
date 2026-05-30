@@ -6,19 +6,19 @@ means the config beats a lag-12 seasonal-naive baseline.
 
 | fertilizer | winner | MASE | RMSSE | MAPE% | cov80 | cov90 | beats naive? |
 |---|---|---|---|---|---|---|---|
-| urea | ON | 1.10 | 0.80 | 20.8 | 21% | 33% | no |
-| dap | ON | 1.18 | 0.78 | 17.1 | 21% | 29% | no |
+| urea | OFF | 1.10 | 0.80 | 20.8 | 21% | 33% | no |
+| dap | OFF | 1.18 | 0.78 | 17.1 | 21% | 29% | no |
 | mop | ON | 0.63 | 0.31 | 16.0 | 50% | 58% | YES |
 | tsp | OFF | 1.22 | 0.76 | 21.4 | 21% | 38% | no |
 | phosphate-rock | OFF | 0.62 | 0.44 | 18.3 | 100% | 100% | YES |
 
 ## Per-variant detail
 
-### urea (winner: ON) (forward bands: NATIVE)
+### urea (winner: OFF) (TIE — OFF chosen, all variants equal) (forward bands: NATIVE)
 - ON: MASE 1.10, MAPE 20.8%, cov80 21%, 11 stale windows excluded
 - MID: MASE 1.10, MAPE 20.8%, cov80 21%, 11 stale windows excluded
 - OFF: MASE 1.10, MAPE 20.8%, cov80 21%, 11 stale windows excluded
-### dap (winner: ON) (forward bands: NATIVE)
+### dap (winner: OFF) (TIE — OFF chosen, all variants equal) (forward bands: NATIVE)
 - ON: MASE 1.18, MAPE 17.1%, cov80 21%, 11 stale windows excluded
 - MID: MASE 1.18, MAPE 17.1%, cov80 21%, 11 stale windows excluded
 - OFF: MASE 1.18, MAPE 17.1%, cov80 21%, 11 stale windows excluded

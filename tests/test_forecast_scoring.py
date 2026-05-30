@@ -308,3 +308,99 @@ class TestScoreBakeoffIntegration(unittest.TestCase):
         self.assertIsNone(champions["urea"]["winner_variant"])
         self.assertIn("error", champions["urea"])
         self.assertIn("urea", md)
+
+    def test_three_way_tie_picks_off_and_sets_tie_flag(self):
+        """When all three variants are identical (same MASE+MAPE), OFF is chosen,
+        tie=True is set, and all champion fields reflect the OFF variant."""
+        import score_bakeoff
+        series = {tu.index_to_month(24240 + i): float(i) for i in range(24)}
+        last_real = tu.index_to_month(24240 + 23)
+
+        # Identical trajectories for ON, MID, OFF -> same MASE and MAPE
+        identical_traj = {"data": [{"forecast_end": tu.index_to_month(24240 + 10),
+            "forecast_series": {
+                tu.index_to_month(24240 + 9): {"actual": 10.0,
+                    "quantile_forecast": {"0.05": 4.0, "0.10": 5.0,
+                        "0.50": 8.0, "0.90": 9.0, "0.95": 9.5}},
+                tu.index_to_month(24240 + 10): {"actual": 20.0,
+                    "quantile_forecast": {"0.05": 12.0, "0.10": 14.0,
+                        "0.50": 16.0, "0.90": 22.0, "0.95": 25.0}},
+            }}]}
+        fcast = {"data": {"forecast_series": {"2026-06-01": {"forecast": 0.5,
+            "quantile_forecast": {"0.05": 0.4, "0.10": 0.42, "0.50": 0.5,
+                                  "0.90": 0.58, "0.95": 0.6}}}}}
+
+        with tempfile.TemporaryDirectory() as tmp:
+            proc = os.path.join(tmp, "processed")
+            bake = os.path.join(tmp, "bakeoff")
+            os.makedirs(proc)
+            with open(os.path.join(proc, "urea.json"), "w") as fh:
+                json.dump(series, fh)
+            for v in ("ON", "MID", "OFF"):
+                d = os.path.join(bake, "urea", v)
+                os.makedirs(d)
+                with open(os.path.join(d, "backtest_trajectories.json"), "w") as fh:
+                    json.dump(identical_traj, fh)
+                with open(os.path.join(d, "forecast.json"), "w") as fh:
+                    json.dump(fcast, fh)
+            manifest = {"last_real_date": last_real, "cells": {"urea": {
+                "ON": {"job_id": "a", "status": "completed"},
+                "MID": {"job_id": "b", "status": "completed"},
+                "OFF": {"job_id": "c", "status": "completed"}}}}
+            with open(os.path.join(bake, "manifest.json"), "w") as fh:
+                json.dump(manifest, fh)
+
+            champions, md = score_bakeoff.assemble(
+                manifest, proc, bake, fertilizers=["urea"])
+
+        champ = champions["urea"]
+        # Tie flag must be set
+        self.assertTrue(champ["tie"])
+        # OFF must be chosen when tied (cheapest/simplest variant)
+        self.assertEqual(champ["winner_variant"], "OFF")
+        # All winner-dependent fields must reference OFF
+        self.assertIn("/OFF/", champ["backtest_trajectories_ref"])
+        self.assertIn("/OFF/", champ["external_signals_ref"])
+        self.assertEqual(champ["job_id"], "c")  # OFF job_id from manifest
+        # Markdown must mention TIE
+        self.assertIn("TIE", md)
+
+
+class TestBuildPayloadsManifest(unittest.TestCase):
+    def test_manifest_cells_include_reused_false(self):
+        """Each manifest cell skeleton must include reused=false per spec §4."""
+        import build_payloads
+        import importlib
+        import sys
+
+        series = {tu.index_to_month(24000 + i): float(i + 1) for i in range(130)}
+
+        with tempfile.TemporaryDirectory() as tmp:
+            proc = os.path.join(tmp, "processed")
+            bake = os.path.join(tmp, "bakeoff")
+            os.makedirs(proc)
+            for slug in fs.FERTILIZERS:
+                with open(os.path.join(proc, f"{slug}.json"), "w") as fh:
+                    json.dump(series, fh)
+
+            # Patch constants so build_payloads writes to tmp dirs
+            orig_processed = build_payloads.PROCESSED
+            orig_bakeoff = build_payloads.BAKEOFF
+            build_payloads.PROCESSED = proc
+            build_payloads.BAKEOFF = bake
+            try:
+                build_payloads.main()
+            finally:
+                build_payloads.PROCESSED = orig_processed
+                build_payloads.BAKEOFF = orig_bakeoff
+
+            with open(os.path.join(bake, "manifest.json")) as fh:
+                manifest = json.load(fh)
+
+        for slug in fs.FERTILIZERS:
+            for variant in fs.VARIANTS:
+                cell = manifest["cells"][slug][variant]
+                self.assertIn("reused", cell,
+                              f"{slug}/{variant} missing 'reused' field")
+                self.assertIs(cell["reused"], False,
+                              f"{slug}/{variant} reused should be False")

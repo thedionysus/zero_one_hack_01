@@ -1,9 +1,9 @@
 {
   "urea": {
-    "winner_variant": "ON",
-    "job_id": "daad457c-89b8-4bfb-8c89-9ce7a4141737",
+    "winner_variant": "OFF",
+    "job_id": "2eca4ddd-6ee8-4b80-8b12-685f12a20cc9",
     "config": {
-      "recency_factor": 0.0,
+      "recency_factor": null,
       "soft_horizon": 12,
       "backtest": true,
       "accept_stale_latest_data": true
@@ -263,8 +263,8 @@
       }
     },
     "forward_bands_available": true,
-    "backtest_trajectories_ref": "bakeoff/urea/ON/backtest_trajectories.json",
-    "external_signals_ref": "bakeoff/urea/ON/external_signals.json",
+    "backtest_trajectories_ref": "bakeoff/urea/OFF/backtest_trajectories.json",
+    "external_signals_ref": "bakeoff/urea/OFF/external_signals.json",
     "accuracy": {
       "mase": 1.0969191525767592,
       "rmsse": 0.7995667206858678,
@@ -277,13 +277,14 @@
       "cov80": 0.20833333333333334,
       "cov90": 0.3333333333333333
     },
-    "beats_naive": false
+    "beats_naive": false,
+    "tie": true
   },
   "dap": {
-    "winner_variant": "ON",
-    "job_id": "99f7d952-8d3d-41cf-9bc4-accc2358974b",
+    "winner_variant": "OFF",
+    "job_id": "68f3ba5f-1c7a-4313-8c3b-a5d1b11cc96b",
     "config": {
-      "recency_factor": 0.0,
+      "recency_factor": null,
       "soft_horizon": 12,
       "backtest": true,
       "accept_stale_latest_data": true
@@ -543,8 +544,8 @@
       }
     },
     "forward_bands_available": true,
-    "backtest_trajectories_ref": "bakeoff/dap/ON/backtest_trajectories.json",
-    "external_signals_ref": "bakeoff/dap/ON/external_signals.json",
+    "backtest_trajectories_ref": "bakeoff/dap/OFF/backtest_trajectories.json",
+    "external_signals_ref": "bakeoff/dap/OFF/external_signals.json",
     "accuracy": {
       "mase": 1.1752067615912876,
       "rmsse": 0.7824193490099581,
@@ -557,7 +558,8 @@
       "cov80": 0.20833333333333334,
       "cov90": 0.2916666666666667
     },
-    "beats_naive": false
+    "beats_naive": false,
+    "tie": true
   },
   "mop": {
     "winner_variant": "ON",
@@ -639,7 +641,8 @@
       "cov80": 0.5,
       "cov90": 0.5833333333333334
     },
-    "beats_naive": true
+    "beats_naive": true,
+    "tie": false
   },
   "tsp": {
     "winner_variant": "OFF",
@@ -703,7 +706,8 @@
       "cov80": 0.20833333333333334,
       "cov90": 0.375
     },
-    "beats_naive": false
+    "beats_naive": false,
+    "tie": false
   },
   "phosphate-rock": {
     "winner_variant": "OFF",
@@ -767,6 +771,7 @@
       "cov80": 1.0,
       "cov90": 1.0
     },
-    "beats_naive": true
+    "beats_naive": true,
+    "tie": false
   }
 }

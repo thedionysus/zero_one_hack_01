@@ -43,8 +43,16 @@ def assemble(manifest, processed_dir, bake_dir, fertilizers=None):
         if wm is None:
             champions[slug] = {"winner_variant": None,
                                "error": "all variants unscoreable"}
-            rows.append((slug, None, ordered, cells, None))
+            rows.append((slug, None, ordered, cells, None, False))
             continue
+        # Detect ties: variants whose non-None metrics equal the winner's MASE+MAPE
+        tied = [v for v, m in cells.items()
+                if m is not None and m["mase"] == wm["mase"] and m["mape"] == wm["mape"]]
+        tie = len(tied) > 1
+        # When tied, prefer OFF (cheapest run; has native forward bands for these series)
+        if tie and "OFF" in tied:
+            winner = "OFF"
+            wm = cells["OFF"]
         fcast = _load(os.path.join(bake_dir, slug, winner, "forecast.json"))
         block = fs.forecast_block(fcast)
         forward_bands_available = all("p95" in row for row in block.values())
@@ -65,8 +73,9 @@ def assemble(manifest, processed_dir, bake_dir, fertilizers=None):
                                             "n_windows_excluded_stale")},
             "trust": {"cov80": wm["cov80"], "cov90": wm["cov90"]},
             "beats_naive": wm["mase"] < 1.0,
+            "tie": tie,
         }
-        rows.append((slug, winner, ordered, cells, forward_bands_available))
+        rows.append((slug, winner, ordered, cells, forward_bands_available, tie))
     return champions, _render_markdown(rows)
 
 
@@ -77,7 +86,7 @@ def _render_markdown(rows):
            "means the config beats a lag-12 seasonal-naive baseline.\n",
            "| fertilizer | winner | MASE | RMSSE | MAPE% | cov80 | cov90 | beats naive? |",
            "|---|---|---|---|---|---|---|---|"]
-    for slug, winner, _ordered, cells, _fba in rows:
+    for slug, winner, _ordered, cells, _fba, _tie in rows:
         m = cells[winner] if winner is not None else None
         if m is None:
             out.append(f"| {slug} | none | — | — | — | — | — | NO DATA |")
@@ -86,11 +95,12 @@ def _render_markdown(rows):
                        f"{m['mape']:.1f} | {m['cov80']:.0%} | {m['cov90']:.0%} | "
                        f"{'YES' if m['mase'] < 1.0 else 'no'} |")
     out.append("\n## Per-variant detail\n")
-    for slug, winner, ordered, cells, fba in rows:
+    for slug, winner, ordered, cells, fba, tie in rows:
         bands_note = ("(forward bands: NATIVE)" if fba
                       else "(forward bands: MISSING — derive from hindcast)"
                       if fba is not None else "")
-        out.append(f"### {slug} (winner: {winner}) {bands_note}".rstrip())
+        tie_note = " (TIE — OFF chosen, all variants equal)" if tie else ""
+        out.append(f"### {slug} (winner: {winner}){tie_note} {bands_note}".rstrip())
         for v in ordered:
             m = cells[v]
             if m is None:
