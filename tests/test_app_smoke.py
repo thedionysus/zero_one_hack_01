@@ -43,6 +43,16 @@ class TestAppSmoke(unittest.TestCase):
         self.assertNotEqual(at.metric[0].value, base_rec)
         self.assertEqual(at.slider(key="trend").value, 0.30)  # chat moved the slider
 
+    def test_unparseable_curveball_is_handled_gracefully(self):
+        # An unparseable curveball must not crash and must not move any lever; it
+        # should surface a chat message instead.
+        at = AppTest.from_file("app/main.py", default_timeout=30).run()
+        base_trend = at.slider(key="trend").value
+        at.chat_input[0].set_value("tell me a joke").run()
+        self.assertFalse(at.exception)
+        self.assertEqual(at.slider(key="trend").value, base_trend)
+        self.assertGreaterEqual(len(at.chat_message), 1)
+
 
 if __name__ == "__main__":
     unittest.main()
