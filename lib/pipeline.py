@@ -14,7 +14,8 @@ from lib import trust as tr
 from lib import decision as dc
 
 # champion refs ("bakeoff/urea/OFF/...") are relative to this directory.
-DATA_DIR = os.path.join("data", "forecast_exploration")
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(_REPO_ROOT, "data", "forecast_exploration")
 CHAMPIONS_PATH = os.path.join(DATA_DIR, "bakeoff", "champions.json")
 MANIFEST_PATH = os.path.join(DATA_DIR, "bakeoff", "manifest.json")
 
@@ -50,19 +51,9 @@ def recalibrate_champion(champ, last_real_date):
     recalibrate_block reads only each month's p50, so point-only forward months
     still get a full corrected band.
     """
-    native = champ["forecast"]
     with open(_resolve_ref(champ["backtest_trajectories_ref"])) as f:
         traj = json.load(f)
-    points, _scored, _excluded = fs.extract_scorable_points(traj, last_real_date)
-    offsets = rc.residual_offsets(rc.residuals_from_points(points))
-    return {
-        "native": native,
-        "corrected": rc.recalibrate_block(native, offsets),
-        "offsets": offsets,
-        "bias": offsets[0.50],
-        "cov80_native": fs.band_coverage(points, "0.10", "0.90"),
-        "cov80_corrected": rc.coverage_with_offsets(points, offsets, 0.10, 0.90),
-    }
+    return rc.recalibrate_from_block(champ["forecast"], traj, last_real_date)
 
 
 def trust_for_champion(champ):

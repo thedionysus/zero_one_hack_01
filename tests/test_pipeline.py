@@ -34,6 +34,12 @@ class TestPipeline(unittest.TestCase):
         cal = run["results"]["urea"]["calibration"]
         self.assertGreater(cal["cov80_corrected"], cal["cov80_native"])
 
+    def test_savings_eur_matches_fx(self):
+        run = pipeline.run_all()
+        for r in run["results"].values():
+            self.assertAlmostEqual(
+                r["savings_eur"], r["plan"].savings * pipeline.EUR_PER_USD, places=9)
+
     def test_hero_is_argmax_trust(self):
         run = pipeline.run_all()
         hero_score = run["results"][run["hero"]]["trust"]["score"]

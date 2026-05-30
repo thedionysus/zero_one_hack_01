@@ -73,20 +73,15 @@ def coverage_with_offsets(points, offsets, lo_tau=0.10, hi_tau=0.90):
     return covered / len(points)
 
 
-def recalibrate(forecast_json, trajectories, last_real_date):
-    """End-to-end: build offsets from the hindcast, apply to the live forecast.
+def recalibrate_from_block(native, trajectories, last_real_date):
+    """Build conformal offsets from the hindcast and apply them to a native block.
 
-    Returns a dict with:
-      native    : forecast_block from forecast.json (untouched, for the viz)
-      corrected : recalibrated block
-      offsets   : {tau: offset}
-      bias      : offsets[0.50] (the P50 shift; >0 means model under-predicted)
-      cov80_native / cov80_corrected : in-sample 80% coverage before/after
+    native: a {date: {pXX}} forecast block (>= p50 per month). Shared core of
+    recalibrate() (which first derives the block from forecast.json) and the
+    pipeline's champion path (which already has the block).
     """
-    native = fs.forecast_block(forecast_json)
     points, _scored, _excluded = fs.extract_scorable_points(trajectories, last_real_date)
-    res = residuals_from_points(points)
-    offsets = residual_offsets(res)
+    offsets = residual_offsets(residuals_from_points(points))
     return {
         "native": native,
         "corrected": recalibrate_block(native, offsets),
@@ -95,3 +90,17 @@ def recalibrate(forecast_json, trajectories, last_real_date):
         "cov80_native": fs.band_coverage(points, "0.10", "0.90"),
         "cov80_corrected": coverage_with_offsets(points, offsets, 0.10, 0.90),
     }
+
+
+def recalibrate(forecast_json, trajectories, last_real_date):
+    """End-to-end: derive the native block from forecast.json, then recalibrate.
+
+    Returns a dict with:
+      native    : forecast_block from forecast.json (untouched, for the viz)
+      corrected : recalibrated block
+      offsets   : {tau: offset}
+      bias      : offsets[0.50] (the P50 shift; >0 means model under-predicted)
+      cov80_native / cov80_corrected : in-sample 80% coverage before/after
+    """
+    return recalibrate_from_block(
+        fs.forecast_block(forecast_json), trajectories, last_real_date)
