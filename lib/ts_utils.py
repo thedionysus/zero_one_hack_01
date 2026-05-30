@@ -42,6 +42,11 @@ def percentile(values, p):
     return s[rank - 1]
 
 
+def flag_low_price(price, floor=0.10):
+    """True when price is below the implausible-low floor (USD/kg PPP)."""
+    return float(price) < floor
+
+
 def collapse_duplicate_towns(rows):
     """Collapse duplicate (ISO, year, Town) rows by averaging price.
 

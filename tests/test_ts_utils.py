@@ -110,5 +110,15 @@ class TestCollapseDuplicateTowns(unittest.TestCase):
         self.assertEqual(len(keys), 1)
 
 
+class TestFlagLowPrice(unittest.TestCase):
+    def test_below_floor_flagged(self):
+        self.assertTrue(ts_utils.flag_low_price(0.01))
+        self.assertTrue(ts_utils.flag_low_price(0.09))
+
+    def test_at_or_above_floor_not_flagged(self):
+        self.assertFalse(ts_utils.flag_low_price(0.10))
+        self.assertFalse(ts_utils.flag_low_price(1.46))
+
+
 if __name__ == "__main__":
     unittest.main()
