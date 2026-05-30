@@ -2,6 +2,7 @@ import json
 import os
 import unittest
 
+from lib import forecast_scoring as fs
 from lib import impact
 from lib import pipeline
 
@@ -22,6 +23,9 @@ class TestImpact(unittest.TestCase):
 
     def test_scorable_windows_match_scoring(self):
         wins = impact._scorable_windows(self.traj, self.last_real)
+        _points, n_scored, _excluded = fs.extract_scorable_points(
+            self.traj, self.last_real)
+        self.assertEqual(len(wins), n_scored)
         self.assertEqual(len(wins), 2)
 
     def test_backtest_shape(self):
@@ -42,6 +46,12 @@ class TestImpact(unittest.TestCase):
         res = impact.backtest(self.traj, self.last_real, self.persona)
         tot = sum(w["saving"] for w in res["per_window"])
         self.assertAlmostEqual(res["total_saving"], tot, places=6)
+
+    def test_surfaces_a_loss_window(self):
+        # The backtest must report honest losses, not floor savings at 0 like the
+        # forward solve does -- one urea window genuinely loses money.
+        res = impact.backtest(self.traj, self.last_real, self.persona)
+        self.assertTrue(any(w["saving"] < 0 for w in res["per_window"]))
 
 
 if __name__ == "__main__":

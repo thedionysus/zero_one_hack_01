@@ -65,7 +65,11 @@ def _realized_cost(plan, actuals, persona):
 
 
 def _perfect_ceiling(actuals, months, persona):
-    """Max achievable saving with full knowledge of the realized prices."""
+    """Max achievable saving with full knowledge of the realized prices.
+
+    Reuses the decision core's per-month argmin (over ACTUAL prices here) so the
+    ceiling cannot silently desync from the cost model the policy optimizes.
+    """
     carry = persona.monthly_carry
     demand = persona.monthly_demand_t
     covered = int(persona.runway_months)
@@ -73,12 +77,8 @@ def _perfect_ceiling(actuals, months, persona):
     agent = 0.0
     baseline = 0.0
     for d in range(covered, len(months)):
-        best = prices[d]  # buy-as-you-go always allowed
-        for p in range(d + 1):
-            cost = prices[p] * (1.0 + carry * (d - p))
-            if cost < best:
-                best = cost
-        agent += demand * KG * best
+        _p, best_unit = dc._optimal_purchase_index(prices, d, carry)
+        agent += demand * KG * best_unit
         baseline += demand * KG * prices[d]
     return baseline - agent
 
