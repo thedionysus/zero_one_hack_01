@@ -120,3 +120,17 @@ class TestScoreAndRank(unittest.TestCase):
         winner, ordered = fs.rank_variants(cells)
         self.assertEqual(winner, "ON")
         self.assertEqual(ordered[-1], "BAD")
+
+
+class TestForecastBlock(unittest.TestCase):
+    def test_block_maps_quantiles_to_p_keys(self):
+        forecast_json = {"data": {"forecast_series": {
+            "2026-06-01": {"forecast": 0.5, "quantile_forecast": {
+                "0.05": 0.4, "0.10": 0.42, "0.50": 0.5, "0.90": 0.58, "0.95": 0.6}},
+        }}}
+        block = fs.forecast_block(forecast_json)
+        self.assertEqual(set(block.keys()), {"2026-06-01"})
+        row = block["2026-06-01"]
+        self.assertAlmostEqual(row["p50"], 0.5)
+        self.assertAlmostEqual(row["p05"], 0.4)
+        self.assertAlmostEqual(row["p95"], 0.6)

@@ -125,3 +125,16 @@ def rank_variants(cells):
         return (m["mase"], m["mape"])
     ordered = sorted(cells.items(), key=key)
     return ordered[0][0], [v for v, _m in ordered]
+
+
+def forecast_block(forecast_json):
+    """From forecast.json -> {date: {"p05":.., "p10":.., ..., "p95":..}}.
+
+    Maps each quantile key "0.05".."0.95" to "p05".."p95" (includes "p50").
+    """
+    series = forecast_json["data"]["forecast_series"]
+    out = {}
+    for date, entry in series.items():
+        q = entry["quantile_forecast"]
+        out[date] = {"p" + k[2:]: float(v) for k, v in q.items()}
+    return out
