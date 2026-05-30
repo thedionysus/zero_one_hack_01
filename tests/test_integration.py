@@ -65,20 +65,33 @@ class TestDataset2Build(unittest.TestCase):
                      "urea_country_summary.csv", "data_quality_flags.json"]:
             self.assertTrue(os.path.exists(os.path.join(D2, name)), name)
 
-    def test_towns_geo_deduped(self):
-        # 46 duplicate (ISO, year, Town) groups collapsed to 1 row each;
-        # actual unique town-year observations = 1408
-        self.assertEqual(len(self._rows("dataset2_towns_geo.csv")), 1408)
+    def test_towns_geo_keeps_all_obs_with_source(self):
+        rows = self._rows("dataset2_towns_geo.csv")
+        # 6226 raw - 36 named-town duplicate rows collapsed = 6190 observations
+        self.assertEqual(len(rows), 6190)
+        self.assertIn("source", rows[0])
+        sources = {r["source"] for r in rows}
+        self.assertEqual(sources, {"Afr", "LSMS"})
 
-    def test_country_year_has_no_null_keys(self):
+    def test_country_year_source_split_is_consistent(self):
         rows = self._rows("urea_country_year.csv")
         self.assertEqual(len(rows), 131)
+        total_obs = total_afr = total_lsms = 0
         for r in rows:
             self.assertTrue(r["ISO"] and r["year"] and r["median_price_usd_per_kg_ppp"])
+            obs = int(r["obs_count"])
+            afr = int(r["n_afr_obs"])
+            lsms = int(r["n_lsms_obs"])
+            self.assertEqual(obs, afr + lsms)  # split must sum to total
+            total_obs += obs
+            total_afr += afr
+            total_lsms += lsms
+        self.assertEqual(total_obs, 6190)
+        self.assertEqual(total_afr, 1397)
+        self.assertEqual(total_lsms, 4793)
 
     def test_summary_one_row_per_country_with_recency_flag(self):
         rows = self._rows("urea_country_summary.csv")
         self.assertEqual(len(rows), 18)
         niger = [r for r in rows if r["country"] == "Niger"][0]
-        # Niger's latest year is 2013 (< 2016) -> review
-        self.assertEqual(niger["data_quality"], "review")
+        self.assertEqual(niger["data_quality"], "review")  # latest year 2013 < 2016
