@@ -72,16 +72,17 @@ Artifacts + `champions.json` (the agent's input contract) live in `data/forecast
 
 | fertilizer | winner | MASE | MAPE | beats naive? | drivers (ON) | fwd bands |
 |---|---|---|---|---|---|---|
-| urea | ON* | 1.10 | 20.8% | **no** | 0 | native |
-| dap | ON* | 1.18 | 17.1% | **no** | 0 | native |
+| urea | OFF† | 1.10 | 20.8% | **no** | 0 | native |
+| dap | OFF† | 1.18 | 17.1% | **no** | 0 | native |
 | mop | ON | **0.63** | 16.0% | **YES** | 37 | missing |
 | tsp | OFF | 1.22 | 21.4% | **no** | 56 | missing |
 | phosphate-rock | OFF | **0.62** | 18.3% | **YES** | 64 | missing |
 
 **Headline: Sybilion beats seasonal-naive on only 2 of 5 fertilizers (mop, phosphate-rock).** Key findings:
 1. **recency does NOTHING for urea & dap** — all 3 variants returned **byte-identical** scores (0 drivers found
-   even at `recency=0.0`). *Winner "ON" is an arbitrary tie-break; OFF is equivalent and cheaper.* Confirms these
-   two series are effectively **univariate** for Sybilion.
+   even at `recency=0.0`). Confirms these two series are effectively **univariate** for Sybilion. †`champions.json`
+   sets `tie=true` and picks **OFF** (the cheapest run, ~€0.43, and it carries native forward bands) so the agent
+   doesn't waste money on the equivalent driver-aware config.
 2. **Drivers help mop** (monotone: ON 0.63 < MID 0.66 < OFF 0.68) but **hurt tsp** (ON/MID 1.40 vs OFF 1.22) and
    **badly hurt phosphate-rock** (ON/MID MASE **2.10**, MAPE 61.7%, vs OFF 0.62). So "turn drivers on" is **not**
    universally good — it must be chosen per series by backtest, which is exactly what the bake-off does.
