@@ -49,3 +49,32 @@ class TestExtractPoints(unittest.TestCase):
         ]}
         pts, scored, excluded = fs.extract_scorable_points(traj, "2026-03-01")
         self.assertEqual((scored, excluded, len(pts)), (1, 0, 1))
+
+
+class TestPointMetrics(unittest.TestCase):
+    POINTS = [
+        (10.0, {"0.05": 4.0, "0.10": 5.0, "0.50": 8.0, "0.90": 9.0, "0.95": 9.5}),
+        (20.0, {"0.05": 12.0, "0.10": 14.0, "0.50": 16.0, "0.90": 22.0, "0.95": 25.0}),
+    ]
+
+    def test_mae(self):
+        self.assertAlmostEqual(fs.mae_points(self.POINTS), 3.0)  # (2+4)/2
+
+    def test_rmse(self):
+        self.assertAlmostEqual(fs.rmse_points(self.POINTS), 10.0 ** 0.5)  # sqrt((4+16)/2)
+
+    def test_mape(self):
+        # (0.2 + 0.2)/2 * 100
+        self.assertAlmostEqual(fs.mape_points(self.POINTS), 20.0)
+
+    def test_coverage_80(self):
+        # pt1: 5..9 does NOT cover 10 -> miss; pt2: 14..22 covers 20 -> hit => 0.5
+        self.assertAlmostEqual(fs.band_coverage(self.POINTS, *fs.BAND_80), 0.5)
+
+    def test_coverage_90(self):
+        # pt1: 4..9.5 misses 10; pt2: 12..25 covers 20 => 0.5
+        self.assertAlmostEqual(fs.band_coverage(self.POINTS, *fs.BAND_90), 0.5)
+
+    def test_empty_raises(self):
+        with self.assertRaises(ValueError):
+            fs.mae_points([])

@@ -64,3 +64,33 @@ def extract_scorable_points(trajectories, last_real_date):
                 continue
             points.append((float(actual), entry["quantile_forecast"]))
     return points, n_scored, n_excluded
+
+
+def _p50(qdict):
+    return float(qdict[P50_KEY])
+
+
+def mae_points(points):
+    if not points:
+        raise ValueError("no scorable points")
+    return sum(abs(a - _p50(q)) for a, q in points) / len(points)
+
+
+def rmse_points(points):
+    if not points:
+        raise ValueError("no scorable points")
+    return _sqrt(sum((a - _p50(q)) ** 2 for a, q in points) / len(points))
+
+
+def mape_points(points):
+    usable = [(a, q) for a, q in points if a != 0]
+    if not usable:
+        raise ValueError("no nonzero actuals for MAPE")
+    return sum(abs(a - _p50(q)) / abs(a) for a, q in usable) / len(usable) * 100.0
+
+
+def band_coverage(points, lo_key, hi_key):
+    if not points:
+        raise ValueError("no scorable points")
+    covered = sum(1 for a, q in points if float(q[lo_key]) <= a <= float(q[hi_key]))
+    return covered / len(points)
