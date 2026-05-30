@@ -1,3 +1,7 @@
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Local environment / secrets — never commit
+.env
+.venv/
