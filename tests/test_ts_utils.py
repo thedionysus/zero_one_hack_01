@@ -20,11 +20,22 @@ class TestStats(unittest.TestCase):
     def test_mean(self):
         self.assertAlmostEqual(ts_utils.mean([1.0, 2.0, 3.0]), 2.0)
 
+    def test_mean_single_element(self):
+        self.assertEqual(ts_utils.mean([5.0]), 5.0)
+
+    def test_mean_empty_raises(self):
+        with self.assertRaises(ValueError):
+            ts_utils.mean([])
+
     def test_median_odd(self):
         self.assertEqual(ts_utils.median([3, 1, 2]), 2)
 
     def test_median_even(self):
         self.assertEqual(ts_utils.median([1, 2, 3, 4]), 2.5)
+
+    def test_median_empty_raises(self):
+        with self.assertRaises(ValueError):
+            ts_utils.median([])
 
     def test_percentile_nearest_rank(self):
         data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -35,6 +46,12 @@ class TestStats(unittest.TestCase):
     def test_percentile_empty_raises(self):
         with self.assertRaises(ValueError):
             ts_utils.percentile([], 99)
+
+    def test_percentile_out_of_range_raises(self):
+        with self.assertRaises(ValueError):
+            ts_utils.percentile([1, 2, 3], 101)
+        with self.assertRaises(ValueError):
+            ts_utils.percentile([1, 2, 3], -1)
 
 
 class TestInterpolate(unittest.TestCase):
@@ -50,6 +67,11 @@ class TestInterpolate(unittest.TestCase):
         self.assertAlmostEqual(
             ts_utils.linear_interpolate_gap(series, "2024-02-01"), 10.0
         )
+
+    def test_non_month_aligned_missing_date_raises(self):
+        series = {"2023-10-01": 1.0, "2023-12-01": 2.0}
+        with self.assertRaises(ValueError):
+            ts_utils.linear_interpolate_gap(series, "2023-11-15")
 
 
 class TestDetectGaps(unittest.TestCase):
@@ -118,6 +140,9 @@ class TestFlagLowPrice(unittest.TestCase):
     def test_at_or_above_floor_not_flagged(self):
         self.assertFalse(ts_utils.flag_low_price(0.10))
         self.assertFalse(ts_utils.flag_low_price(1.46))
+
+    def test_nan_price_flagged(self):
+        self.assertTrue(ts_utils.flag_low_price(float('nan')))
 
 
 if __name__ == "__main__":

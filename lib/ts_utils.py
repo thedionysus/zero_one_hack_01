@@ -15,11 +15,15 @@ def index_to_month(idx):
 
 def mean(values):
     values = list(values)
+    if not values:
+        raise ValueError("mean() of empty sequence")
     return sum(values) / len(values)
 
 
 def median(values):
     s = sorted(values)
+    if not s:
+        raise ValueError("median() of empty sequence")
     n = len(s)
     mid = n // 2
     if n % 2:
@@ -29,6 +33,8 @@ def median(values):
 
 def percentile(values, p):
     """Nearest-rank percentile. p in [0, 100]. Raises ValueError on empty input."""
+    if not (0 <= p <= 100):
+        raise ValueError("percentile p must be in [0, 100]")
     s = sorted(values)
     if not s:
         raise ValueError("percentile() of empty sequence")
@@ -44,7 +50,10 @@ def percentile(values, p):
 
 def flag_low_price(price, floor=0.10):
     """True when price is below the implausible-low floor (USD/kg PPP)."""
-    return float(price) < floor
+    price = float(price)
+    if price != price:  # NaN self-inequality idiom
+        return True
+    return price < floor
 
 
 def collapse_duplicate_towns(rows):
@@ -54,6 +63,10 @@ def collapse_duplicate_towns(rows):
     Returns (collapsed_rows, collapsed_keys) where collapsed_keys lists the
     (ISO, year, Town) tuples that had >1 source row. Output preserves first-seen
     order; the averaged price is written back as a string.
+
+    For duplicate (ISO, year, Town) rows, non-price fields are taken from the
+    first row (duplicate towns share identical geo by design); only the price
+    is averaged.
     """
     groups = {}
     order = []
@@ -96,6 +109,10 @@ def detect_outlier_jumps(series, floor_pct=40.0):
     """Flag dates whose |month-over-month %| exceeds max(floor_pct, p99 of history).
 
     series: {'YYYY-MM-DD': float}. Returns sorted list of flagged date keys.
+
+    A month whose previous value is 0 is skipped (no MoM % can be computed).
+    On small series the adaptive p99 threshold can mask a secondary outlier
+    that falls below the largest jump.
     """
     ordered = sorted(series.items(), key=lambda kv: month_index(kv[0]))
     moms = []  # (date, abs_pct)
@@ -125,8 +142,11 @@ def linear_interpolate_gap(series, missing_date):
     """Linear value at missing_date from nearest present neighbours on each side.
 
     series: {'YYYY-MM-DD': float}. missing_date must lie strictly between an
-    earlier and a later present key.
+    earlier and a later present key. All keys (including missing_date) must be
+    first-of-month strings in 'YYYY-MM-01' format.
     """
+    if not missing_date.endswith("-01"):
+        raise ValueError("missing_date must be month-aligned 'YYYY-MM-01'")
     target = month_index(missing_date)
     before = [(month_index(d), v) for d, v in series.items() if month_index(d) < target]
     after = [(month_index(d), v) for d, v in series.items() if month_index(d) > target]
