@@ -8,7 +8,6 @@ Pure stdlib; reuses the decision core unchanged.
 import json
 import os
 
-from lib import forecast_scoring as fs
 from lib import recalibration as rc
 from lib import trust as tr
 from lib import decision as dc
