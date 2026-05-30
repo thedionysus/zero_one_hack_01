@@ -34,5 +34,15 @@ class TestAppSmoke(unittest.TestCase):
         self.assertIn(at.metric[0].value, {"BUY_NOW", "WAIT", "SPLIT", "COVERED"})
 
 
+    def test_chat_curveball_flips_recommendation(self):
+        # A typed rising-trend curveball must move the trend slider AND flip the
+        # recommendation, via the offline rule-based path (no API key in tests).
+        at = AppTest.from_file("app/main.py", default_timeout=30).run()
+        base_rec = at.metric[0].value  # Recommendation metric is first
+        at.chat_input[0].set_value("prices rising 30% a month").run()
+        self.assertNotEqual(at.metric[0].value, base_rec)
+        self.assertEqual(at.slider(key="trend").value, 0.30)  # chat moved the slider
+
+
 if __name__ == "__main__":
     unittest.main()
