@@ -82,6 +82,41 @@ class TestNarrate(unittest.TestCase):
         text = agent.narrate(diff, changes.Change("trend", 0.12), 0.92, client=client)
         self.assertEqual(text, "Lock in now — prices are climbing.")
 
+    def test_client_no_text_block_falls_back_to_template(self):
+        resp = _FakeMessage([])  # no text block
+        client = _FakeClient(resp)
+        diff = {"recommendation": ("WAIT", "BUY_NOW"), "changed": True,
+                "target_month": ("2026-11-01", "2026-04-01"),
+                "savings": (100000.0, 500000.0), "savings_delta": 400000.0,
+                "savings_pct": (0.1, 0.3)}
+        text = agent.narrate(diff, changes.Change("trend", 0.12), 0.92, client=client)
+        self.assertIn("BUY_NOW", text)  # template fallback
+
+
+class TestLLMFailureFallback(unittest.TestCase):
+    class _BoomMessages:
+        def create(self, **kwargs):
+            raise RuntimeError("network down")
+
+    class _BoomClient:
+        def __init__(self):
+            self.messages = TestLLMFailureFallback._BoomMessages()
+
+    def test_parse_falls_back_on_exception(self):
+        out = agent.parse_curveball("prices rising 20% a month",
+                                    client=self._BoomClient())
+        self.assertEqual(out.kind, "trend")
+        self.assertAlmostEqual(out.value, 0.20)
+
+    def test_narrate_falls_back_on_exception(self):
+        diff = {"recommendation": ("WAIT", "BUY_NOW"), "changed": True,
+                "target_month": ("2026-11-01", "2026-04-01"),
+                "savings": (100000.0, 500000.0), "savings_delta": 400000.0,
+                "savings_pct": (0.1, 0.3)}
+        text = agent.narrate(diff, changes.Change("trend", 0.12), 0.92,
+                             client=self._BoomClient())
+        self.assertIn("BUY_NOW", text)  # template fallback
+
 
 if __name__ == "__main__":
     unittest.main()

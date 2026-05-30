@@ -56,7 +56,7 @@ def _load_dotenv():
             if not line or line.startswith("#") or "=" not in line:
                 continue
             key, val = line.split("=", 1)
-            os.environ.setdefault(key.strip(), val.strip())
+            os.environ.setdefault(key.strip(), val.strip().strip("'\""))
 
 
 def build_client():
@@ -84,32 +84,47 @@ def _extract_tool_change(message):
     return None
 
 
+def _extract_text(message):
+    for block in getattr(message, "content", []) or []:
+        if getattr(block, "type", None) == "text":
+            return block.text
+    return None
+
+
 def parse_curveball(text, client=None):
     """NL -> one Change. LLM (tool use) when client is given, else rule-based.
 
-    Falls back to rule_based_parse if the model returns no tool call.
+    Any LLM/parse failure degrades to rule_based_parse so a live demo never
+    crashes on a network/rate-limit/auth error.
     """
     if client is None:
         return changes.rule_based_parse(text)
-    message = client.messages.create(
-        model=_MODEL, max_tokens=256, system=_SYSTEM, tools=[_TOOL],
-        tool_choice={"type": "tool", "name": "apply_change"},
-        messages=[{"role": "user", "content": text}])
-    change = _extract_tool_change(message)
+    try:
+        message = client.messages.create(
+            model=_MODEL, max_tokens=256, system=_SYSTEM, tools=[_TOOL],
+            tool_choice={"type": "tool", "name": "apply_change"},
+            messages=[{"role": "user", "content": text}])
+        change = _extract_tool_change(message)
+    except Exception:
+        change = None
     return change if change is not None else changes.rule_based_parse(text)
 
 
 def narrate(diff, change, eur_per_usd, client=None):
-    """Before->after narration. Template by default; LLM rephrases if client given."""
+    """Before->after narration. Template by default; LLM rephrases if client given.
+
+    Falls back to the template on any LLM failure or empty response.
+    """
     template = changes.narrate_template(diff, change, eur_per_usd)
     if client is None:
         return template
-    message = client.messages.create(
-        model=_MODEL, max_tokens=160,
-        system="Rephrase the procurement update in one or two crisp sentences for "
-               "a warehouse manager. Keep every number exactly as given.",
-        messages=[{"role": "user", "content": template}])
-    for block in getattr(message, "content", []) or []:
-        if getattr(block, "type", None) == "text":
-            return block.text
-    return template
+    try:
+        message = client.messages.create(
+            model=_MODEL, max_tokens=160,
+            system="Rephrase the procurement update in one or two crisp sentences "
+                   "for a warehouse manager. Keep every number exactly as given.",
+            messages=[{"role": "user", "content": template}])
+        text = _extract_text(message)
+    except Exception:
+        text = None
+    return text if text is not None else template
