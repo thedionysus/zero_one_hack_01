@@ -72,6 +72,27 @@ class TestAppState(unittest.TestCase):
             res["savings_eur"],
             res["current_plan"].savings * pipeline.EUR_PER_USD, places=9)
 
+    def test_level_shock_is_decision_inert(self):
+        # A uniform level shift must NOT change the recommendation (it only scales
+        # the EUR magnitude). This guards the load-bearing shock invariant.
+        s = st.AppState.default(self.cal)
+        base = st.solve_state(s, self.cal)
+        shocked = st.solve_state(s.replaced(shock_level_pct=0.30), self.cal)
+        self.assertEqual(base["current_plan"].recommendation,
+                         shocked["current_plan"].recommendation)
+        self.assertFalse(shocked["diff"]["changed"])
+        # savings scale up with the level shift
+        self.assertGreater(shocked["current_plan"].savings,
+                           base["current_plan"].savings)
+
+    def test_solve_state_does_not_mutate_cached_block(self):
+        # solve_state must not mutate the shared cached corrected block.
+        s = st.AppState.default(self.cal)
+        block = self.cal["by_fert"][s.fertilizer]["corrected"]
+        snapshot = {d: dict(b) for d, b in block.items()}
+        st.solve_state(s.replaced(shock_trend_g=0.2, shock_level_pct=0.3), self.cal)
+        self.assertEqual(block, snapshot)
+
 
 if __name__ == "__main__":
     unittest.main()
