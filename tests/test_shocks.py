@@ -45,5 +45,52 @@ class TestShockIntegration(unittest.TestCase):
         self.assertIn("changed", diff)
 
 
+class TestTrendShift(unittest.TestCase):
+    def test_identity_at_zero(self):
+        block = {"2026-04-01": {"p50": 2.0}, "2026-05-01": {"p50": 3.0}}
+        self.assertEqual(shocks.trend_shift(block, 0.0), block)
+
+    def test_compounds_by_month_position(self):
+        block = {"2026-04-01": {"p50": 1.0},
+                 "2026-05-01": {"p50": 1.0},
+                 "2026-06-01": {"p50": 1.0}}
+        out = shocks.trend_shift(block, 0.10)
+        self.assertAlmostEqual(out["2026-04-01"]["p50"], 1.00)   # i=0
+        self.assertAlmostEqual(out["2026-05-01"]["p50"], 1.10)   # i=1
+        self.assertAlmostEqual(out["2026-06-01"]["p50"], 1.21)   # i=2
+
+    def test_orders_by_calendar_not_dict_insertion(self):
+        # Later date inserted first must still get the larger exponent.
+        block = {"2026-06-01": {"p50": 1.0}, "2026-04-01": {"p50": 1.0}}
+        out = shocks.trend_shift(block, 0.10)
+        self.assertAlmostEqual(out["2026-04-01"]["p50"], 1.00)
+        self.assertAlmostEqual(out["2026-06-01"]["p50"], 1.21)
+
+    def test_does_not_mutate_input(self):
+        block = {"2026-04-01": {"p50": 2.0}, "2026-05-01": {"p50": 2.0}}
+        shocks.trend_shift(block, 0.2)
+        self.assertEqual(block["2026-05-01"]["p50"], 2.0)
+
+    def test_rejects_full_drop(self):
+        with self.assertRaises(ValueError):
+            shocks.trend_shift({"2026-04-01": {"p50": 1.0}}, -1.0)
+
+
+class TestTrendFlipsDecision(unittest.TestCase):
+    def test_some_ramp_flips_hero_to_buy_now(self):
+        # Forecast-agnostic: SOME positive monthly trend must flip the trust-hero
+        # toward BUY_NOW. No hardcoded magnitude or hero -- search a range and
+        # assert existence, so this stays valid as the forecasts change.
+        run = pipeline.run_all()
+        corrected = run["results"][run["hero"]]["calibration"]["corrected"]
+        persona = pipeline.AUSTRIAN_UREA_PERSONA
+        recs = set()
+        g = 0.02
+        while g <= 0.60 + 1e-9:
+            recs.add(dc.solve(shocks.trend_shift(corrected, g), persona).recommendation)
+            g += 0.02
+        self.assertIn("BUY_NOW", recs)
+
+
 if __name__ == "__main__":
     unittest.main()
