@@ -1,0 +1,71 @@
+{
+  "data": {
+    "07c7bc70-7e8a-5854-c9be-7b17a0857128": {
+      "driver_name": "Crafts - United States of America"
+    },
+    "137cb787-39b4-90de-638d-8449c684a61c": {
+      "driver_name": "Energy - Spain"
+    },
+    "32e05795-7615-dc7a-d206-673e89959372": {
+      "driver_name": "All employees: Construction: Construction of Buildings in United States of America"
+    },
+    "3541d60f-d518-0332-2818-c980196a982f": {
+      "driver_name": "Industry, manufacturing - France"
+    },
+    "478319af-398f-be63-88e9-dfb06c995557": {
+      "driver_name": "FOB value of Germany exports of Vehicle parts and accessories via Road"
+    },
+    "49520231-bb75-53cc-12eb-fab322bf73b9": {
+      "driver_name": "Commodity price \u2013 Index, percent change from a year ago in percent change from a year ago"
+    },
+    "4a75e0dd-92fc-be34-a417-16375e6682f0": {
+      "driver_name": "Industry, manufacturing - Germany"
+    },
+    "549b93e9-a916-3d61-be18-972ce8978c20": {
+      "driver_name": "Commodity price \u2013 Index, percent change from a year ago in percent change from a year ago"
+    },
+    "605a6a7b-7c76-1b90-60a4-ee58919401b7": {
+      "driver_name": "All employees: Construction: Heavy and Civil Engineering Construction in United States of America"
+    },
+    "67d42ee0-7ab0-e6f2-6464-097ae655f469": {
+      "driver_name": "Market Indices - Romania"
+    },
+    "7e3d5593-3ee1-4a92-1f2f-a6e9635a5f5e": {
+      "driver_name": "Population - Syrian Arab Republic"
+    },
+    "95e9d812-19ea-b127-8d2d-3e158cfd13a0": {
+      "driver_name": "Commodities - World"
+    },
+    "ad68c777-7592-cc36-b832-e3faccce81dd": {
+      "driver_name": "Exchange Rates - World"
+    },
+    "ae7eed5c-ddb4-f7d6-8561-22e4d3f1041f": {
+      "driver_name": "Population - Iran"
+    },
+    "b1d6b745-ade8-211b-429b-165288594b72": {
+      "driver_name": "Population - Senegal"
+    },
+    "b585c9c9-ef05-95d3-f5af-7237453e4b0e": {
+      "driver_name": "FOB value of Germany exports of Fertilizers, mineral or chemical via Air"
+    },
+    "b6b7ea00-d80d-2cdb-634e-19483719af7d": {
+      "driver_name": "Population - Lebanon"
+    },
+    "be60a556-a545-7688-c212-699b0868ec30": {
+      "driver_name": "FOB value of Germany exports of Golf balls"
+    },
+    "dec9bf26-e094-5b6b-51da-63a25b50aa67": {
+      "driver_name": "Equities - World"
+    },
+    "df7c264e-7725-9b0e-f659-c623053c28b2": {
+      "driver_name": "Global risk - World"
+    },
+    "eb869915-ba42-a865-4cb0-d10f8e536425": {
+      "driver_name": "Unemployment: Employed Persons in United States of America"
+    },
+    "fb1fafd5-c572-fda4-8fa9-4a9610b0aa23": {
+      "driver_name": "Industry, manufacturing - Italy"
+    }
+  },
+  "version": "1.1"
+}

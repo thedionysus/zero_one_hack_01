@@ -1,0 +1,315 @@
+{
+  "collapsed_duplicate_named_town_keys": [
+    [
+      "BFA",
+      "2017",
+      "Dedougou"
+    ],
+    [
+      "BFA",
+      "2017",
+      "Ouagadougou"
+    ],
+    [
+      "BFA",
+      "2017",
+      "Yako"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Bubanza/Gihanga"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Bubanza/Mitakataka"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Bujumbura-Mairie"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Cankuzo"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Cibitoke/Buganda"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Gitega"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Gitega/Giheta"
+    ],
+    [
+      "BDI",
+      "2015",
+      "KAYA"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Kinama/Mubimbi"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Makamba"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Ngozi"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Rumonge"
+    ],
+    [
+      "BDI",
+      "2015",
+      "Rutana"
+    ],
+    [
+      "CIV",
+      "2017",
+      "Soubre"
+    ],
+    [
+      "GHA",
+      "2017",
+      "Nkoranza"
+    ],
+    [
+      "MWI",
+      "2013",
+      "Njolomole/Ntcheu"
+    ],
+    [
+      "MWI",
+      "2014",
+      "Njolomole/Ntcheu"
+    ],
+    [
+      "MWI",
+      "2015",
+      "Njolomole/Ntcheu"
+    ],
+    [
+      "MLI",
+      "2016",
+      "MOPTI"
+    ],
+    [
+      "MLI",
+      "2016",
+      "Segou"
+    ],
+    [
+      "MLI",
+      "2017",
+      "Segou"
+    ],
+    [
+      "NGA",
+      "2017",
+      "Edo"
+    ],
+    [
+      "SEN",
+      "2017",
+      "Kolda"
+    ],
+    [
+      "SEN",
+      "2017",
+      "Tambacounda"
+    ],
+    [
+      "SEN",
+      "2017",
+      "Ziguinchor"
+    ],
+    [
+      "TZA",
+      "2016",
+      "Kilombero"
+    ],
+    [
+      "TZA",
+      "2016",
+      "Kongwa"
+    ],
+    [
+      "TZA",
+      "2016",
+      "Ludewa"
+    ],
+    [
+      "TZA",
+      "2016",
+      "Mbozi"
+    ],
+    [
+      "TZA",
+      "2016",
+      "Moshi Rural"
+    ],
+    [
+      "TZA",
+      "2016",
+      "Songea"
+    ],
+    [
+      "ZMB",
+      "2017",
+      "Chipata"
+    ]
+  ],
+  "low_price_floor": 0.1,
+  "low_price_observations": [
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.03
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.03
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.03
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.03
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.09
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.01
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.01
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.02
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.08
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.05
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.09
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.05
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.03
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.03
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.05
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.07
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.05
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.02
+    },
+    {
+      "ISO": "MWI",
+      "year": "2013",
+      "Town": "",
+      "source": "LSMS",
+      "price": 0.02
+    }
+  ]
+}

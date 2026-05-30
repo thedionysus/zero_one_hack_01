@@ -1,0 +1,6 @@
+product,data_quality,flags
+Urea,review,outlier_jump;stale_latest_data
+DAP (diammonium phosphate),review,outlier_jump;stale_latest_data
+Triple superphosphate (TSP),ok,stale_latest_data
+Phosphate rock,review,outlier_jump;stale_flat_tail;interpolated_gap;stale_latest_data
+Potassium chloride (MOP),review,outlier_jump;stale_latest_data

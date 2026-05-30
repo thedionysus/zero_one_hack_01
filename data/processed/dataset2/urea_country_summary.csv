@@ -1,0 +1,19 @@
+ISO,country,latest_year,latest_year_price,mean_price_all_years,years_covered,data_quality
+BDI,Burundi,2018,1.3000,1.6133,6,ok
+BEN,Benin,2017,1.0600,1.1129,7,ok
+BFA,Burkina Faso,2018,1.2600,1.4861,9,ok
+CIV,Cote d'Ivoire,2018,1.0600,1.3188,8,ok
+ETH,Ethiopia,2015,1.3597,1.2319,2,review
+GHA,Ghana,2018,0.5000,0.8456,9,ok
+KEN,Kenya,2018,0.6100,1.0156,9,ok
+MLI,Mali,2018,1.1800,1.3389,9,ok
+MOZ,Mozambique,2018,1.1000,1.3322,9,ok
+MWI,Malawi,2018,0.5600,1.1811,9,ok
+NER,Niger,2013,1.4200,1.3450,4,review
+NGA,Nigeria,2018,0.6200,0.8787,9,ok
+RWA,Rwanda,2018,1.1400,1.3200,4,ok
+SEN,Senegal,2018,1.2200,1.3156,9,ok
+TGO,Togo,2017,1.0800,1.4440,5,ok
+TZA,Tanzania,2018,0.8800,1.2451,9,ok
+UGA,Uganda,2018,1.1100,1.5211,9,ok
+ZMB,Zambia,2017,0.8000,1.2960,5,ok
