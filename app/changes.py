@@ -26,8 +26,14 @@ class Change:
 
 
 def apply_change(state, change):
-    """Return a NEW AppState with the single change applied. Pure."""
+    """Return a NEW AppState with the single change applied. Pure.
+
+    Accepts only canonical VALID_KINDS; the parser-level 'stock_months' intent
+    must be normalized to a 'stock' change by the caller before reaching here.
+    """
     k, v = change.kind, change.value
+    if k not in VALID_KINDS:
+        raise ValueError(f"unknown change kind: {k}")
     if k == "fertilizer":
         return state.replaced(fertilizer=str(v))
     if k == "demand":
@@ -42,9 +48,8 @@ def apply_change(state, change):
         return state.replaced(shock_level_pct=float(v))
     if k == "trend":
         return state.replaced(shock_trend_g=float(v))
-    if k == "reset":
-        return state.replaced(shock_level_pct=0.0, shock_trend_g=0.0)
-    raise ValueError(f"unknown change kind: {k}")
+    # k == "reset" (the only remaining valid kind)
+    return state.replaced(shock_level_pct=0.0, shock_trend_g=0.0)
 
 
 def _first_pct(text):
@@ -88,6 +93,7 @@ def rule_based_parse(text):
 
 
 def _change_phrase(change):
+    """Short human phrase describing a Change, for the narration head."""
     k, v = change.kind, change.value
     if k == "trend":
         return f"A sustained +{v * 100:.0f}%/mo price trend"
@@ -97,6 +103,10 @@ def _change_phrase(change):
         return "The new stock level"
     if k == "risk":
         return f"Risk tolerance {v}"
+    if k == "demand":
+        return f"Monthly demand set to {v:,.0f} t"
+    if k == "carry":
+        return f"Carrying cost set to {v * 100:.0f}%/yr"
     if k == "fertilizer":
         return f"Switching to {v}"
     if k == "reset":

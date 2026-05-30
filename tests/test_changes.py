@@ -38,6 +38,20 @@ class TestApplyChange(unittest.TestCase):
         with self.assertRaises(ValueError):
             changes.apply_change(self.s, changes.Change("nonsense", 1))
 
+    def test_apply_demand(self):
+        out = changes.apply_change(self.s, changes.Change("demand", 800.0))
+        self.assertEqual(out.monthly_demand_t, 800.0)
+
+    def test_apply_carry(self):
+        out = changes.apply_change(self.s, changes.Change("carry", 0.25))
+        self.assertEqual(out.carrying_cost_pct_yr, 0.25)
+
+    def test_stock_months_is_not_directly_applicable(self):
+        # Parser-level intent must be normalized to 'stock' by the caller;
+        # apply_change rejects it.
+        with self.assertRaises(ValueError):
+            changes.apply_change(self.s, changes.Change("stock_months", 1.0))
+
 
 class TestRuleBasedParse(unittest.TestCase):
     def test_rising_keyword_plus_pct_is_trend(self):
@@ -86,6 +100,22 @@ class TestNarrateTemplate(unittest.TestCase):
                 "savings_pct": (0.1, 0.13)}
         text = changes.narrate_template(diff, changes.Change("level", 0.30), 0.92)
         self.assertIn("WAIT", text)
+
+    def test_narrate_fertilizer_change(self):
+        diff = {"recommendation": ("WAIT", "WAIT"), "changed": False,
+                "target_month": ("2026-11-01", "2026-11-01"),
+                "savings": (100000.0, 100000.0), "savings_delta": 0.0,
+                "savings_pct": (0.1, 0.1)}
+        text = changes.narrate_template(diff, changes.Change("fertilizer", "urea"), 0.92)
+        self.assertIn("urea", text)
+
+    def test_flip_narration_without_target_month(self):
+        diff = {"recommendation": ("WAIT", "BUY_NOW"), "changed": True,
+                "target_month": ("2026-11-01", None),
+                "savings": (100000.0, 500000.0), "savings_delta": 400000.0,
+                "savings_pct": (0.1, 0.3)}
+        text = changes.narrate_template(diff, changes.Change("trend", 0.12), 0.92)
+        self.assertIn("BUY_NOW", text)  # must not crash on None target
 
 
 if __name__ == "__main__":
