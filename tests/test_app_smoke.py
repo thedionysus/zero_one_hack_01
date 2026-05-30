@@ -53,6 +53,14 @@ class TestAppSmoke(unittest.TestCase):
         self.assertEqual(at.slider(key="trend").value, base_trend)
         self.assertGreaterEqual(len(at.chat_message), 1)
 
+    def test_stock_curveball_updates_stock_slider(self):
+        # "1 month of stock" -> stock_months intent -> 1 * 1000 t/mo demand = 1000 t.
+        at = AppTest.from_file("app/main.py", default_timeout=30).run()
+        at.chat_input[0].set_value(
+            "a supplier fell through, only 1 month of stock left").run()
+        self.assertFalse(at.exception)
+        self.assertEqual(at.slider(key="stock").value, 1000.0)
+
 
 if __name__ == "__main__":
     unittest.main()

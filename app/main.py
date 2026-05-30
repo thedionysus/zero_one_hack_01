@@ -24,6 +24,8 @@ from lib import shocks  # noqa: E402
 
 RISK_CHOICES = {"neutral (P50)": "p50", "cautious (P70)": "p70", "averse (P80)": "p80"}
 
+_NUMERIC_KINDS = {"trend", "level", "stock", "demand", "carry"}
+
 
 @st.cache_data(show_spinner="Calibrating forecasts…")
 def get_calibrated():
@@ -103,6 +105,15 @@ def _handle_curveball(prompt, cal):
         return
     if change.kind == "stock_months":  # normalize parser intent -> tonnes
         change = changes.Change("stock", change.value * st.session_state.demand)
+    if change.kind in _NUMERIC_KINDS:
+        try:
+            change = changes.Change(change.kind, float(change.value))
+        except (TypeError, ValueError):
+            st.session_state.chat_log.append(("user", prompt))
+            st.session_state.chat_log.append(
+                ("assistant", "I parsed a change but its value wasn't a number — "
+                 "try rephrasing with a clear percentage or tonnage."))
+            return
     before_plan = app_state.solve_state(_state_from_session(), cal)["current_plan"]
     _write_change_to_widgets(change)
     st.session_state.pending = (prompt, change, before_plan)
