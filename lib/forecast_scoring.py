@@ -83,6 +83,7 @@ def rmse_points(points):
 
 
 def mape_points(points):
+    # Denominator is the count of nonzero-actual points; MAE/RMSSE use all points.
     usable = [(a, q) for a, q in points if a != 0]
     if not usable:
         raise ValueError("no nonzero actuals for MAPE")
@@ -101,6 +102,8 @@ def score_cell(series, trajectories, last_real_date):
     points, n_scored, n_excluded = extract_scorable_points(trajectories, last_real_date)
     naive_mae = seasonal_naive_mae(series)
     naive_rmse = seasonal_naive_rmse(series)
+    if naive_mae == 0 or naive_rmse == 0:
+        raise ValueError("degenerate series: seasonal-naive scale is zero (flat history)")
     return {
         "mase": mae_points(points) / naive_mae,
         "rmsse": rmse_points(points) / naive_rmse,
@@ -118,6 +121,9 @@ def rank_variants(cells):
 
     Ranked by MASE ascending, tiebreak MAPE ascending. None-metric cells sort last.
     """
+    if not cells:
+        raise ValueError("no variants to rank")
+
     def key(item):
         _v, m = item
         if m is None:
@@ -131,6 +137,7 @@ def forecast_block(forecast_json):
     """From forecast.json -> {date: {"p05":.., "p10":.., ..., "p95":..}}.
 
     Maps each quantile key "0.05".."0.95" to "p05".."p95" (includes "p50").
+    Note: the mean "forecast" key is intentionally excluded; champions.json uses the P50 quantile.
     """
     series = forecast_json["data"]["forecast_series"]
     out = {}

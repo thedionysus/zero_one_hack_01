@@ -50,6 +50,19 @@ class TestExtractPoints(unittest.TestCase):
         pts, scored, excluded = fs.extract_scorable_points(traj, "2026-03-01")
         self.assertEqual((scored, excluded, len(pts)), (1, 0, 1))
 
+    def test_boundary_forecast_end_equals_last_real_is_kept(self):
+        # forecast_end == last_real_date: strict > means this window is KEPT
+        traj = {"data": [
+            {"forecast_end": "2026-03-01", "forecast_series": {
+                "2026-03-01": {"actual": 42.0, "quantile_forecast": {"0.50": 40.0}},
+            }},
+        ]}
+        pts, scored, excluded = fs.extract_scorable_points(traj, "2026-03-01")
+        self.assertEqual(scored, 1)
+        self.assertEqual(excluded, 0)
+        self.assertEqual(len(pts), 1)
+        self.assertEqual(pts[0], (42.0, {"0.50": 40.0}))
+
 
 class TestPointMetrics(unittest.TestCase):
     POINTS = [
@@ -78,6 +91,18 @@ class TestPointMetrics(unittest.TestCase):
     def test_empty_raises(self):
         with self.assertRaises(ValueError):
             fs.mae_points([])
+
+    def test_rmse_empty_raises(self):
+        with self.assertRaises(ValueError):
+            fs.rmse_points([])
+
+    def test_mape_empty_raises(self):
+        with self.assertRaises(ValueError):
+            fs.mape_points([])
+
+    def test_band_coverage_empty_raises(self):
+        with self.assertRaises(ValueError):
+            fs.band_coverage([], *fs.BAND_80)
 
 
 class TestScoreAndRank(unittest.TestCase):
@@ -120,6 +145,25 @@ class TestScoreAndRank(unittest.TestCase):
         winner, ordered = fs.rank_variants(cells)
         self.assertEqual(winner, "ON")
         self.assertEqual(ordered[-1], "BAD")
+
+    def test_rank_empty_raises(self):
+        with self.assertRaises(ValueError):
+            fs.rank_variants({})
+
+    def test_score_cell_flat_series_raises(self):
+        # Flat history: all lag-12 diffs are zero -> naive scale is zero -> ValueError
+        flat_series = {tu.index_to_month(24240 + i): 5.0 for i in range(24)}
+        last_real = tu.index_to_month(24240 + 23)
+        traj = {"data": [
+            {"forecast_end": tu.index_to_month(24240 + 10), "forecast_series": {
+                tu.index_to_month(24240 + 9): {
+                    "actual": 5.0,
+                    "quantile_forecast": {"0.05": 4.0, "0.10": 4.5, "0.50": 5.0,
+                                          "0.90": 5.5, "0.95": 6.0}},
+            }},
+        ]}
+        with self.assertRaises(ValueError):
+            fs.score_cell(flat_series, traj, last_real)
 
 
 class TestForecastBlock(unittest.TestCase):
