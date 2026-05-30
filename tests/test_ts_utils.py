@@ -52,5 +52,15 @@ class TestInterpolate(unittest.TestCase):
         )
 
 
+class TestDetectGaps(unittest.TestCase):
+    def test_finds_single_interior_gap(self):
+        dates = ["2023-10-01", "2023-12-01", "2024-01-01"]
+        self.assertEqual(ts_utils.detect_gaps(dates), ["2023-11-01"])
+
+    def test_no_gaps_returns_empty(self):
+        dates = ["2024-01-01", "2024-02-01", "2024-03-01"]
+        self.assertEqual(ts_utils.detect_gaps(dates), [])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -42,6 +42,15 @@ def percentile(values, p):
     return s[rank - 1]
 
 
+def detect_gaps(dates):
+    """Return month-aligned 'YYYY-MM-01' strings missing between min and max."""
+    if not dates:
+        return []
+    idxs = sorted(month_index(d) for d in dates)
+    present = set(idxs)
+    return [index_to_month(i) for i in range(idxs[0], idxs[-1] + 1) if i not in present]
+
+
 def linear_interpolate_gap(series, missing_date):
     """Linear value at missing_date from nearest present neighbours on each side.
 
