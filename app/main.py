@@ -26,6 +26,16 @@ RISK_CHOICES = {"neutral (P50)": "p50", "cautious (P70)": "p70", "averse (P80)":
 
 _NUMERIC_KINDS = {"trend", "level", "stock", "demand", "carry"}
 
+# Chat card: demo prompts (each routed through the same curveball path as typed input),
+# the fixed scroll height for the transcript, and the role avatars.
+EXAMPLE_PROMPTS = (
+    "Gas spiked — prices rising 25% a month",
+    "A supplier fell through, only 1 month of stock left",
+    "Prices are 15% higher across the board",
+)
+_HISTORY_HEIGHT = 280
+_AVATARS = {"user": "🧑", "assistant": "🤖"}
+
 
 @st.cache_data(show_spinner="Calibrating forecasts…")
 def get_calibrated():
@@ -96,7 +106,8 @@ def _write_change_to_widgets(change):
 def _handle_curveball(prompt, cal):
     """Parse the curveball, write the resulting change to the widgets, and stash a
     pending narration to resolve once the after-plan is computed."""
-    change = agent.parse_curveball(prompt, client=st.session_state.client)
+    with st.spinner("Thinking…"):  # visible on the Claude path; instant offline
+        change = agent.parse_curveball(prompt, client=st.session_state.client)
     if change is None:
         st.session_state.chat_log.append(("user", prompt))
         st.session_state.chat_log.append(
@@ -126,10 +137,63 @@ def _resolve_pending(after_plan):
         return
     prompt, change, before_plan = pend
     diff = shocks.plan_diff(before_plan, after_plan)
-    note = agent.narrate(diff, change, pipeline.EUR_PER_USD,
-                         client=st.session_state.client)
+    with st.spinner("Thinking…"):  # visible on the Claude path; instant offline
+        note = agent.narrate(diff, change, pipeline.EUR_PER_USD,
+                             client=st.session_state.client)
     st.session_state.chat_log.append(("user", prompt))
     st.session_state.chat_log.append(("assistant", note))
+
+
+def _example_chips():
+    """Render the demo-prompt chips (only when the log is empty) and return the clicked
+    prompt text, or None. The buttons are created here — before the sidebar — so a click
+    is captured and processed on the same run (the ordering invariant)."""
+    st.caption("Try one:")
+    clicked = None
+    cols = st.columns(len(EXAMPLE_PROMPTS))
+    for i, (col, text) in enumerate(zip(cols, EXAMPLE_PROMPTS)):
+        if col.button(text, key=f"chip_{i}", width="stretch"):
+            clicked = text
+    return clicked
+
+
+def _clear_chat():
+    """Wipe the transcript and zero the shock levers, then rerun for a clean card."""
+    st.session_state.chat_log = []
+    st.session_state.trend = 0.0
+    st.session_state.level = 0.0
+    st.rerun()
+
+
+def _chat_card():
+    """Build the top conversation card and return (history_container, submitted_text,
+    clear_clicked).
+
+    The card holds the conversation and its input together. Inputs (chat_input, chips,
+    Clear) are created here so any intent is captured BEFORE the sidebar sliders exist;
+    the history container is returned so main() can fill it AFTER the re-solve — letting
+    the new exchange show on the same run while the input stays fixed below the scroll."""
+    card = st.container(border=True)
+    with card:
+        st.markdown("#### 💬 Ask the agent")
+        history = st.container(height=_HISTORY_HEIGHT)
+        chip = _example_chips() if not st.session_state.chat_log else None
+        prompt = st.chat_input(
+            "Throw a curveball (e.g. 'gas spiked, prices rising 25% a month')")
+        clear = st.button("🗑 Clear", key="clear_chat")
+    return history, prompt or chip, clear
+
+
+def _render_history():
+    """Fill the (already-created) history container with the transcript, or an empty-
+    state hint. Each turn shows its role avatar (🧑 user / 🤖 agent)."""
+    if not st.session_state.chat_log:
+        st.caption("👋 Throw a market or supply curveball — I'll move the levers and "
+                   "re-solve the decision.")
+        return
+    for role, msg in st.session_state.chat_log[-12:]:
+        with st.chat_message(role, avatar=_AVATARS.get(role)):
+            st.write(msg)
 
 
 def _sidebar(cal):
@@ -152,18 +216,27 @@ def main():
     cal = get_calibrated()
     _init_session(cal)
 
-    prompt = st.chat_input("Throw a curveball (e.g. 'gas spiked, prices rising 25% a month')")
-    if prompt:
-        _handle_curveball(prompt, cal)
+    st.title("Fertilizer Procurement Decision Agent")
+    st.caption(f"Hero by trust: **{cal['hero']}** · data through {cal['last_real_date']} · "
+               "drivers panel: not wired in v1 (needs a separate forecast config)")
+
+    history, submitted, clear = _chat_card()
+
+    # Process the curveball (typed, chip, or clear) BEFORE the sidebar sliders exist:
+    # it writes the sliders' session_state keys, which Streamlit forbids once those
+    # widgets are instantiated.
+    if clear:
+        _clear_chat()  # zeroes the levers, wipes the transcript, then st.rerun()
+    elif submitted:
+        _handle_curveball(submitted, cal)
 
     state = _sidebar(cal)
     res = app_state.solve_state(state, cal)
     plan = res["current_plan"]
     _resolve_pending(plan)
 
-    st.title("Fertilizer Procurement Decision Agent")
-    st.caption(f"Hero by trust: **{cal['hero']}** · data through {cal['last_real_date']} · "
-               "drivers panel: not wired in v1 (needs a separate forecast config)")
+    with history:  # deferred fill: the new exchange is now in chat_log
+        _render_history()
 
     c1, c2, c3 = st.columns(3)
     c1.metric("Recommendation", plan.recommendation,
@@ -188,12 +261,6 @@ def main():
 
     st.subheader("All fertilizers — trust ranking")
     st.dataframe(charts.trust_rows(cal), width="stretch", hide_index=True)
-
-    if st.session_state.chat_log:
-        st.subheader("Agent")
-        for role, msg in st.session_state.chat_log[-6:]:
-            with st.chat_message(role):
-                st.write(msg)
 
 
 main()

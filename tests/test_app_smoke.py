@@ -61,6 +61,44 @@ class TestAppSmoke(unittest.TestCase):
         self.assertFalse(at.exception)
         self.assertEqual(at.slider(key="stock").value, 1000.0)
 
+    def test_example_chip_fires_curveball_and_flips_recommendation(self):
+        # An example-prompt chip (shown only when the log is empty) routes through the
+        # same curveball path as typed input: one click moves the levers and flips the
+        # recommendation metric.
+        at = AppTest.from_file("app/main.py", default_timeout=30).run()
+        base_rec = at.metric[0].value
+        at.button(key="chip_0").click().run()
+        self.assertFalse(at.exception)
+        self.assertNotEqual(at.metric[0].value, base_rec)
+        self.assertGreaterEqual(len(at.session_state["chat_log"]), 2)
+
+    def test_clear_empties_chat_log_and_zeroes_shock_levers(self):
+        # The Clear control wipes the transcript AND resets the trend + level shock
+        # levers back to zero.
+        at = AppTest.from_file("app/main.py", default_timeout=30).run()
+        at.chat_input[0].set_value("prices rising 30% a month").run()  # trend = 0.30
+        at.chat_input[0].set_value("prices are 20% higher").run()      # level = 0.20
+        self.assertEqual(at.slider(key="trend").value, 0.30)
+        self.assertEqual(at.slider(key="level").value, 0.20)
+        self.assertGreaterEqual(len(at.session_state["chat_log"]), 2)
+        at.button(key="clear_chat").click().run()
+        self.assertFalse(at.exception)
+        self.assertEqual(at.session_state["chat_log"], [])
+        self.assertEqual(at.slider(key="trend").value, 0.0)
+        self.assertEqual(at.slider(key="level").value, 0.0)
+
+    def test_card_renders_transcript_with_avatars(self):
+        # The conversation card renders the transcript with role avatars and does not
+        # crash with a populated log.
+        at = AppTest.from_file("app/main.py", default_timeout=30).run()
+        at.chat_input[0].set_value("prices rising 30% a month").run()
+        self.assertFalse(at.exception)
+        messages = at.chat_message
+        self.assertGreaterEqual(len(messages), 2)            # user + agent
+        # Explicit role avatars (not the role-name default) confirm the new card chrome.
+        self.assertEqual(messages[0].proto.avatar, "🧑")     # user turn
+        self.assertEqual(messages[1].proto.avatar, "🤖")     # agent turn
+
 
 if __name__ == "__main__":
     unittest.main()
