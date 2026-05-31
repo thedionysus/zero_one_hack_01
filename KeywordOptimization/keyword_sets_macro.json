@@ -1,0 +1,18 @@
+{
+  "correct_drivers": {
+    "origin": "seed",
+    "keywords": [
+      "crude oil price", "Brent crude", "WTI crude oil", "energy prices",
+      "oil market", "global equities", "stock market index", "S&P 500",
+      "equity returns", "financial markets", "world equity market", "market volatility"
+    ]
+  },
+  "wrong_drivers": {
+    "origin": "seed",
+    "keywords": [
+      "wheat price", "corn harvest", "rainfall levels", "tourist arrivals",
+      "hotel occupancy", "hospital admissions", "vaccine demand", "coffee price",
+      "dairy production", "school enrollment", "restaurant bookings", "retail footfall"
+    ]
+  }
+}

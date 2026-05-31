@@ -5,6 +5,10 @@ __pycache__/
 # Local environment / secrets — never commit
 .env
 .venv/
+venv/
+
+# Local caches
+*.sqlite
 
 # Copied complete stdlib (demo workaround for slimmed system python)
 .stdlib314/

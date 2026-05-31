@@ -1,0 +1,79 @@
+{
+  "baseline": {
+    "description": "Original robotics/manufacturing keyword set used for the successful baseline run.",
+    "keywords": [
+      "industrial robots",
+      "robot imports",
+      "robotics integrators",
+      "factory automation",
+      "warehouse automation",
+      "manufacturing output",
+      "industrial machinery",
+      "automotive production",
+      "electronics manufacturing",
+      "semiconductor manufacturing",
+      "capital expenditure",
+      "supply chain automation",
+      "servo motors",
+      "actuators",
+      "machine tools",
+      "industrial controls",
+      "e-commerce logistics"
+    ]
+  },
+  "labor_aware": {
+    "description": "Expanded set to encourage Sybilion driver discovery around labor scarcity, manufacturing growth, automation demand, and cost/risk pressure.",
+    "keywords": [
+      "industrial robot imports",
+      "HTS 847950 industrial robots",
+      "robotics integrators",
+      "factory automation",
+      "warehouse automation",
+      "industrial automation investment",
+      "robot capital equipment",
+      "industrial robot installations",
+      "manufacturing output",
+      "industrial production",
+      "manufacturing employment",
+      "manufacturing job openings",
+      "labor shortage",
+      "workforce shortage",
+      "labor market tightness",
+      "wage pressure",
+      "labor force participation",
+      "unemployment rate",
+      "job vacancies",
+      "automation substitution"
+    ]
+  },
+  "supply_risk": {
+    "description": "Optional set biased toward supplier risk, logistics, and cost-protection decisions.",
+    "keywords": [
+      "industrial robot imports",
+      "robot supply chain",
+      "robot OEM supply chain",
+      "supplier lead times",
+      "industrial machinery imports",
+      "factory automation equipment",
+      "supply chain disruption",
+      "logistics delays",
+      "shipping costs",
+      "freight costs",
+      "energy costs",
+      "industrial machinery prices",
+      "producer price index",
+      "servo motors",
+      "actuators",
+      "robot controllers",
+      "sensors",
+      "semiconductor shortages",
+      "electronics manufacturing",
+      "Japan industrial robot exports",
+      "Germany industrial robot exports",
+      "China industrial robot exports",
+      "manufacturing capital expenditure",
+      "warehouse automation deployments",
+      "labor shortage"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "energy_cost": {
+    "origin": "seed",
+    "keywords": [
+      "natural gas price", "ammonia price", "energy costs", "feedstock cost",
+      "Henry Hub natural gas", "European gas price", "nitrogen feedstock",
+      "fertilizer production cost", "coal price", "industrial energy prices",
+      "methane price", "petrochemical feedstock"
+    ]
+  },
+  "agriculture_demand": {
+    "origin": "seed",
+    "keywords": [
+      "corn price", "wheat price", "soybean price", "crop prices",
+      "grain demand", "planting season", "farm income", "agricultural commodity prices",
+      "crop acreage", "global food prices", "agricultural production", "fertilizer demand"
+    ]
+  },
+  "supply_trade": {
+    "origin": "seed",
+    "keywords": [
+      "urea export restrictions", "China fertilizer exports", "Russia fertilizer exports",
+      "export tariffs", "fertilizer sanctions", "shipping freight rates",
+      "supply chain disruption", "port congestion", "trade policy",
+      "Black Sea grain corridor", "fertilizer supply shortage", "production outages"
+    ]
+  }
+}

@@ -1,0 +1,875 @@
+{
+  "data": {
+    "058ac901-53f8-e9f6-c6d0-26d0f884ade5": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.635377
+        },
+        "overall": {
+          "max": 0.635377,
+          "mean": 0.635377,
+          "min": 0.635377
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.63403,
+        "lag_2": 0.641828,
+        "lag_3": 0.639187,
+        "overall": {
+          "max": 0.641828,
+          "mean": 0.638348,
+          "min": 0.63403
+        }
+      }
+    },
+    "1dfe0622-8f13-2db5-f98b-a2b8cde9d7b9": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.577382
+        },
+        "horizon_2": {
+          "1.0": 0.577382
+        },
+        "horizon_3": {
+          "1.0": 0.577382
+        },
+        "overall": {
+          "max": 0.577382,
+          "mean": 0.577382,
+          "min": 0.577382
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.577382,
+        "lag_2": 0.574733,
+        "lag_3": 0.583278,
+        "overall": {
+          "max": 0.583278,
+          "mean": 0.578464,
+          "min": 0.574733
+        }
+      }
+    },
+    "2656f3be-181a-6330-bb40-c253f90175f4": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.858054
+        },
+        "horizon_2": {
+          "1.0": 0.858054
+        },
+        "horizon_3": {
+          "1.0": 0.858054
+        },
+        "overall": {
+          "max": 0.858054,
+          "mean": 0.858054,
+          "min": 0.858054
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 82.610249
+        },
+        "horizon_2": {
+          "1.0": 82.610249
+        },
+        "horizon_3": {
+          "1.0": 82.610249
+        },
+        "overall": {
+          "max": 82.610249,
+          "mean": 82.610249,
+          "min": 82.610249
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.858054,
+        "lag_2": 0.845087,
+        "lag_3": 0.83031,
+        "overall": {
+          "max": 0.858054,
+          "mean": 0.844484,
+          "min": 0.83031
+        }
+      }
+    },
+    "28b729df-5c8a-3474-70b9-0de613801b8b": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.327485
+        },
+        "overall": {
+          "max": 0.327485,
+          "mean": 0.327485,
+          "min": 0.327485
+        }
+      },
+      "driver_name": "Global risk - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.98232
+        },
+        "horizon_2": {
+          "0.0": 99.98232
+        },
+        "horizon_3": {
+          "0.0": 99.98232
+        },
+        "overall": {
+          "max": 99.98232,
+          "mean": 99.98232,
+          "min": 99.98232
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.235284,
+        "lag_2": 0.225791,
+        "lag_3": 0.243411,
+        "overall": {
+          "max": 0.243411,
+          "mean": 0.234829,
+          "min": 0.225791
+        }
+      }
+    },
+    "54e919e2-e24c-f1d8-2da4-b1f508d2ff21": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.831578
+        },
+        "horizon_2": {
+          "6.0": 0.831578
+        },
+        "horizon_3": {
+          "6.0": 0.831578
+        },
+        "overall": {
+          "max": 0.831578,
+          "mean": 0.831578,
+          "min": 0.831578
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.868124,
+        "lag_2": 0.871981,
+        "lag_3": 0.86316,
+        "overall": {
+          "max": 0.871981,
+          "mean": 0.867755,
+          "min": 0.86316
+        }
+      }
+    },
+    "55d42dd0-333a-f268-3f9b-e369353ac051": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.467022
+        },
+        "overall": {
+          "max": 0.467022,
+          "mean": 0.467022,
+          "min": 0.467022
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 98.569845
+        },
+        "horizon_2": {
+          "0.0": 98.569845
+        },
+        "horizon_3": {
+          "0.0": 98.569845
+        },
+        "overall": {
+          "max": 98.569845,
+          "mean": 98.569845,
+          "min": 98.569845
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.488945,
+        "lag_2": 0.496437,
+        "lag_3": 0.49423,
+        "overall": {
+          "max": 0.496437,
+          "mean": 0.493204,
+          "min": 0.488945
+        }
+      }
+    },
+    "676bac7f-b335-b34f-9213-b940c3b1c476": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.287877
+        },
+        "horizon_2": {
+          "3.0": 0.287877
+        },
+        "horizon_3": {
+          "3.0": 0.287877
+        },
+        "overall": {
+          "max": 0.287877,
+          "mean": 0.287877,
+          "min": 0.287877
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.260129,
+        "lag_2": 0.270678,
+        "lag_3": 0.287877,
+        "overall": {
+          "max": 0.287877,
+          "mean": 0.272895,
+          "min": 0.260129
+        }
+      }
+    },
+    "87c8e86e-a16e-7b2d-11c5-3d8a8f0584a1": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.832831
+        },
+        "overall": {
+          "max": 0.832831,
+          "mean": 0.832831,
+          "min": 0.832831
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.84224,
+        "lag_2": 0.845023,
+        "lag_3": 0.84146,
+        "overall": {
+          "max": 0.845023,
+          "mean": 0.842908,
+          "min": 0.84146
+        }
+      }
+    },
+    "8f82f760-9d9f-2b6f-8c29-58ab7bac6a65": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.775327
+        },
+        "horizon_2": {
+          "3.0": 0.775327
+        },
+        "horizon_3": {
+          "3.0": 0.775327
+        },
+        "overall": {
+          "max": 0.775327,
+          "mean": 0.775327,
+          "min": 0.775327
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.768174,
+        "lag_2": 0.776252,
+        "lag_3": 0.775327,
+        "overall": {
+          "max": 0.776252,
+          "mean": 0.773251,
+          "min": 0.768174
+        }
+      }
+    },
+    "a5660a37-5f02-88d1-af38-ff833d628039": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.790664
+        },
+        "horizon_2": {
+          "6.0": 0.790664
+        },
+        "horizon_3": {
+          "6.0": 0.790664
+        },
+        "overall": {
+          "max": 0.790664,
+          "mean": 0.790664,
+          "min": 0.790664
+        }
+      },
+      "driver_name": "Industry, manufacturing - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 84.197023
+        },
+        "horizon_2": {
+          "6.0": 84.197023
+        },
+        "horizon_3": {
+          "6.0": 84.197023
+        },
+        "overall": {
+          "max": 84.197023,
+          "mean": 84.197023,
+          "min": 84.197023
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.798123,
+        "lag_2": 0.801374,
+        "lag_3": 0.797432,
+        "overall": {
+          "max": 0.801374,
+          "mean": 0.798976,
+          "min": 0.797432
+        }
+      }
+    },
+    "bf60c349-0aa6-d050-90ee-5a5c4cd59796": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.869179
+        },
+        "horizon_2": {
+          "1.0": 0.869179
+        },
+        "horizon_3": {
+          "1.0": 0.869179
+        },
+        "overall": {
+          "max": 0.869179,
+          "mean": 0.869179,
+          "min": 0.869179
+        }
+      },
+      "driver_name": "Central bank foreign reserve assets including gold and SDR components",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.869179,
+        "lag_2": 0.868308,
+        "lag_3": 0.866705,
+        "overall": {
+          "max": 0.869179,
+          "mean": 0.868064,
+          "min": 0.866705
+        }
+      }
+    },
+    "c2d4aecc-9e3a-4502-ff51-7f5d564d9141": {
+      "direction": {
+        "horizon_1": {
+          "6.0": -0.632088
+        },
+        "horizon_2": {
+          "6.0": -0.632088
+        },
+        "horizon_3": {
+          "6.0": -0.632088
+        },
+        "overall": {
+          "max": -0.632088,
+          "mean": -0.632088,
+          "min": -0.632088
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "6.0": 45.859691
+        },
+        "horizon_2": {
+          "6.0": 45.859691
+        },
+        "horizon_3": {
+          "6.0": 45.859691
+        },
+        "overall": {
+          "max": 45.859691,
+          "mean": 45.859691,
+          "min": 45.859691
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.599046,
+        "lag_2": -0.595211,
+        "lag_3": -0.597143,
+        "overall": {
+          "max": -0.595211,
+          "mean": -0.597133,
+          "min": -0.599046
+        }
+      }
+    },
+    "cf4513cb-d4f8-a9d8-b9a5-d1eace8e5c49": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.810599
+        },
+        "horizon_2": {
+          "6.0": 0.810599
+        },
+        "horizon_3": {
+          "6.0": 0.810599
+        },
+        "overall": {
+          "max": 0.810599,
+          "mean": 0.810599,
+          "min": 0.810599
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.79956,
+        "lag_2": 0.801971,
+        "lag_3": 0.799678,
+        "overall": {
+          "max": 0.801971,
+          "mean": 0.800403,
+          "min": 0.79956
+        }
+      }
+    },
+    "d0b1f8a6-876d-d5d9-67ee-68f67549ee0c": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.845072
+        },
+        "horizon_2": {
+          "6.0": 0.845072
+        },
+        "horizon_3": {
+          "6.0": 0.845072
+        },
+        "overall": {
+          "max": 0.845072,
+          "mean": 0.845072,
+          "min": 0.845072
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 23.692716
+        },
+        "horizon_2": {
+          "6.0": 23.692716
+        },
+        "horizon_3": {
+          "6.0": 23.692716
+        },
+        "overall": {
+          "max": 23.692716,
+          "mean": 23.692716,
+          "min": 23.692716
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.836031,
+        "lag_2": 0.842949,
+        "lag_3": 0.85016,
+        "overall": {
+          "max": 0.85016,
+          "mean": 0.843047,
+          "min": 0.836031
+        }
+      }
+    },
+    "e9a3b292-43a8-c5de-44ec-ae1aaf39849d": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.72477
+        },
+        "horizon_2": {
+          "1.0": 0.72477
+        },
+        "horizon_3": {
+          "1.0": 0.72477
+        },
+        "overall": {
+          "max": 0.72477,
+          "mean": 0.72477,
+          "min": 0.72477
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "1.0": 97.431677
+        },
+        "horizon_2": {
+          "1.0": 97.431677
+        },
+        "horizon_3": {
+          "1.0": 97.431677
+        },
+        "overall": {
+          "max": 97.431677,
+          "mean": 97.431677,
+          "min": 97.431677
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.72477,
+        "lag_2": 0.713882,
+        "lag_3": 0.713455,
+        "overall": {
+          "max": 0.72477,
+          "mean": 0.717369,
+          "min": 0.713455
+        }
+      }
+    },
+    "f111f189-e9c4-045f-ae49-a1e176cdb222": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.411824
+        },
+        "overall": {
+          "max": 0.411824,
+          "mean": 0.411824,
+          "min": 0.411824
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.426249,
+        "lag_2": 0.451517,
+        "lag_3": 0.467372,
+        "overall": {
+          "max": 0.467372,
+          "mean": 0.448379,
+          "min": 0.426249
+        }
+      }
+    },
+    "f80bf79b-d9cd-3e5e-6ad6-95d8cf2aa74f": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.779102
+        },
+        "horizon_2": {
+          "3.0": 0.779102
+        },
+        "horizon_3": {
+          "3.0": 0.779102
+        },
+        "overall": {
+          "max": 0.779102,
+          "mean": 0.779102,
+          "min": 0.779102
+        }
+      },
+      "driver_name": "Energy - World",
+      "importance": {
+        "horizon_1": {
+          "3.0": 24.146414
+        },
+        "horizon_2": {
+          "3.0": 24.146414
+        },
+        "horizon_3": {
+          "3.0": 24.146414
+        },
+        "overall": {
+          "max": 24.146414,
+          "mean": 24.146414,
+          "min": 24.146414
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.762676,
+        "lag_2": 0.770686,
+        "lag_3": 0.779102,
+        "overall": {
+          "max": 0.779102,
+          "mean": 0.770821,
+          "min": 0.762676
+        }
+      }
+    },
+    "fa9d11da-490b-ef56-059b-7238aa2c2c1f": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.472887
+        },
+        "horizon_2": {
+          "6.0": 0.472887
+        },
+        "horizon_3": {
+          "6.0": 0.472887
+        },
+        "overall": {
+          "max": 0.472887,
+          "mean": 0.472887,
+          "min": 0.472887
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 88.894981
+        },
+        "horizon_2": {
+          "6.0": 88.894981
+        },
+        "horizon_3": {
+          "6.0": 88.894981
+        },
+        "overall": {
+          "max": 88.894981,
+          "mean": 88.894981,
+          "min": 88.894981
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.532636,
+        "lag_2": 0.539105,
+        "lag_3": 0.545675,
+        "overall": {
+          "max": 0.545675,
+          "mean": 0.539139,
+          "min": 0.532636
+        }
+      }
+    },
+    "fc8f1595-646e-b482-f6e5-2cf3e1599b7a": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.683959
+        },
+        "horizon_2": {
+          "1.0": 0.683959
+        },
+        "horizon_3": {
+          "1.0": 0.683959
+        },
+        "overall": {
+          "max": 0.683959,
+          "mean": 0.683959,
+          "min": 0.683959
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "1.0": 100.0
+        },
+        "horizon_2": {
+          "1.0": 100.0
+        },
+        "horizon_3": {
+          "1.0": 100.0
+        },
+        "overall": {
+          "max": 100.0,
+          "mean": 100.0,
+          "min": 100.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.683959,
+        "lag_2": 0.671882,
+        "lag_3": 0.640874,
+        "overall": {
+          "max": 0.683959,
+          "mean": 0.665572,
+          "min": 0.640874
+        }
+      }
+    },
+    "fd79b80f-d33d-5ae8-1f36-b1bdd0e99818": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.685568
+        },
+        "horizon_2": {
+          "3.0": 0.685568
+        },
+        "horizon_3": {
+          "3.0": 0.685568
+        },
+        "overall": {
+          "max": 0.685568,
+          "mean": 0.685568,
+          "min": 0.685568
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.699329,
+        "lag_2": 0.691112,
+        "lag_3": 0.685568,
+        "overall": {
+          "max": 0.699329,
+          "mean": 0.692003,
+          "min": 0.685568
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}
