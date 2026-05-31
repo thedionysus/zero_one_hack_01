@@ -1,0 +1,4445 @@
+{
+  "data": {
+    "00d3628c-544d-eeff-fd62-a0a23eb7b2b7": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.864897
+        },
+        "overall": {
+          "max": 0.864897,
+          "mean": 0.864897,
+          "min": 0.864897
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.862312,
+        "lag_2": 0.860545,
+        "lag_3": 0.864557,
+        "overall": {
+          "max": 0.864557,
+          "mean": 0.862471,
+          "min": 0.860545
+        }
+      }
+    },
+    "04dc5bfb-85ba-ea0f-fac7-4303582661a7": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.824699
+        },
+        "overall": {
+          "max": 0.824699,
+          "mean": 0.824699,
+          "min": 0.824699
+        }
+      },
+      "driver_name": "Industry, manufacturing - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.816793,
+        "lag_2": 0.808016,
+        "lag_3": 0.79585,
+        "overall": {
+          "max": 0.816793,
+          "mean": 0.806886,
+          "min": 0.79585
+        }
+      }
+    },
+    "0692c51d-9570-5fd7-26c6-45869ba09d13": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.608423
+        },
+        "overall": {
+          "max": 0.608423,
+          "mean": 0.608423,
+          "min": 0.608423
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.595188,
+        "lag_2": 0.580868,
+        "lag_3": 0.575617,
+        "overall": {
+          "max": 0.595188,
+          "mean": 0.583891,
+          "min": 0.575617
+        }
+      }
+    },
+    "07c49772-901f-993d-43be-d21c7d6e0165": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.902385
+        },
+        "overall": {
+          "max": 0.902385,
+          "mean": 0.902385,
+          "min": 0.902385
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.892439,
+        "lag_2": 0.88567,
+        "lag_3": 0.884078,
+        "overall": {
+          "max": 0.892439,
+          "mean": 0.887396,
+          "min": 0.884078
+        }
+      }
+    },
+    "096d1d1c-03f7-442f-4a66-bd0a3390fe3a": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.872859
+        },
+        "horizon_1": {
+          "3.0": 0.87347
+        },
+        "horizon_2": {
+          "3.0": 0.87347
+        },
+        "horizon_3": {
+          "3.0": 0.87347
+        },
+        "overall": {
+          "max": 0.87347,
+          "mean": 0.873165,
+          "min": 0.872859
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 91.681465,
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 91.681465,
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 91.681465,
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 91.681465,
+          "mean": 45.840733,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.87651,
+        "lag_2": 0.875918,
+        "lag_3": 0.87347,
+        "overall": {
+          "max": 0.87651,
+          "mean": 0.875299,
+          "min": 0.87347
+        }
+      }
+    },
+    "0d233b45-ffb2-10b4-33a3-ddb1f2f10985": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.868657
+        },
+        "overall": {
+          "max": 0.868657,
+          "mean": 0.868657,
+          "min": 0.868657
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.993716
+        },
+        "horizon_2": {
+          "0.0": 99.993716
+        },
+        "horizon_3": {
+          "0.0": 99.993716
+        },
+        "overall": {
+          "max": 99.993716,
+          "mean": 99.993716,
+          "min": 99.993716
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.872988,
+        "lag_2": 0.877846,
+        "lag_3": 0.879536,
+        "overall": {
+          "max": 0.879536,
+          "mean": 0.87679,
+          "min": 0.872988
+        }
+      }
+    },
+    "105749fe-d84b-affc-a095-a3eba5ed9e45": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.842305
+        },
+        "overall": {
+          "max": 0.842305,
+          "mean": 0.842305,
+          "min": 0.842305
+        }
+      },
+      "driver_name": "Industry, manufacturing - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.840509,
+        "lag_2": 0.832997,
+        "lag_3": 0.829857,
+        "overall": {
+          "max": 0.840509,
+          "mean": 0.834454,
+          "min": 0.829857
+        }
+      }
+    },
+    "14aa20dd-5444-f54f-9029-3056d230ecb7": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.77085
+        },
+        "horizon_1": {
+          "1.0": 0.774701
+        },
+        "horizon_2": {
+          "1.0": 0.774701
+        },
+        "horizon_3": {
+          "1.0": 0.774701
+        },
+        "overall": {
+          "max": 0.774701,
+          "mean": 0.772776,
+          "min": 0.77085
+        }
+      },
+      "driver_name": "Exchange Rates - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.999942,
+          "1.0": 99.991124
+        },
+        "horizon_2": {
+          "0.0": 99.999942,
+          "1.0": 99.991124
+        },
+        "horizon_3": {
+          "0.0": 99.999942,
+          "1.0": 99.991124
+        },
+        "overall": {
+          "max": 99.999942,
+          "mean": 99.995533,
+          "min": 99.991124
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.774701,
+        "lag_2": 0.78109,
+        "lag_3": 0.78554,
+        "overall": {
+          "max": 0.78554,
+          "mean": 0.780444,
+          "min": 0.774701
+        }
+      }
+    },
+    "1842c014-83fb-b080-b264-c57300bde982": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.601856
+        },
+        "horizon_2": {
+          "1.0": 0.601856
+        },
+        "horizon_3": {
+          "1.0": 0.601856
+        },
+        "overall": {
+          "max": 0.601856,
+          "mean": 0.601856,
+          "min": 0.601856
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "1.0": 77.51268
+        },
+        "horizon_2": {
+          "1.0": 77.51268
+        },
+        "horizon_3": {
+          "1.0": 77.51268
+        },
+        "overall": {
+          "max": 77.51268,
+          "mean": 77.51268,
+          "min": 77.51268
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.601856,
+        "lag_2": 0.615314,
+        "lag_3": 0.62786,
+        "overall": {
+          "max": 0.62786,
+          "mean": 0.61501,
+          "min": 0.601856
+        }
+      }
+    },
+    "197210ac-52c8-3f36-d3f5-d1c3f78c2bdc": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.866166
+        },
+        "horizon_2": {
+          "1.0": 0.866166
+        },
+        "horizon_3": {
+          "1.0": 0.866166
+        },
+        "overall": {
+          "max": 0.866166,
+          "mean": 0.866166,
+          "min": 0.866166
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.866166,
+        "lag_2": 0.859465,
+        "lag_3": 0.85947,
+        "overall": {
+          "max": 0.866166,
+          "mean": 0.8617,
+          "min": 0.859465
+        }
+      }
+    },
+    "1c78fe4b-29ed-d531-860b-72bdd1b5057e": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.851668
+        },
+        "horizon_2": {
+          "1.0": 0.851668
+        },
+        "horizon_3": {
+          "1.0": 0.851668
+        },
+        "overall": {
+          "max": 0.851668,
+          "mean": 0.851668,
+          "min": 0.851668
+        }
+      },
+      "driver_name": "Minerals - Greece",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.845763,
+        "lag_2": 0.842587,
+        "lag_3": 0.840329,
+        "overall": {
+          "max": 0.845763,
+          "mean": 0.842893,
+          "min": 0.840329
+        }
+      }
+    },
+    "1dfe0622-8f13-2db5-f98b-a2b8cde9d7b9": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.784407
+        },
+        "horizon_1": {
+          "6.0": 0.758035
+        },
+        "horizon_2": {
+          "6.0": 0.758035
+        },
+        "horizon_3": {
+          "6.0": 0.758035
+        },
+        "overall": {
+          "max": 0.784407,
+          "mean": 0.771221,
+          "min": 0.758035
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0,
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0,
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0,
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.781574,
+        "lag_2": 0.778184,
+        "lag_3": 0.771905,
+        "overall": {
+          "max": 0.781574,
+          "mean": 0.777221,
+          "min": 0.771905
+        }
+      }
+    },
+    "22ef0c44-7c59-a911-dcea-2677dc9f6980": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.888675
+        },
+        "overall": {
+          "max": 0.888675,
+          "mean": 0.888675,
+          "min": 0.888675
+        }
+      },
+      "driver_name": "Energy - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.814045
+        },
+        "horizon_2": {
+          "0.0": 99.814045
+        },
+        "horizon_3": {
+          "0.0": 99.814045
+        },
+        "overall": {
+          "max": 99.814045,
+          "mean": 99.814045,
+          "min": 99.814045
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.879441,
+        "lag_2": 0.873434,
+        "lag_3": 0.868512,
+        "overall": {
+          "max": 0.879441,
+          "mean": 0.873796,
+          "min": 0.868512
+        }
+      }
+    },
+    "2656f3be-181a-6330-bb40-c253f90175f4": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.940345
+        },
+        "horizon_1": {
+          "3.0": 0.919457
+        },
+        "horizon_2": {
+          "3.0": 0.919457
+        },
+        "horizon_3": {
+          "3.0": 0.919457
+        },
+        "overall": {
+          "max": 0.940345,
+          "mean": 0.929901,
+          "min": 0.919457
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.999984,
+          "3.0": 97.526475
+        },
+        "horizon_2": {
+          "0.0": 99.999984,
+          "3.0": 97.526475
+        },
+        "horizon_3": {
+          "0.0": 99.999984,
+          "3.0": 97.526475
+        },
+        "overall": {
+          "max": 99.999984,
+          "mean": 98.763229,
+          "min": 97.526475
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.932367,
+        "lag_2": 0.924982,
+        "lag_3": 0.919457,
+        "overall": {
+          "max": 0.932367,
+          "mean": 0.925602,
+          "min": 0.919457
+        }
+      }
+    },
+    "29f7eb95-984f-109e-2948-403627cdfe0c": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.711191
+        },
+        "horizon_2": {
+          "3.0": 0.711191
+        },
+        "horizon_3": {
+          "3.0": 0.711191
+        },
+        "overall": {
+          "max": 0.711191,
+          "mean": 0.711191,
+          "min": 0.711191
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.722957,
+        "lag_2": 0.718051,
+        "lag_3": 0.711191,
+        "overall": {
+          "max": 0.722957,
+          "mean": 0.7174,
+          "min": 0.711191
+        }
+      }
+    },
+    "2b2371d4-e0e3-460a-22bf-b34958472ee4": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.731776,
+          "3.0": 0.714828
+        },
+        "horizon_2": {
+          "1.0": 0.731776,
+          "3.0": 0.714828
+        },
+        "horizon_3": {
+          "1.0": 0.731776,
+          "3.0": 0.714828
+        },
+        "overall": {
+          "max": 0.731776,
+          "mean": 0.723302,
+          "min": 0.714828
+        }
+      },
+      "driver_name": "Price per kg of World imports of Composite paper and paperboard, (made via Road",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0,
+          "3.0": 88.645621
+        },
+        "horizon_2": {
+          "1.0": 0.0,
+          "3.0": 88.645621
+        },
+        "horizon_3": {
+          "1.0": 0.0,
+          "3.0": 88.645621
+        },
+        "overall": {
+          "max": 88.645621,
+          "mean": 44.322811,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.731776,
+        "lag_2": 0.725466,
+        "lag_3": 0.714828,
+        "overall": {
+          "max": 0.731776,
+          "mean": 0.724023,
+          "min": 0.714828
+        }
+      }
+    },
+    "2c546e76-b5e5-1d8f-a9d1-ef84d74c5dc5": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.882894
+        },
+        "horizon_2": {
+          "3.0": 0.882894
+        },
+        "horizon_3": {
+          "3.0": 0.882894
+        },
+        "overall": {
+          "max": 0.882894,
+          "mean": 0.882894,
+          "min": 0.882894
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 93.727042
+        },
+        "horizon_2": {
+          "3.0": 93.727042
+        },
+        "horizon_3": {
+          "3.0": 93.727042
+        },
+        "overall": {
+          "max": 93.727042,
+          "mean": 93.727042,
+          "min": 93.727042
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.889771,
+        "lag_2": 0.882978,
+        "lag_3": 0.882894,
+        "overall": {
+          "max": 0.889771,
+          "mean": 0.885214,
+          "min": 0.882894
+        }
+      }
+    },
+    "2d960514-d94c-7dea-0c66-484e5481f9be": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.806879
+        },
+        "horizon_2": {
+          "6.0": 0.806879
+        },
+        "horizon_3": {
+          "6.0": 0.806879
+        },
+        "overall": {
+          "max": 0.806879,
+          "mean": 0.806879,
+          "min": 0.806879
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 99.989109
+        },
+        "horizon_2": {
+          "6.0": 99.989109
+        },
+        "horizon_3": {
+          "6.0": 99.989109
+        },
+        "overall": {
+          "max": 99.989109,
+          "mean": 99.989109,
+          "min": 99.989109
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.829154,
+        "lag_2": 0.820334,
+        "lag_3": 0.820526,
+        "overall": {
+          "max": 0.829154,
+          "mean": 0.823338,
+          "min": 0.820334
+        }
+      }
+    },
+    "31a1f3c1-d3c8-1e9e-088a-38e8368dbed9": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.258799
+        },
+        "overall": {
+          "max": 0.258799,
+          "mean": 0.258799,
+          "min": 0.258799
+        }
+      },
+      "driver_name": "Energy - India",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.99951
+        },
+        "horizon_2": {
+          "0.0": 99.99951
+        },
+        "horizon_3": {
+          "0.0": 99.99951
+        },
+        "overall": {
+          "max": 99.99951,
+          "mean": 99.99951,
+          "min": 99.99951
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.238327,
+        "lag_2": 0.218909,
+        "lag_3": 0.195454,
+        "overall": {
+          "max": 0.238327,
+          "mean": 0.217563,
+          "min": 0.195454
+        }
+      }
+    },
+    "32704e0f-bb61-7cab-35d1-04f0ba346179": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.000431
+        },
+        "overall": {
+          "max": 0.000431,
+          "mean": 0.000431,
+          "min": 0.000431
+        }
+      },
+      "driver_name": "Highest precipitation in Niger",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.009583,
+        "lag_2": 0.014461,
+        "lag_3": 0.014096,
+        "overall": {
+          "max": 0.014461,
+          "mean": 0.012713,
+          "min": 0.009583
+        }
+      }
+    },
+    "34caf10a-48c1-26c0-5a61-885b743b8cde": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.704904
+        },
+        "horizon_1": {
+          "1.0": 0.695482
+        },
+        "horizon_2": {
+          "1.0": 0.695482
+        },
+        "horizon_3": {
+          "1.0": 0.695482
+        },
+        "overall": {
+          "max": 0.704904,
+          "mean": 0.701763,
+          "min": 0.695482
+        }
+      },
+      "driver_name": "Italy exports of Paper and paperboard (qty, Weight in kilograms)",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0,
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0,
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0,
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.695482,
+        "lag_2": 0.68952,
+        "lag_3": 0.679743,
+        "overall": {
+          "max": 0.695482,
+          "mean": 0.688248,
+          "min": 0.679743
+        }
+      }
+    },
+    "34ff92b5-97aa-31dd-e09e-9acac56a0d63": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.118131
+        },
+        "overall": {
+          "max": -0.118131,
+          "mean": -0.118131,
+          "min": -0.118131
+        }
+      },
+      "driver_name": "Business Tendency Surveys: Composite Business Confidence: Economic Activity: Services for Turkey",
+      "importance": {
+        "horizon_1": {
+          "0.0": 100.0
+        },
+        "horizon_2": {
+          "0.0": 100.0
+        },
+        "horizon_3": {
+          "0.0": 100.0
+        },
+        "overall": {
+          "max": 100.0,
+          "mean": 100.0,
+          "min": 100.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.139899,
+        "lag_2": -0.155809,
+        "lag_3": -0.16212,
+        "overall": {
+          "max": -0.139899,
+          "mean": -0.152609,
+          "min": -0.16212
+        }
+      }
+    },
+    "37995a1f-e639-1226-6ece-0b959a49048d": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.697716
+        },
+        "overall": {
+          "max": 0.697716,
+          "mean": 0.697716,
+          "min": 0.697716
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 67.186858
+        },
+        "horizon_2": {
+          "0.0": 67.186858
+        },
+        "horizon_3": {
+          "0.0": 67.186858
+        },
+        "overall": {
+          "max": 67.186858,
+          "mean": 67.186858,
+          "min": 67.186858
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.690904,
+        "lag_2": 0.696042,
+        "lag_3": 0.696302,
+        "overall": {
+          "max": 0.696302,
+          "mean": 0.694416,
+          "min": 0.690904
+        }
+      }
+    },
+    "399223e4-400b-439b-3f28-3dff1943f130": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.010397
+        },
+        "overall": {
+          "max": 0.010397,
+          "mean": 0.010397,
+          "min": 0.010397
+        }
+      },
+      "driver_name": "Business Tendency Surveys: Composite Business Confidence: Economic Activity: Services for Denmark",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.999995
+        },
+        "horizon_2": {
+          "0.0": 99.999995
+        },
+        "horizon_3": {
+          "0.0": 99.999995
+        },
+        "overall": {
+          "max": 99.999995,
+          "mean": 99.999995,
+          "min": 99.999995
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.011811,
+        "lag_2": -0.03443,
+        "lag_3": -0.055354,
+        "overall": {
+          "max": -0.011811,
+          "mean": -0.033865,
+          "min": -0.055354
+        }
+      }
+    },
+    "39ea4f8f-4f9b-f0f0-a413-a66a6d35eb1a": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.812492
+        },
+        "horizon_1": {
+          "3.0": 0.83708
+        },
+        "horizon_2": {
+          "3.0": 0.83708
+        },
+        "horizon_3": {
+          "3.0": 0.83708
+        },
+        "overall": {
+          "max": 0.83708,
+          "mean": 0.824786,
+          "min": 0.812492
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0,
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0,
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0,
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.816455,
+        "lag_2": 0.825441,
+        "lag_3": 0.83708,
+        "overall": {
+          "max": 0.83708,
+          "mean": 0.826325,
+          "min": 0.816455
+        }
+      }
+    },
+    "3a28dfff-d727-36ad-6fd2-3ec46884aaea": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.721122
+        },
+        "horizon_2": {
+          "1.0": 0.721122
+        },
+        "horizon_3": {
+          "1.0": 0.721122
+        },
+        "overall": {
+          "max": 0.721122,
+          "mean": 0.721122,
+          "min": 0.721122
+        }
+      },
+      "driver_name": "Effective exchange rate in Index (2010=100) Weighted index",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.999502
+        },
+        "horizon_2": {
+          "1.0": 99.999502
+        },
+        "horizon_3": {
+          "1.0": 99.999502
+        },
+        "overall": {
+          "max": 99.999502,
+          "mean": 99.999502,
+          "min": 99.999502
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.717861,
+        "lag_2": 0.707546,
+        "lag_3": 0.696271,
+        "overall": {
+          "max": 0.717861,
+          "mean": 0.707226,
+          "min": 0.696271
+        }
+      }
+    },
+    "3a6a372d-75b5-23c5-46f3-4c36472d1aca": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.427552
+        },
+        "horizon_2": {
+          "6.0": 0.427552
+        },
+        "horizon_3": {
+          "6.0": 0.427552
+        },
+        "overall": {
+          "max": 0.427552,
+          "mean": 0.427552,
+          "min": 0.427552
+        }
+      },
+      "driver_name": "Global risk - Israel",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.456304,
+        "lag_2": 0.415422,
+        "lag_3": 0.414739,
+        "overall": {
+          "max": 0.456304,
+          "mean": 0.428822,
+          "min": 0.414739
+        }
+      }
+    },
+    "3cc1ecbf-8c5e-fc24-6311-5190dada525b": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.031245
+        },
+        "overall": {
+          "max": -0.031245,
+          "mean": -0.031245,
+          "min": -0.031245
+        }
+      },
+      "driver_name": "Composite business confidence in Norway, excluding Svalbard and Jan Mayen",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.017622,
+        "lag_2": -0.008711,
+        "lag_3": -0.00114,
+        "overall": {
+          "max": -0.00114,
+          "mean": -0.009158,
+          "min": -0.017622
+        }
+      }
+    },
+    "41012ad5-ea86-db53-d59c-8e675f3b27c7": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.752119
+        },
+        "overall": {
+          "max": 0.752119,
+          "mean": 0.752119,
+          "min": 0.752119
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.247417
+        },
+        "horizon_2": {
+          "0.0": 99.247417
+        },
+        "horizon_3": {
+          "0.0": 99.247417
+        },
+        "overall": {
+          "max": 99.247417,
+          "mean": 99.247417,
+          "min": 99.247417
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.738501,
+        "lag_2": 0.72715,
+        "lag_3": 0.71788,
+        "overall": {
+          "max": 0.738501,
+          "mean": 0.727844,
+          "min": 0.71788
+        }
+      }
+    },
+    "466a1ee2-d6bb-cd1a-bd32-effa30ed6a6e": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.174435
+        },
+        "overall": {
+          "max": 0.174435,
+          "mean": 0.174435,
+          "min": 0.174435
+        }
+      },
+      "driver_name": "Highest precipitation in Japan",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.984383
+        },
+        "horizon_2": {
+          "0.0": 99.984383
+        },
+        "horizon_3": {
+          "0.0": 99.984383
+        },
+        "overall": {
+          "max": 99.984383,
+          "mean": 99.984383,
+          "min": 99.984383
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.198745,
+        "lag_2": 0.213897,
+        "lag_3": 0.237282,
+        "overall": {
+          "max": 0.237282,
+          "mean": 0.216641,
+          "min": 0.198745
+        }
+      }
+    },
+    "51178ecf-1e59-88e6-c6f4-4bec45525856": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.897219
+        },
+        "overall": {
+          "max": 0.897219,
+          "mean": 0.897219,
+          "min": 0.897219
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.890513,
+        "lag_2": 0.881607,
+        "lag_3": 0.872596,
+        "overall": {
+          "max": 0.890513,
+          "mean": 0.881572,
+          "min": 0.872596
+        }
+      }
+    },
+    "523729fd-1be9-72d6-0f49-c12bb08fc138": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.888035
+        },
+        "horizon_2": {
+          "3.0": 0.888035
+        },
+        "horizon_3": {
+          "3.0": 0.888035
+        },
+        "overall": {
+          "max": 0.888035,
+          "mean": 0.888035,
+          "min": 0.888035
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.894744,
+        "lag_2": 0.891284,
+        "lag_3": 0.888035,
+        "overall": {
+          "max": 0.894744,
+          "mean": 0.891354,
+          "min": 0.888035
+        }
+      }
+    },
+    "59e26681-f4b0-3816-af88-16f7f3a33f87": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.896403
+        },
+        "overall": {
+          "max": 0.896403,
+          "mean": 0.896403,
+          "min": 0.896403
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.88818,
+        "lag_2": 0.877472,
+        "lag_3": 0.87152,
+        "overall": {
+          "max": 0.88818,
+          "mean": 0.879057,
+          "min": 0.87152
+        }
+      }
+    },
+    "5c0232dc-bc52-49ad-de7b-81329f0715ee": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.927946
+        },
+        "overall": {
+          "max": 0.927946,
+          "mean": 0.927946,
+          "min": 0.927946
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 93.625328
+        },
+        "horizon_2": {
+          "0.0": 93.625328
+        },
+        "horizon_3": {
+          "0.0": 93.625328
+        },
+        "overall": {
+          "max": 93.625328,
+          "mean": 93.625328,
+          "min": 93.625328
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.930702,
+        "lag_2": 0.932511,
+        "lag_3": 0.932465,
+        "overall": {
+          "max": 0.932511,
+          "mean": 0.931893,
+          "min": 0.930702
+        }
+      }
+    },
+    "5ca9e7df-658b-abcb-cf1c-8e62c7765828": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.833467
+        },
+        "horizon_2": {
+          "3.0": 0.833467
+        },
+        "horizon_3": {
+          "3.0": 0.833467
+        },
+        "overall": {
+          "max": 0.833467,
+          "mean": 0.833467,
+          "min": 0.833467
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.836304,
+        "lag_2": 0.835148,
+        "lag_3": 0.833467,
+        "overall": {
+          "max": 0.836304,
+          "mean": 0.834973,
+          "min": 0.833467
+        }
+      }
+    },
+    "5cff31e5-f67c-32d7-b895-0c95f7557d8b": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.022548
+        },
+        "horizon_2": {
+          "1.0": 0.022548
+        },
+        "horizon_3": {
+          "1.0": 0.022548
+        },
+        "overall": {
+          "max": 0.022548,
+          "mean": 0.022548,
+          "min": 0.022548
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of Germany exports of Solvents and thinners",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.884614
+        },
+        "horizon_2": {
+          "1.0": 99.884614
+        },
+        "horizon_3": {
+          "1.0": 99.884614
+        },
+        "overall": {
+          "max": 99.884614,
+          "mean": 99.884614,
+          "min": 99.884614
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.022548,
+        "lag_2": 0.018722,
+        "lag_3": 0.014748,
+        "overall": {
+          "max": 0.022548,
+          "mean": 0.018673,
+          "min": 0.014748
+        }
+      }
+    },
+    "5d81f49f-0e05-0db1-97b6-0ddc9bab6fa6": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.227618
+        },
+        "overall": {
+          "max": -0.227618,
+          "mean": -0.227618,
+          "min": -0.227618
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of India imports of Ketones and quinones",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.222123,
+        "lag_2": -0.206999,
+        "lag_3": -0.192965,
+        "overall": {
+          "max": -0.192965,
+          "mean": -0.207362,
+          "min": -0.222123
+        }
+      }
+    },
+    "5ea9bd98-fe92-20bd-3824-4a475b7c2b6b": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.709637
+        },
+        "horizon_2": {
+          "1.0": 0.709637
+        },
+        "horizon_3": {
+          "1.0": 0.709637
+        },
+        "overall": {
+          "max": 0.709637,
+          "mean": 0.709637,
+          "min": 0.709637
+        }
+      },
+      "driver_name": "Industry, manufacturing - United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 89.813289
+        },
+        "horizon_2": {
+          "1.0": 89.813289
+        },
+        "horizon_3": {
+          "1.0": 89.813289
+        },
+        "overall": {
+          "max": 89.813289,
+          "mean": 89.813289,
+          "min": 89.813289
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.709637,
+        "lag_2": 0.694458,
+        "lag_3": 0.678544,
+        "overall": {
+          "max": 0.709637,
+          "mean": 0.694213,
+          "min": 0.678544
+        }
+      }
+    },
+    "5f2f3c35-2c0c-c853-1223-d07a03589d05": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.135498,
+          "6.0": 0.110097
+        },
+        "horizon_2": {
+          "3.0": 0.135498,
+          "6.0": 0.110097
+        },
+        "horizon_3": {
+          "3.0": 0.135498,
+          "6.0": 0.110097
+        },
+        "overall": {
+          "max": 0.135498,
+          "mean": 0.122798,
+          "min": 0.110097
+        }
+      },
+      "driver_name": "Composite consumer confidence in Australia",
+      "importance": {
+        "horizon_1": {
+          "3.0": 35.244823,
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 35.244823,
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 35.244823,
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 35.244823,
+          "mean": 17.622412,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.136284,
+        "lag_2": 0.138549,
+        "lag_3": 0.135498,
+        "overall": {
+          "max": 0.138549,
+          "mean": 0.136777,
+          "min": 0.135498
+        }
+      }
+    },
+    "67425ea7-87bf-1899-4166-89cdd88c2f1c": {
+      "direction": {
+        "horizon_1": {
+          "6.0": -0.239972
+        },
+        "horizon_2": {
+          "6.0": -0.239972
+        },
+        "horizon_3": {
+          "6.0": -0.239972
+        },
+        "overall": {
+          "max": -0.239972,
+          "mean": -0.239972,
+          "min": -0.239972
+        }
+      },
+      "driver_name": "Transport - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.242013,
+        "lag_2": -0.255179,
+        "lag_3": -0.255256,
+        "overall": {
+          "max": -0.242013,
+          "mean": -0.250816,
+          "min": -0.255256
+        }
+      }
+    },
+    "68675874-d62c-53b2-05f8-347bb45aa4e6": {
+      "direction": {
+        "horizon_1": {
+          "3.0": -0.000912
+        },
+        "horizon_2": {
+          "3.0": -0.000912
+        },
+        "horizon_3": {
+          "3.0": -0.000912
+        },
+        "overall": {
+          "max": -0.000912,
+          "mean": -0.000912,
+          "min": -0.000912
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of India imports of Nitrile-function compounds via Air",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.011668,
+        "lag_2": 0.012354,
+        "lag_3": -0.000912,
+        "overall": {
+          "max": 0.012354,
+          "mean": 0.007703,
+          "min": -0.000912
+        }
+      }
+    },
+    "68c72e89-f201-15ed-264d-ee5d44a6f6b3": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.110389
+        },
+        "horizon_1": {
+          "1.0": -0.116705,
+          "3.0": -0.108413
+        },
+        "horizon_2": {
+          "1.0": -0.116705,
+          "3.0": -0.108413
+        },
+        "horizon_3": {
+          "1.0": -0.116705,
+          "3.0": -0.108413
+        },
+        "overall": {
+          "max": -0.108413,
+          "mean": -0.111836,
+          "min": -0.116705
+        }
+      },
+      "driver_name": "Net-weight value of Italy imports of Composite paper and paperboard, (made via Road",
+      "importance": {
+        "horizon_1": {
+          "0.0": 65.429865,
+          "1.0": 0.0,
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 65.429865,
+          "1.0": 0.0,
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 65.429865,
+          "1.0": 0.0,
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 65.429865,
+          "mean": 21.809955,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.116705,
+        "lag_2": -0.110411,
+        "lag_3": -0.108413,
+        "overall": {
+          "max": -0.108413,
+          "mean": -0.111843,
+          "min": -0.116705
+        }
+      }
+    },
+    "694f5db0-713e-b1a6-81f2-dbd860d58aa3": {
+      "direction": {
+        "horizon_1": {
+          "6.0": -0.833283
+        },
+        "horizon_2": {
+          "6.0": -0.833283
+        },
+        "horizon_3": {
+          "6.0": -0.833283
+        },
+        "overall": {
+          "max": -0.833283,
+          "mean": -0.833283,
+          "min": -0.833283
+        }
+      },
+      "driver_name": "Effective exchange rate in Index (2010=100) Weighted index",
+      "importance": {
+        "horizon_1": {
+          "6.0": 99.801444
+        },
+        "horizon_2": {
+          "6.0": 99.801444
+        },
+        "horizon_3": {
+          "6.0": 99.801444
+        },
+        "overall": {
+          "max": 99.801444,
+          "mean": 99.801444,
+          "min": 99.801444
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.805947,
+        "lag_2": -0.811924,
+        "lag_3": -0.819578,
+        "overall": {
+          "max": -0.805947,
+          "mean": -0.812483,
+          "min": -0.819578
+        }
+      }
+    },
+    "6b41c1d6-8e00-e5fa-4fb6-8585ddf666aa": {
+      "direction": {
+        "horizon_1": {
+          "6.0": -0.004194
+        },
+        "horizon_2": {
+          "6.0": -0.004194
+        },
+        "horizon_3": {
+          "6.0": -0.004194
+        },
+        "overall": {
+          "max": -0.004194,
+          "mean": -0.004194,
+          "min": -0.004194
+        }
+      },
+      "driver_name": "Highest precipitation in Mali",
+      "importance": {
+        "horizon_1": {
+          "6.0": 99.999977
+        },
+        "horizon_2": {
+          "6.0": 99.999977
+        },
+        "horizon_3": {
+          "6.0": 99.999977
+        },
+        "overall": {
+          "max": 99.999977,
+          "mean": 99.999977,
+          "min": 99.999977
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.052178,
+        "lag_2": -0.051253,
+        "lag_3": -0.04667,
+        "overall": {
+          "max": -0.04667,
+          "mean": -0.050034,
+          "min": -0.052178
+        }
+      }
+    },
+    "6ebe5aed-846f-8b1f-52c8-99866b1e06fd": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.600941
+        },
+        "horizon_2": {
+          "1.0": 0.600941
+        },
+        "horizon_3": {
+          "1.0": 0.600941
+        },
+        "overall": {
+          "max": 0.600941,
+          "mean": 0.600941,
+          "min": 0.600941
+        }
+      },
+      "driver_name": "Effective exchange rate in Index (2010=100) Weighted index",
+      "importance": {
+        "horizon_1": {
+          "1.0": 91.92911
+        },
+        "horizon_2": {
+          "1.0": 91.92911
+        },
+        "horizon_3": {
+          "1.0": 91.92911
+        },
+        "overall": {
+          "max": 91.92911,
+          "mean": 91.92911,
+          "min": 91.92911
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.601048,
+        "lag_2": 0.597817,
+        "lag_3": 0.597031,
+        "overall": {
+          "max": 0.601048,
+          "mean": 0.598632,
+          "min": 0.597031
+        }
+      }
+    },
+    "72b339cd-6fe8-658f-a67c-632e6beb765d": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.076145
+        },
+        "horizon_2": {
+          "3.0": 0.076145
+        },
+        "horizon_3": {
+          "3.0": 0.076145
+        },
+        "overall": {
+          "max": 0.076145,
+          "mean": 0.076145,
+          "min": 0.076145
+        }
+      },
+      "driver_name": "Highest wind speed in Japan",
+      "importance": {
+        "horizon_1": {
+          "3.0": 92.902324
+        },
+        "horizon_2": {
+          "3.0": 92.902324
+        },
+        "horizon_3": {
+          "3.0": 92.902324
+        },
+        "overall": {
+          "max": 92.902324,
+          "mean": 92.902324,
+          "min": 92.902324
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.0725,
+        "lag_2": 0.078723,
+        "lag_3": 0.076145,
+        "overall": {
+          "max": 0.078723,
+          "mean": 0.075789,
+          "min": 0.0725
+        }
+      }
+    },
+    "736f8275-b9ba-5344-78dc-8b9f2afdc2f5": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.804544
+        },
+        "overall": {
+          "max": 0.804544,
+          "mean": 0.804544,
+          "min": 0.804544
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.793854,
+        "lag_2": 0.784676,
+        "lag_3": 0.780584,
+        "overall": {
+          "max": 0.793854,
+          "mean": 0.786371,
+          "min": 0.780584
+        }
+      }
+    },
+    "7450692c-738b-4c83-892e-4da2f1e09e90": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.707024
+        },
+        "horizon_2": {
+          "3.0": 0.707024
+        },
+        "horizon_3": {
+          "3.0": 0.707024
+        },
+        "overall": {
+          "max": 0.707024,
+          "mean": 0.707024,
+          "min": 0.707024
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 90.834415
+        },
+        "horizon_2": {
+          "3.0": 90.834415
+        },
+        "horizon_3": {
+          "3.0": 90.834415
+        },
+        "overall": {
+          "max": 90.834415,
+          "mean": 90.834415,
+          "min": 90.834415
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.717575,
+        "lag_2": 0.714528,
+        "lag_3": 0.707024,
+        "overall": {
+          "max": 0.717575,
+          "mean": 0.713042,
+          "min": 0.707024
+        }
+      }
+    },
+    "75c21813-e73c-3401-0990-d76c3319d324": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.609621
+        },
+        "horizon_2": {
+          "1.0": -0.609621
+        },
+        "horizon_3": {
+          "1.0": -0.609621
+        },
+        "overall": {
+          "max": -0.609621,
+          "mean": -0.609621,
+          "min": -0.609621
+        }
+      },
+      "driver_name": "Effective exchange rate in Index (2010=100) Weighted index",
+      "importance": {
+        "horizon_1": {
+          "1.0": 82.726594
+        },
+        "horizon_2": {
+          "1.0": 82.726594
+        },
+        "horizon_3": {
+          "1.0": 82.726594
+        },
+        "overall": {
+          "max": 82.726594,
+          "mean": 82.726594,
+          "min": 82.726594
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.59969,
+        "lag_2": -0.59083,
+        "lag_3": -0.57748,
+        "overall": {
+          "max": -0.57748,
+          "mean": -0.589333,
+          "min": -0.59969
+        }
+      }
+    },
+    "783d7841-a0a8-20fe-1261-bbb7406765f5": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.921558
+        },
+        "overall": {
+          "max": 0.921558,
+          "mean": 0.921558,
+          "min": 0.921558
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 95.959697
+        },
+        "horizon_2": {
+          "0.0": 95.959697
+        },
+        "horizon_3": {
+          "0.0": 95.959697
+        },
+        "overall": {
+          "max": 95.959697,
+          "mean": 95.959697,
+          "min": 95.959697
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.921688,
+        "lag_2": 0.921619,
+        "lag_3": 0.921422,
+        "overall": {
+          "max": 0.921688,
+          "mean": 0.921576,
+          "min": 0.921422
+        }
+      }
+    },
+    "7bcd72a5-f17e-7f12-d77d-11679a8358b0": {
+      "direction": {
+        "horizon_1": {
+          "3.0": -0.495546
+        },
+        "horizon_2": {
+          "3.0": -0.495546
+        },
+        "horizon_3": {
+          "3.0": -0.495546
+        },
+        "overall": {
+          "max": -0.495546,
+          "mean": -0.495546,
+          "min": -0.495546
+        }
+      },
+      "driver_name": "Net-weight value of United Kingdom imports of Solvents and thinners",
+      "importance": {
+        "horizon_1": {
+          "3.0": 100.0
+        },
+        "horizon_2": {
+          "3.0": 100.0
+        },
+        "horizon_3": {
+          "3.0": 100.0
+        },
+        "overall": {
+          "max": 100.0,
+          "mean": 100.0,
+          "min": 100.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.470792,
+        "lag_2": -0.484457,
+        "lag_3": -0.495546,
+        "overall": {
+          "max": -0.470792,
+          "mean": -0.483598,
+          "min": -0.495546
+        }
+      }
+    },
+    "7dbc5f9f-6288-4750-6e35-3aa3fd47d4dd": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.412697
+        },
+        "horizon_2": {
+          "1.0": 0.412697
+        },
+        "horizon_3": {
+          "1.0": 0.412697
+        },
+        "overall": {
+          "max": 0.412697,
+          "mean": 0.412697,
+          "min": 0.412697
+        }
+      },
+      "driver_name": "Nitric acid in Asia",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.412697,
+        "lag_2": 0.429857,
+        "lag_3": 0.449928,
+        "overall": {
+          "max": 0.449928,
+          "mean": 0.430827,
+          "min": 0.412697
+        }
+      }
+    },
+    "7fe64304-dbe1-176e-7c86-b772446d1c0f": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.838523
+        },
+        "horizon_2": {
+          "1.0": 0.838523
+        },
+        "horizon_3": {
+          "1.0": 0.838523
+        },
+        "overall": {
+          "max": 0.838523,
+          "mean": 0.838523,
+          "min": 0.838523
+        }
+      },
+      "driver_name": "All-employee and payroll",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.982447
+        },
+        "horizon_2": {
+          "1.0": 99.982447
+        },
+        "horizon_3": {
+          "1.0": 99.982447
+        },
+        "overall": {
+          "max": 99.982447,
+          "mean": 99.982447,
+          "min": 99.982447
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.838523,
+        "lag_2": 0.823973,
+        "lag_3": 0.815093,
+        "overall": {
+          "max": 0.838523,
+          "mean": 0.825863,
+          "min": 0.815093
+        }
+      }
+    },
+    "827e52d4-8a59-cdd9-bf88-2c7606dc09d5": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.802842
+        },
+        "horizon_2": {
+          "3.0": 0.802842
+        },
+        "horizon_3": {
+          "3.0": 0.802842
+        },
+        "overall": {
+          "max": 0.802842,
+          "mean": 0.802842,
+          "min": 0.802842
+        }
+      },
+      "driver_name": "Nitrocellulose in India, excluding Sikkim",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.83024,
+        "lag_2": 0.815218,
+        "lag_3": 0.802842,
+        "overall": {
+          "max": 0.83024,
+          "mean": 0.8161,
+          "min": 0.802842
+        }
+      }
+    },
+    "8a67fd5e-d061-953f-8c96-bfcd20a7a6d7": {
+      "direction": {
+        "horizon_1": {
+          "3.0": -0.44747
+        },
+        "horizon_2": {
+          "3.0": -0.44747
+        },
+        "horizon_3": {
+          "3.0": -0.44747
+        },
+        "overall": {
+          "max": -0.44747,
+          "mean": -0.44747,
+          "min": -0.44747
+        }
+      },
+      "driver_name": "Switzerland exports of Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products, plant growth regulators, disinfectants and the like, put up in forms or packings for retail sale or as preparations or articles (qty, Weight in kilograms)",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.464084,
+        "lag_2": -0.456478,
+        "lag_3": -0.44747,
+        "overall": {
+          "max": -0.44747,
+          "mean": -0.456011,
+          "min": -0.464084
+        }
+      }
+    },
+    "8dc89b3d-27a5-73a7-e346-a0979ae3a5ac": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.534517
+        },
+        "overall": {
+          "max": -0.534517,
+          "mean": -0.534517,
+          "min": -0.534517
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.532433,
+        "lag_2": -0.530324,
+        "lag_3": -0.528396,
+        "overall": {
+          "max": -0.528396,
+          "mean": -0.530384,
+          "min": -0.532433
+        }
+      }
+    },
+    "93882730-529c-23cd-1925-e804f7870819": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.902914
+        },
+        "horizon_2": {
+          "1.0": 0.902914
+        },
+        "horizon_3": {
+          "1.0": 0.902914
+        },
+        "overall": {
+          "max": 0.902914,
+          "mean": 0.902914,
+          "min": 0.902914
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.980136
+        },
+        "horizon_2": {
+          "1.0": 99.980136
+        },
+        "horizon_3": {
+          "1.0": 99.980136
+        },
+        "overall": {
+          "max": 99.980136,
+          "mean": 99.980136,
+          "min": 99.980136
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.902914,
+        "lag_2": 0.89182,
+        "lag_3": 0.885113,
+        "overall": {
+          "max": 0.902914,
+          "mean": 0.893282,
+          "min": 0.885113
+        }
+      }
+    },
+    "93f45c8c-d4d2-e81d-0926-bc09b74f4441": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.693127
+        },
+        "overall": {
+          "max": 0.693127,
+          "mean": 0.693127,
+          "min": 0.693127
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.694934,
+        "lag_2": 0.691262,
+        "lag_3": 0.689219,
+        "overall": {
+          "max": 0.694934,
+          "mean": 0.691805,
+          "min": 0.689219
+        }
+      }
+    },
+    "98df091e-84aa-eaa5-f6ad-32bdb07743ee": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.482735
+        },
+        "horizon_2": {
+          "3.0": 0.482735
+        },
+        "horizon_3": {
+          "3.0": 0.482735
+        },
+        "overall": {
+          "max": 0.482735,
+          "mean": 0.482735,
+          "min": 0.482735
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.465182,
+        "lag_2": 0.473095,
+        "lag_3": 0.482735,
+        "overall": {
+          "max": 0.482735,
+          "mean": 0.473671,
+          "min": 0.465182
+        }
+      }
+    },
+    "9e8fc73f-fd6b-cf0f-96a4-9f8fb7c9034b": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.849595
+        },
+        "horizon_2": {
+          "3.0": 0.849595
+        },
+        "horizon_3": {
+          "3.0": 0.849595
+        },
+        "overall": {
+          "max": 0.849595,
+          "mean": 0.849595,
+          "min": 0.849595
+        }
+      },
+      "driver_name": "Effective exchange rate in Index (2010=100) Weighted index",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.863316,
+        "lag_2": 0.852612,
+        "lag_3": 0.841989,
+        "overall": {
+          "max": 0.863316,
+          "mean": 0.852639,
+          "min": 0.841989
+        }
+      }
+    },
+    "a2835810-d2ef-7786-e211-7a5707b0c57f": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.084259
+        },
+        "horizon_2": {
+          "1.0": 0.084259
+        },
+        "horizon_3": {
+          "1.0": 0.084259
+        },
+        "overall": {
+          "max": 0.084259,
+          "mean": 0.084259,
+          "min": 0.084259
+        }
+      },
+      "driver_name": "Effective exchange rate in Index (2010=100) Weighted index",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.999932
+        },
+        "horizon_2": {
+          "1.0": 99.999932
+        },
+        "horizon_3": {
+          "1.0": 99.999932
+        },
+        "overall": {
+          "max": 99.999932,
+          "mean": 99.999932,
+          "min": 99.999932
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.07814,
+        "lag_2": 0.05104,
+        "lag_3": 0.023845,
+        "overall": {
+          "max": 0.07814,
+          "mean": 0.051008,
+          "min": 0.023845
+        }
+      }
+    },
+    "a5660a37-5f02-88d1-af38-ff833d628039": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.883799
+        },
+        "horizon_2": {
+          "6.0": 0.883799
+        },
+        "horizon_3": {
+          "6.0": 0.883799
+        },
+        "overall": {
+          "max": 0.883799,
+          "mean": 0.883799,
+          "min": 0.883799
+        }
+      },
+      "driver_name": "Industry, manufacturing - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.881724,
+        "lag_2": 0.881553,
+        "lag_3": 0.881727,
+        "overall": {
+          "max": 0.881727,
+          "mean": 0.881668,
+          "min": 0.881553
+        }
+      }
+    },
+    "a6ffaf7d-551a-f773-0c01-667e11224495": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.864795
+        },
+        "overall": {
+          "max": 0.864795,
+          "mean": 0.864795,
+          "min": 0.864795
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.860818,
+        "lag_2": 0.852784,
+        "lag_3": 0.847302,
+        "overall": {
+          "max": 0.860818,
+          "mean": 0.853635,
+          "min": 0.847302
+        }
+      }
+    },
+    "a922a64b-f5d9-7f96-987c-a2cc9776c0ed": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.381875
+        },
+        "horizon_2": {
+          "3.0": 0.381875
+        },
+        "horizon_3": {
+          "3.0": 0.381875
+        },
+        "overall": {
+          "max": 0.381875,
+          "mean": 0.381875,
+          "min": 0.381875
+        }
+      },
+      "driver_name": "CIF value of India imports of Sulphonated, nitrated or nitrosated derivatives of hydrocarbons via Air",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.362941,
+        "lag_2": 0.382552,
+        "lag_3": 0.381875,
+        "overall": {
+          "max": 0.382552,
+          "mean": 0.375789,
+          "min": 0.362941
+        }
+      }
+    },
+    "a9e8407a-f285-2efb-4a56-47d6d7d72051": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.823507
+        },
+        "horizon_2": {
+          "6.0": 0.823507
+        },
+        "horizon_3": {
+          "6.0": 0.823507
+        },
+        "overall": {
+          "max": 0.823507,
+          "mean": 0.823507,
+          "min": 0.823507
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.85425,
+        "lag_2": 0.848368,
+        "lag_3": 0.838694,
+        "overall": {
+          "max": 0.85425,
+          "mean": 0.847104,
+          "min": 0.838694
+        }
+      }
+    },
+    "abc625f7-5af7-30a0-4a0c-6566c1b4f95d": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.302384
+        },
+        "overall": {
+          "max": -0.302384,
+          "mean": -0.302384,
+          "min": -0.302384
+        }
+      },
+      "driver_name": "Highest wind speed in India, excluding Sikkim",
+      "importance": {
+        "horizon_1": {
+          "0.0": 91.384259
+        },
+        "horizon_2": {
+          "0.0": 91.384259
+        },
+        "horizon_3": {
+          "0.0": 91.384259
+        },
+        "overall": {
+          "max": 91.384259,
+          "mean": 91.384259,
+          "min": 91.384259
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.307265,
+        "lag_2": -0.302333,
+        "lag_3": -0.296299,
+        "overall": {
+          "max": -0.296299,
+          "mean": -0.301966,
+          "min": -0.307265
+        }
+      }
+    },
+    "ac8c2d5b-d688-1d3f-fb32-fb5ae078763b": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.84995
+        },
+        "overall": {
+          "max": 0.84995,
+          "mean": 0.84995,
+          "min": 0.84995
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.996892
+        },
+        "horizon_2": {
+          "0.0": 99.996892
+        },
+        "horizon_3": {
+          "0.0": 99.996892
+        },
+        "overall": {
+          "max": 99.996892,
+          "mean": 99.996892,
+          "min": 99.996892
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.845474,
+        "lag_2": 0.835278,
+        "lag_3": 0.835552,
+        "overall": {
+          "max": 0.845474,
+          "mean": 0.838768,
+          "min": 0.835278
+        }
+      }
+    },
+    "aeacf305-6db6-e1ff-a53c-04d079246aa6": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.809965
+        },
+        "horizon_2": {
+          "3.0": 0.809965
+        },
+        "horizon_3": {
+          "3.0": 0.809965
+        },
+        "overall": {
+          "max": 0.809965,
+          "mean": 0.809965,
+          "min": 0.809965
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 99.96203
+        },
+        "horizon_2": {
+          "3.0": 99.96203
+        },
+        "horizon_3": {
+          "3.0": 99.96203
+        },
+        "overall": {
+          "max": 99.96203,
+          "mean": 99.96203,
+          "min": 99.96203
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.820601,
+        "lag_2": 0.810736,
+        "lag_3": 0.809965,
+        "overall": {
+          "max": 0.820601,
+          "mean": 0.813767,
+          "min": 0.809965
+        }
+      }
+    },
+    "b33b037b-3d9c-12b0-cfba-70a357bbd620": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.939837
+        },
+        "horizon_2": {
+          "3.0": 0.939837
+        },
+        "horizon_3": {
+          "3.0": 0.939837
+        },
+        "overall": {
+          "max": 0.939837,
+          "mean": 0.939837,
+          "min": 0.939837
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 12.146771
+        },
+        "horizon_2": {
+          "3.0": 12.146771
+        },
+        "horizon_3": {
+          "3.0": 12.146771
+        },
+        "overall": {
+          "max": 12.146771,
+          "mean": 12.146771,
+          "min": 12.146771
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.940331,
+        "lag_2": 0.94022,
+        "lag_3": 0.939837,
+        "overall": {
+          "max": 0.940331,
+          "mean": 0.940129,
+          "min": 0.939837
+        }
+      }
+    },
+    "b7878e0f-4eda-a502-bffe-7802b7dec596": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.9006
+        },
+        "overall": {
+          "max": 0.9006,
+          "mean": 0.9006,
+          "min": 0.9006
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 14.62744
+        },
+        "horizon_2": {
+          "0.0": 14.62744
+        },
+        "horizon_3": {
+          "0.0": 14.62744
+        },
+        "overall": {
+          "max": 14.62744,
+          "mean": 14.62744,
+          "min": 14.62744
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.897623,
+        "lag_2": 0.894838,
+        "lag_3": 0.891494,
+        "overall": {
+          "max": 0.897623,
+          "mean": 0.894652,
+          "min": 0.891494
+        }
+      }
+    },
+    "b8e61d84-4fe8-65c1-8632-73299c97df5c": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.625973
+        },
+        "horizon_2": {
+          "3.0": 0.625973
+        },
+        "horizon_3": {
+          "3.0": 0.625973
+        },
+        "overall": {
+          "max": 0.625973,
+          "mean": 0.625973,
+          "min": 0.625973
+        }
+      },
+      "driver_name": "Global risk - World",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.669565,
+        "lag_2": 0.639172,
+        "lag_3": 0.625973,
+        "overall": {
+          "max": 0.669565,
+          "mean": 0.644903,
+          "min": 0.625973
+        }
+      }
+    },
+    "bae34184-6cbe-dd5b-c175-74d804352548": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.901914
+        },
+        "overall": {
+          "max": 0.901914,
+          "mean": 0.901914,
+          "min": 0.901914
+        }
+      },
+      "driver_name": "Agriculture and forestry, fisheries and meat - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.243089
+        },
+        "horizon_2": {
+          "0.0": 99.243089
+        },
+        "horizon_3": {
+          "0.0": 99.243089
+        },
+        "overall": {
+          "max": 99.243089,
+          "mean": 99.243089,
+          "min": 99.243089
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.89255,
+        "lag_2": 0.88342,
+        "lag_3": 0.876324,
+        "overall": {
+          "max": 0.89255,
+          "mean": 0.884098,
+          "min": 0.876324
+        }
+      }
+    },
+    "c36f4170-6138-94d3-fe82-0db4995c006e": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.004877
+        },
+        "overall": {
+          "max": -0.004877,
+          "mean": -0.004877,
+          "min": -0.004877
+        }
+      },
+      "driver_name": "Composite consumer confidence in Europe",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.999606
+        },
+        "horizon_2": {
+          "0.0": 99.999606
+        },
+        "horizon_3": {
+          "0.0": 99.999606
+        },
+        "overall": {
+          "max": 99.999606,
+          "mean": 99.999606,
+          "min": 99.999606
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.001465,
+        "lag_2": -0.002732,
+        "lag_3": -0.005532,
+        "overall": {
+          "max": -0.001465,
+          "mean": -0.003243,
+          "min": -0.005532
+        }
+      }
+    },
+    "c385afa2-b80b-7580-76e0-aeb58dccdb7d": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.822136
+        },
+        "overall": {
+          "max": 0.822136,
+          "mean": 0.822136,
+          "min": 0.822136
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.805662,
+        "lag_2": 0.790565,
+        "lag_3": 0.781443,
+        "overall": {
+          "max": 0.805662,
+          "mean": 0.792557,
+          "min": 0.781443
+        }
+      }
+    },
+    "c43c83c2-31c3-cfc9-8f38-9f6d0e464f33": {
+      "direction": {
+        "horizon_1": {
+          "6.0": -0.54967
+        },
+        "horizon_2": {
+          "6.0": -0.54967
+        },
+        "horizon_3": {
+          "6.0": -0.54967
+        },
+        "overall": {
+          "max": -0.54967,
+          "mean": -0.54967,
+          "min": -0.54967
+        }
+      },
+      "driver_name": "Effective exchange rate in Index (2010=100) Weighted index",
+      "importance": {
+        "horizon_1": {
+          "6.0": 97.434773
+        },
+        "horizon_2": {
+          "6.0": 97.434773
+        },
+        "horizon_3": {
+          "6.0": 97.434773
+        },
+        "overall": {
+          "max": 97.434773,
+          "mean": 97.434773,
+          "min": 97.434773
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.47511,
+        "lag_2": -0.498344,
+        "lag_3": -0.51755,
+        "overall": {
+          "max": -0.47511,
+          "mean": -0.497001,
+          "min": -0.51755
+        }
+      }
+    },
+    "c6485593-8ec7-a463-4540-e1fa8e791f4c": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.119641
+        },
+        "horizon_2": {
+          "1.0": 0.119641
+        },
+        "horizon_3": {
+          "1.0": 0.119641
+        },
+        "overall": {
+          "max": 0.119641,
+          "mean": 0.119641,
+          "min": 0.119641
+        }
+      },
+      "driver_name": "Effective exchange rate in Index (2010=100) Weighted index",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.141046,
+        "lag_2": 0.151975,
+        "lag_3": 0.16223,
+        "overall": {
+          "max": 0.16223,
+          "mean": 0.15175,
+          "min": 0.141046
+        }
+      }
+    },
+    "ca9d678b-946d-5a23-edbd-40c978dff4b6": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.899251
+        },
+        "overall": {
+          "max": 0.899251,
+          "mean": 0.899251,
+          "min": 0.899251
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 88.473678
+        },
+        "horizon_2": {
+          "0.0": 88.473678
+        },
+        "horizon_3": {
+          "0.0": 88.473678
+        },
+        "overall": {
+          "max": 88.473678,
+          "mean": 88.473678,
+          "min": 88.473678
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.890556,
+        "lag_2": 0.883471,
+        "lag_3": 0.88314,
+        "overall": {
+          "max": 0.890556,
+          "mean": 0.885722,
+          "min": 0.88314
+        }
+      }
+    },
+    "cbeeb875-4816-c291-967e-8106599dabcd": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.867045
+        },
+        "horizon_2": {
+          "3.0": 0.867045
+        },
+        "horizon_3": {
+          "3.0": 0.867045
+        },
+        "overall": {
+          "max": 0.867045,
+          "mean": 0.867045,
+          "min": 0.867045
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 99.573485
+        },
+        "horizon_2": {
+          "3.0": 99.573485
+        },
+        "horizon_3": {
+          "3.0": 99.573485
+        },
+        "overall": {
+          "max": 99.573485,
+          "mean": 99.573485,
+          "min": 99.573485
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.85712,
+        "lag_2": 0.856992,
+        "lag_3": 0.867045,
+        "overall": {
+          "max": 0.867045,
+          "mean": 0.860386,
+          "min": 0.856992
+        }
+      }
+    },
+    "cbf0eb86-fe38-d089-2370-ec0c3b95211b": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.827292,
+          "3.0": -0.828209
+        },
+        "horizon_2": {
+          "1.0": -0.827292,
+          "3.0": -0.828209
+        },
+        "horizon_3": {
+          "1.0": -0.827292,
+          "3.0": -0.828209
+        },
+        "overall": {
+          "max": -0.827292,
+          "mean": -0.827751,
+          "min": -0.828209
+        }
+      },
+      "driver_name": "Effective exchange rate in Index (2010=100) Weighted index",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.587859,
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 99.587859,
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 99.587859,
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 99.587859,
+          "mean": 49.79393,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.83314,
+        "lag_2": -0.833877,
+        "lag_3": -0.834101,
+        "overall": {
+          "max": -0.83314,
+          "mean": -0.833706,
+          "min": -0.834101
+        }
+      }
+    },
+    "cecac45e-9729-6bf6-fb4f-1168edd66986": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.843364
+        },
+        "horizon_2": {
+          "1.0": 0.843364
+        },
+        "horizon_3": {
+          "1.0": 0.843364
+        },
+        "overall": {
+          "max": 0.843364,
+          "mean": 0.843364,
+          "min": 0.843364
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.843364,
+        "lag_2": 0.842836,
+        "lag_3": 0.850581,
+        "overall": {
+          "max": 0.850581,
+          "mean": 0.845594,
+          "min": 0.842836
+        }
+      }
+    },
+    "d7a8da1a-1447-b589-7b91-baacef333ec1": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.500538
+        },
+        "horizon_1": {
+          "3.0": 0.41729
+        },
+        "horizon_2": {
+          "3.0": 0.41729
+        },
+        "horizon_3": {
+          "3.0": 0.41729
+        },
+        "overall": {
+          "max": 0.500538,
+          "mean": 0.458914,
+          "min": 0.41729
+        }
+      },
+      "driver_name": "Global risk - United Kingdom",
+      "importance": {
+        "horizon_1": {
+          "0.0": 87.585806,
+          "3.0": 92.968016
+        },
+        "horizon_2": {
+          "0.0": 87.585806,
+          "3.0": 92.968016
+        },
+        "horizon_3": {
+          "0.0": 87.585806,
+          "3.0": 92.968016
+        },
+        "overall": {
+          "max": 92.968016,
+          "mean": 90.276911,
+          "min": 87.585806
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.466933,
+        "lag_2": 0.424124,
+        "lag_3": 0.41729,
+        "overall": {
+          "max": 0.466933,
+          "mean": 0.436116,
+          "min": 0.41729
+        }
+      }
+    },
+    "db3c1518-00a1-491a-1756-e0d4befb529c": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.397278
+        },
+        "horizon_1": {
+          "3.0": 0.360576
+        },
+        "horizon_2": {
+          "3.0": 0.360576
+        },
+        "horizon_3": {
+          "3.0": 0.360576
+        },
+        "overall": {
+          "max": 0.397278,
+          "mean": 0.378927,
+          "min": 0.360576
+        }
+      },
+      "driver_name": "FOB value of Germany exports of Semiconductor media",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0,
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0,
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0,
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.383212,
+        "lag_2": 0.371536,
+        "lag_3": 0.360576,
+        "overall": {
+          "max": 0.383212,
+          "mean": 0.371775,
+          "min": 0.360576
+        }
+      }
+    },
+    "dbb0d7fe-d449-2dc8-78cd-930394057e1f": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.215476
+        },
+        "horizon_2": {
+          "6.0": 0.215476
+        },
+        "horizon_3": {
+          "6.0": 0.215476
+        },
+        "overall": {
+          "max": 0.215476,
+          "mean": 0.215476,
+          "min": 0.215476
+        }
+      },
+      "driver_name": "Business Tendency Surveys: Composite Business Confidence: Economic Activity: Retail Trade, Except of Motor Vehicles and Motorcycles for Colombia",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.250334,
+        "lag_2": 0.234213,
+        "lag_3": 0.227817,
+        "overall": {
+          "max": 0.250334,
+          "mean": 0.237455,
+          "min": 0.227817
+        }
+      }
+    },
+    "ddaf8ca2-6156-e16e-799c-96efad128dff": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.879022
+        },
+        "horizon_2": {
+          "6.0": 0.879022
+        },
+        "horizon_3": {
+          "6.0": 0.879022
+        },
+        "overall": {
+          "max": 0.879022,
+          "mean": 0.879022,
+          "min": 0.879022
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.872538,
+        "lag_2": 0.864164,
+        "lag_3": 0.861053,
+        "overall": {
+          "max": 0.872538,
+          "mean": 0.865918,
+          "min": 0.861053
+        }
+      }
+    },
+    "dea76cc5-f3cc-67e2-2699-6827a3fa79ac": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.022943
+        },
+        "horizon_2": {
+          "3.0": 0.022943
+        },
+        "horizon_3": {
+          "3.0": 0.022943
+        },
+        "overall": {
+          "max": 0.022943,
+          "mean": 0.022943,
+          "min": 0.022943
+        }
+      },
+      "driver_name": "Highest maximum temperature in Niger",
+      "importance": {
+        "horizon_1": {
+          "3.0": 98.197936
+        },
+        "horizon_2": {
+          "3.0": 98.197936
+        },
+        "horizon_3": {
+          "3.0": 98.197936
+        },
+        "overall": {
+          "max": 98.197936,
+          "mean": 98.197936,
+          "min": 98.197936
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.047209,
+        "lag_2": 0.020249,
+        "lag_3": 0.022943,
+        "overall": {
+          "max": 0.047209,
+          "mean": 0.030134,
+          "min": 0.020249
+        }
+      }
+    },
+    "ded88e44-096a-0754-e081-308a444ed0b7": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.630508
+        },
+        "overall": {
+          "max": 0.630508,
+          "mean": 0.630508,
+          "min": 0.630508
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 92.479961
+        },
+        "horizon_2": {
+          "0.0": 92.479961
+        },
+        "horizon_3": {
+          "0.0": 92.479961
+        },
+        "overall": {
+          "max": 92.479961,
+          "mean": 92.479961,
+          "min": 92.479961
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.621073,
+        "lag_2": 0.608656,
+        "lag_3": 0.591631,
+        "overall": {
+          "max": 0.621073,
+          "mean": 0.60712,
+          "min": 0.591631
+        }
+      }
+    },
+    "e3d565d4-1f81-83f1-4fb5-c9bb04e50a7c": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.314463
+        },
+        "overall": {
+          "max": 0.314463,
+          "mean": 0.314463,
+          "min": 0.314463
+        }
+      },
+      "driver_name": "Industry, manufacturing - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.320779,
+        "lag_2": 0.328598,
+        "lag_3": 0.33732,
+        "overall": {
+          "max": 0.33732,
+          "mean": 0.328899,
+          "min": 0.320779
+        }
+      }
+    },
+    "e7109ec2-a2e2-c2dd-512e-bdb764ddb851": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.738941
+        },
+        "overall": {
+          "max": 0.738941,
+          "mean": 0.738941,
+          "min": 0.738941
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 98.40153
+        },
+        "horizon_2": {
+          "0.0": 98.40153
+        },
+        "horizon_3": {
+          "0.0": 98.40153
+        },
+        "overall": {
+          "max": 98.40153,
+          "mean": 98.40153,
+          "min": 98.40153
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.738145,
+        "lag_2": 0.735823,
+        "lag_3": 0.729777,
+        "overall": {
+          "max": 0.738145,
+          "mean": 0.734582,
+          "min": 0.729777
+        }
+      }
+    },
+    "e7750943-beb2-adaf-de23-c2c69637c1e1": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.895298,
+          "6.0": 0.897501
+        },
+        "horizon_2": {
+          "3.0": 0.895298,
+          "6.0": 0.897501
+        },
+        "horizon_3": {
+          "3.0": 0.895298,
+          "6.0": 0.897501
+        },
+        "overall": {
+          "max": 0.897501,
+          "mean": 0.8964,
+          "min": 0.895298
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.892004,
+        "lag_2": 0.894172,
+        "lag_3": 0.895298,
+        "overall": {
+          "max": 0.895298,
+          "mean": 0.893825,
+          "min": 0.892004
+        }
+      }
+    },
+    "e8f308b2-32dc-8ddb-4853-45708d9253cd": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.760516
+        },
+        "horizon_2": {
+          "3.0": 0.760516
+        },
+        "horizon_3": {
+          "3.0": 0.760516
+        },
+        "overall": {
+          "max": 0.760516,
+          "mean": 0.760516,
+          "min": 0.760516
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 99.998292
+        },
+        "horizon_2": {
+          "3.0": 99.998292
+        },
+        "horizon_3": {
+          "3.0": 99.998292
+        },
+        "overall": {
+          "max": 99.998292,
+          "mean": 99.998292,
+          "min": 99.998292
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.760714,
+        "lag_2": 0.761033,
+        "lag_3": 0.760516,
+        "overall": {
+          "max": 0.761033,
+          "mean": 0.760754,
+          "min": 0.760516
+        }
+      }
+    },
+    "ea476e97-7b43-75f8-75f6-5ad44c1f6a9e": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.432134
+        },
+        "overall": {
+          "max": 0.432134,
+          "mean": 0.432134,
+          "min": 0.432134
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.812518
+        },
+        "horizon_2": {
+          "0.0": 99.812518
+        },
+        "horizon_3": {
+          "0.0": 99.812518
+        },
+        "overall": {
+          "max": 99.812518,
+          "mean": 99.812518,
+          "min": 99.812518
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.437728,
+        "lag_2": 0.446624,
+        "lag_3": 0.45741,
+        "overall": {
+          "max": 0.45741,
+          "mean": 0.447254,
+          "min": 0.437728
+        }
+      }
+    },
+    "eb279458-34c8-975c-0e78-700ea367ea08": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.757609
+        },
+        "overall": {
+          "max": 0.757609,
+          "mean": 0.757609,
+          "min": 0.757609
+        }
+      },
+      "driver_name": "Agriculture and forestry, fisheries and meat - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.999964
+        },
+        "horizon_2": {
+          "0.0": 99.999964
+        },
+        "horizon_3": {
+          "0.0": 99.999964
+        },
+        "overall": {
+          "max": 99.999964,
+          "mean": 99.999964,
+          "min": 99.999964
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.731942,
+        "lag_2": 0.708192,
+        "lag_3": 0.69212,
+        "overall": {
+          "max": 0.731942,
+          "mean": 0.710751,
+          "min": 0.69212
+        }
+      }
+    },
+    "eb9da6b9-51bb-cfc5-b454-1ce5d1dd168c": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.891453
+        },
+        "horizon_2": {
+          "6.0": 0.891453
+        },
+        "horizon_3": {
+          "6.0": 0.891453
+        },
+        "overall": {
+          "max": 0.891453,
+          "mean": 0.891453,
+          "min": 0.891453
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.902028,
+        "lag_2": 0.899488,
+        "lag_3": 0.896593,
+        "overall": {
+          "max": 0.902028,
+          "mean": 0.89937,
+          "min": 0.896593
+        }
+      }
+    },
+    "ecf20b23-bc91-2c32-140a-2680f3c4e239": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.711737
+        },
+        "overall": {
+          "max": 0.711737,
+          "mean": 0.711737,
+          "min": 0.711737
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.716082,
+        "lag_2": 0.720176,
+        "lag_3": 0.721578,
+        "overall": {
+          "max": 0.721578,
+          "mean": 0.719279,
+          "min": 0.716082
+        }
+      }
+    },
+    "ed0bbaea-a138-8ab6-8360-fcadc7c278a3": {
+      "direction": {
+        "horizon_1": {
+          "3.0": -0.811255,
+          "6.0": -0.818908
+        },
+        "horizon_2": {
+          "3.0": -0.811255,
+          "6.0": -0.818908
+        },
+        "horizon_3": {
+          "3.0": -0.811255,
+          "6.0": -0.818908
+        },
+        "overall": {
+          "max": -0.811255,
+          "mean": -0.815082,
+          "min": -0.818908
+        }
+      },
+      "driver_name": "Effective exchange rate in Index (2010=100) Weighted index",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0,
+          "6.0": 44.863938
+        },
+        "horizon_2": {
+          "3.0": 0.0,
+          "6.0": 44.863938
+        },
+        "horizon_3": {
+          "3.0": 0.0,
+          "6.0": 44.863938
+        },
+        "overall": {
+          "max": 44.863938,
+          "mean": 22.431969,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.80587,
+        "lag_2": -0.809192,
+        "lag_3": -0.811711,
+        "overall": {
+          "max": -0.80587,
+          "mean": -0.808924,
+          "min": -0.811711
+        }
+      }
+    },
+    "eda8e58a-2956-fdf2-e2cc-4cb74e4b8f2e": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.738508
+        },
+        "horizon_2": {
+          "1.0": 0.738508
+        },
+        "horizon_3": {
+          "1.0": 0.738508
+        },
+        "overall": {
+          "max": 0.738508,
+          "mean": 0.738508,
+          "min": 0.738508
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.740986,
+        "lag_2": 0.735618,
+        "lag_3": 0.731055,
+        "overall": {
+          "max": 0.740986,
+          "mean": 0.735886,
+          "min": 0.731055
+        }
+      }
+    },
+    "f1027132-ccd6-0360-aeac-6408bb304f65": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.898273
+        },
+        "horizon_2": {
+          "3.0": 0.898273
+        },
+        "horizon_3": {
+          "3.0": 0.898273
+        },
+        "overall": {
+          "max": 0.898273,
+          "mean": 0.898273,
+          "min": 0.898273
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.886556,
+        "lag_2": 0.894435,
+        "lag_3": 0.898273,
+        "overall": {
+          "max": 0.898273,
+          "mean": 0.893088,
+          "min": 0.886556
+        }
+      }
+    },
+    "f25dd5b8-f7a2-2a7f-836a-ce36f019a4e9": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.791674
+        },
+        "horizon_2": {
+          "1.0": 0.791674
+        },
+        "horizon_3": {
+          "1.0": 0.791674
+        },
+        "overall": {
+          "max": 0.791674,
+          "mean": 0.791674,
+          "min": 0.791674
+        }
+      },
+      "driver_name": "Effective exchange rate in Index (2010=100) Weighted index",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.999999
+        },
+        "horizon_2": {
+          "1.0": 99.999999
+        },
+        "horizon_3": {
+          "1.0": 99.999999
+        },
+        "overall": {
+          "max": 99.999999,
+          "mean": 99.999999,
+          "min": 99.999999
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.784152,
+        "lag_2": 0.78827,
+        "lag_3": 0.789783,
+        "overall": {
+          "max": 0.789783,
+          "mean": 0.787402,
+          "min": 0.784152
+        }
+      }
+    },
+    "f2fbed34-428b-cca9-25fb-7cf682473928": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.365045
+        },
+        "overall": {
+          "max": 0.365045,
+          "mean": 0.365045,
+          "min": 0.365045
+        }
+      },
+      "driver_name": "Global risk - India, excluding Sikkim",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.339001,
+        "lag_2": 0.273843,
+        "lag_3": 0.242241,
+        "overall": {
+          "max": 0.339001,
+          "mean": 0.285028,
+          "min": 0.242241
+        }
+      }
+    },
+    "f8e7ab86-57f5-31ab-5f53-9cc680e63739": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.378934
+        },
+        "horizon_2": {
+          "6.0": 0.378934
+        },
+        "horizon_3": {
+          "6.0": 0.378934
+        },
+        "overall": {
+          "max": 0.378934,
+          "mean": 0.378934,
+          "min": 0.378934
+        }
+      },
+      "driver_name": "Highest maximum temperature in Maldives",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.371151,
+        "lag_2": 0.34973,
+        "lag_3": 0.35292,
+        "overall": {
+          "max": 0.371151,
+          "mean": 0.357934,
+          "min": 0.34973
+        }
+      }
+    },
+    "fa9d11da-490b-ef56-059b-7238aa2c2c1f": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.774612
+        },
+        "overall": {
+          "max": 0.774612,
+          "mean": 0.774612,
+          "min": 0.774612
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.771627,
+        "lag_2": 0.760474,
+        "lag_3": 0.749033,
+        "overall": {
+          "max": 0.771627,
+          "mean": 0.760378,
+          "min": 0.749033
+        }
+      }
+    },
+    "fcd3c5fb-f71f-ba3e-067e-ac330c27353a": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.829113
+        },
+        "overall": {
+          "max": 0.829113,
+          "mean": 0.829113,
+          "min": 0.829113
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.999992
+        },
+        "horizon_2": {
+          "0.0": 99.999992
+        },
+        "horizon_3": {
+          "0.0": 99.999992
+        },
+        "overall": {
+          "max": 99.999992,
+          "mean": 99.999992,
+          "min": 99.999992
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.82475,
+        "lag_2": 0.819825,
+        "lag_3": 0.814586,
+        "overall": {
+          "max": 0.82475,
+          "mean": 0.81972,
+          "min": 0.814586
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}

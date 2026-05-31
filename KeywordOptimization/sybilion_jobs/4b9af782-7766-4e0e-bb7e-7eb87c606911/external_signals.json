@@ -1,0 +1,1925 @@
+{
+  "data": {
+    "00aaf6a8-c115-28e6-e3a9-64a2bed40eb3": {
+      "direction": {
+        "horizon_1": {
+          "3.0": -0.28138,
+          "6.0": -0.254929
+        },
+        "horizon_2": {
+          "3.0": -0.28138,
+          "6.0": -0.254929
+        },
+        "horizon_3": {
+          "3.0": -0.28138,
+          "6.0": -0.254929
+        },
+        "overall": {
+          "max": -0.254929,
+          "mean": -0.268155,
+          "min": -0.28138
+        }
+      },
+      "driver_name": "Population - Comoros",
+      "importance": {
+        "horizon_1": {
+          "3.0": 99.959332,
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 99.959332,
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 99.959332,
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 99.959332,
+          "mean": 49.979666,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.288736,
+        "lag_2": -0.286465,
+        "lag_3": -0.2813,
+        "overall": {
+          "max": -0.2813,
+          "mean": -0.2855,
+          "min": -0.288736
+        }
+      }
+    },
+    "14aa20dd-5444-f54f-9029-3056d230ecb7": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.176123
+        },
+        "horizon_2": {
+          "1.0": -0.176123
+        },
+        "horizon_3": {
+          "1.0": -0.176123
+        },
+        "overall": {
+          "max": -0.176123,
+          "mean": -0.176123,
+          "min": -0.176123
+        }
+      },
+      "driver_name": "Exchange Rates - World",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.982479
+        },
+        "horizon_2": {
+          "1.0": 99.982479
+        },
+        "horizon_3": {
+          "1.0": 99.982479
+        },
+        "overall": {
+          "max": 99.982479,
+          "mean": 99.982479,
+          "min": 99.982479
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.176123,
+        "lag_2": -0.169734,
+        "lag_3": -0.167113,
+        "overall": {
+          "max": -0.167113,
+          "mean": -0.17099,
+          "min": -0.176123
+        }
+      }
+    },
+    "17f709f6-4542-5589-45f8-b1ed8f9e4515": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.220696,
+          "6.0": -0.006195
+        },
+        "horizon_2": {
+          "1.0": 0.220696,
+          "6.0": -0.006195
+        },
+        "horizon_3": {
+          "1.0": 0.220696,
+          "6.0": -0.006195
+        },
+        "overall": {
+          "max": 0.220696,
+          "mean": 0.10725,
+          "min": -0.006195
+        }
+      },
+      "driver_name": "Processed food and consumables - Germany",
+      "importance": {
+        "horizon_1": {
+          "1.0": 12.047247,
+          "6.0": 99.875118
+        },
+        "horizon_2": {
+          "1.0": 12.047247,
+          "6.0": 99.875118
+        },
+        "horizon_3": {
+          "1.0": 12.047247,
+          "6.0": 99.875118
+        },
+        "overall": {
+          "max": 99.875118,
+          "mean": 55.961182,
+          "min": 12.047247
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.220696,
+        "lag_2": 0.164684,
+        "lag_3": 0.114321,
+        "overall": {
+          "max": 0.220696,
+          "mean": 0.166567,
+          "min": 0.114321
+        }
+      }
+    },
+    "1903db51-1d98-ef9e-4fc9-4db790a789d7": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.843101
+        },
+        "overall": {
+          "max": 0.843101,
+          "mean": 0.843101,
+          "min": 0.843101
+        }
+      },
+      "driver_name": "Potassium chloride (MOP) in America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 97.284276
+        },
+        "horizon_2": {
+          "0.0": 97.284276
+        },
+        "horizon_3": {
+          "0.0": 97.284276
+        },
+        "overall": {
+          "max": 97.284276,
+          "mean": 97.284276,
+          "min": 97.284276
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.770341,
+        "lag_2": 0.679909,
+        "lag_3": 0.5764,
+        "overall": {
+          "max": 0.770341,
+          "mean": 0.67555,
+          "min": 0.5764
+        }
+      }
+    },
+    "194939f7-eee3-f349-062a-2d61378022ff": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.63794
+        },
+        "overall": {
+          "max": 0.63794,
+          "mean": 0.63794,
+          "min": 0.63794
+        }
+      },
+      "driver_name": "Potassium sulfate in Europe",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.71829
+        },
+        "horizon_2": {
+          "0.0": 99.71829
+        },
+        "horizon_3": {
+          "0.0": 99.71829
+        },
+        "overall": {
+          "max": 99.71829,
+          "mean": 99.71829,
+          "min": 99.71829
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.57239,
+        "lag_2": 0.507874,
+        "lag_3": 0.445631,
+        "overall": {
+          "max": 0.57239,
+          "mean": 0.508632,
+          "min": 0.445631
+        }
+      }
+    },
+    "1bd687a1-4c81-c55e-3015-2b40bfb26a3b": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.030056
+        },
+        "overall": {
+          "max": -0.030056,
+          "mean": -0.030056,
+          "min": -0.030056
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of United Kingdom exports of Fertilizers, mineral or chemical",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.028984,
+        "lag_2": -0.028403,
+        "lag_3": -0.031539,
+        "overall": {
+          "max": -0.028403,
+          "mean": -0.029642,
+          "min": -0.031539
+        }
+      }
+    },
+    "24083e95-1fb1-87e0-e506-da62e61e4129": {
+      "direction": {
+        "horizon_1": {
+          "6.0": -0.0621
+        },
+        "horizon_2": {
+          "6.0": -0.0621
+        },
+        "horizon_3": {
+          "6.0": -0.0621
+        },
+        "overall": {
+          "max": -0.0621,
+          "mean": -0.0621,
+          "min": -0.0621
+        }
+      },
+      "driver_name": "Price per kg of Spain exports of Fertilizers, mineral or chemical",
+      "importance": {
+        "horizon_1": {
+          "6.0": 97.101055
+        },
+        "horizon_2": {
+          "6.0": 97.101055
+        },
+        "horizon_3": {
+          "6.0": 97.101055
+        },
+        "overall": {
+          "max": 97.101055,
+          "mean": 97.101055,
+          "min": 97.101055
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.016024,
+        "lag_2": -0.030432,
+        "lag_3": -0.045516,
+        "overall": {
+          "max": -0.016024,
+          "mean": -0.030657,
+          "min": -0.045516
+        }
+      }
+    },
+    "2b86cc06-5b10-193c-7443-d23b1aae019d": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.412899
+        },
+        "overall": {
+          "max": 0.412899,
+          "mean": 0.412899,
+          "min": 0.412899
+        }
+      },
+      "driver_name": "Commodities - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.447513,
+        "lag_2": 0.496837,
+        "lag_3": 0.539082,
+        "overall": {
+          "max": 0.539082,
+          "mean": 0.494477,
+          "min": 0.447513
+        }
+      }
+    },
+    "2dec102f-6722-8787-42dd-6ca78880cfcc": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.451875
+        },
+        "overall": {
+          "max": 0.451875,
+          "mean": 0.451875,
+          "min": 0.451875
+        }
+      },
+      "driver_name": "Industry, manufacturing - Hungary",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.964239
+        },
+        "horizon_2": {
+          "0.0": 99.964239
+        },
+        "horizon_3": {
+          "0.0": 99.964239
+        },
+        "overall": {
+          "max": 99.964239,
+          "mean": 99.964239,
+          "min": 99.964239
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.400821,
+        "lag_2": 0.360509,
+        "lag_3": 0.322973,
+        "overall": {
+          "max": 0.400821,
+          "mean": 0.361434,
+          "min": 0.322973
+        }
+      }
+    },
+    "377e00f7-e045-a345-a5be-72fcc55535de": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.059181
+        },
+        "overall": {
+          "max": -0.059181,
+          "mean": -0.059181,
+          "min": -0.059181
+        }
+      },
+      "driver_name": "Price per kg of France and Monaco imports of Fertilizers, mineral or chemical",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.023378,
+        "lag_2": 0.031354,
+        "lag_3": 0.044398,
+        "overall": {
+          "max": 0.044398,
+          "mean": 0.017458,
+          "min": -0.023378
+        }
+      }
+    },
+    "3fe93ace-4197-900f-6798-87560ce8a15d": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.219987
+        },
+        "horizon_1": {
+          "6.0": -0.224896
+        },
+        "horizon_2": {
+          "6.0": -0.224896
+        },
+        "horizon_3": {
+          "6.0": -0.224896
+        },
+        "overall": {
+          "max": -0.219987,
+          "mean": -0.222442,
+          "min": -0.224896
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of Italy exports of Fabrics",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.978225,
+          "6.0": 99.62649
+        },
+        "horizon_2": {
+          "0.0": 99.978225,
+          "6.0": 99.62649
+        },
+        "horizon_3": {
+          "0.0": 99.978225,
+          "6.0": 99.62649
+        },
+        "overall": {
+          "max": 99.978225,
+          "mean": 99.802357,
+          "min": 99.62649
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.207792,
+        "lag_2": -0.206028,
+        "lag_3": -0.211263,
+        "overall": {
+          "max": -0.206028,
+          "mean": -0.208361,
+          "min": -0.211263
+        }
+      }
+    },
+    "47afa922-68af-ce6d-a24c-a709635ee2de": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.076098
+        },
+        "horizon_2": {
+          "1.0": 0.076098
+        },
+        "horizon_3": {
+          "1.0": 0.076098
+        },
+        "overall": {
+          "max": 0.076098,
+          "mean": 0.076098,
+          "min": 0.076098
+        }
+      },
+      "driver_name": "Population - Syrian Arab Republic",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.501061
+        },
+        "horizon_2": {
+          "1.0": 99.501061
+        },
+        "horizon_3": {
+          "1.0": 99.501061
+        },
+        "overall": {
+          "max": 99.501061,
+          "mean": 99.501061,
+          "min": 99.501061
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.076098,
+        "lag_2": 0.054943,
+        "lag_3": 0.034267,
+        "overall": {
+          "max": 0.076098,
+          "mean": 0.055103,
+          "min": 0.034267
+        }
+      }
+    },
+    "49520231-bb75-53cc-12eb-fab322bf73b9": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.571234
+        },
+        "horizon_2": {
+          "6.0": 0.571234
+        },
+        "horizon_3": {
+          "6.0": 0.571234
+        },
+        "overall": {
+          "max": 0.571234,
+          "mean": 0.571234,
+          "min": 0.571234
+        }
+      },
+      "driver_name": "Commodity price \u2013 Index, percent change from a year ago in percent change from a year ago",
+      "importance": {
+        "horizon_1": {
+          "6.0": 60.114477
+        },
+        "horizon_2": {
+          "6.0": 60.114477
+        },
+        "horizon_3": {
+          "6.0": 60.114477
+        },
+        "overall": {
+          "max": 60.114477,
+          "mean": 60.114477,
+          "min": 60.114477
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.679348,
+        "lag_2": 0.697256,
+        "lag_3": 0.690228,
+        "overall": {
+          "max": 0.697256,
+          "mean": 0.688944,
+          "min": 0.679348
+        }
+      }
+    },
+    "508f7b47-005e-6372-ca22-53f47cd70c49": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.239289
+        },
+        "overall": {
+          "max": -0.239289,
+          "mean": -0.239289,
+          "min": -0.239289
+        }
+      },
+      "driver_name": "Labour market - Canada",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.246984,
+        "lag_2": -0.248656,
+        "lag_3": -0.235798,
+        "overall": {
+          "max": -0.235798,
+          "mean": -0.243813,
+          "min": -0.248656
+        }
+      }
+    },
+    "59eb0f03-d9dc-c937-0c2e-7ca97b53c04e": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.164227
+        },
+        "overall": {
+          "max": 0.164227,
+          "mean": 0.164227,
+          "min": 0.164227
+        }
+      },
+      "driver_name": "Chemicals - Turkey",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.841562
+        },
+        "horizon_2": {
+          "0.0": 99.841562
+        },
+        "horizon_3": {
+          "0.0": 99.841562
+        },
+        "overall": {
+          "max": 99.841562,
+          "mean": 99.841562,
+          "min": 99.841562
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.125804,
+        "lag_2": 0.08506,
+        "lag_3": 0.045888,
+        "overall": {
+          "max": 0.125804,
+          "mean": 0.085584,
+          "min": 0.045888
+        }
+      }
+    },
+    "5f92a2aa-b118-ea49-8748-10db4e00a8e2": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.258704
+        },
+        "overall": {
+          "max": 0.258704,
+          "mean": 0.258704,
+          "min": 0.258704
+        }
+      },
+      "driver_name": "Global risk - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.872499
+        },
+        "horizon_2": {
+          "0.0": 99.872499
+        },
+        "horizon_3": {
+          "0.0": 99.872499
+        },
+        "overall": {
+          "max": 99.872499,
+          "mean": 99.872499,
+          "min": 99.872499
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.323767,
+        "lag_2": 0.320928,
+        "lag_3": 0.281672,
+        "overall": {
+          "max": 0.323767,
+          "mean": 0.308789,
+          "min": 0.281672
+        }
+      }
+    },
+    "6552d7fc-96f4-0363-ccb3-748583659837": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.291306
+        },
+        "overall": {
+          "max": 0.291306,
+          "mean": 0.291306,
+          "min": 0.291306
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of Portugal exports of Fertilizers, mineral or chemical",
+      "importance": {
+        "horizon_1": {
+          "0.0": 36.685857
+        },
+        "horizon_2": {
+          "0.0": 36.685857
+        },
+        "horizon_3": {
+          "0.0": 36.685857
+        },
+        "overall": {
+          "max": 36.685857,
+          "mean": 36.685857,
+          "min": 36.685857
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.267278,
+        "lag_2": 0.237232,
+        "lag_3": 0.190297,
+        "overall": {
+          "max": 0.267278,
+          "mean": 0.231602,
+          "min": 0.190297
+        }
+      }
+    },
+    "6cc1e6ca-2890-e39f-3100-1793763a0d31": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.658966
+        },
+        "horizon_2": {
+          "1.0": 0.658966
+        },
+        "horizon_3": {
+          "1.0": 0.658966
+        },
+        "overall": {
+          "max": 0.658966,
+          "mean": 0.658966,
+          "min": 0.658966
+        }
+      },
+      "driver_name": "Minerals - France",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.902498
+        },
+        "horizon_2": {
+          "1.0": 99.902498
+        },
+        "horizon_3": {
+          "1.0": 99.902498
+        },
+        "overall": {
+          "max": 99.902498,
+          "mean": 99.902498,
+          "min": 99.902498
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.658966,
+        "lag_2": 0.681047,
+        "lag_3": 0.687244,
+        "overall": {
+          "max": 0.687244,
+          "mean": 0.675752,
+          "min": 0.658966
+        }
+      }
+    },
+    "741163ad-666f-52f5-2603-725e1b3b7c88": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.165575
+        },
+        "horizon_1": {
+          "6.0": -0.157571
+        },
+        "horizon_2": {
+          "6.0": -0.157571
+        },
+        "horizon_3": {
+          "6.0": -0.157571
+        },
+        "overall": {
+          "max": -0.157571,
+          "mean": -0.161573,
+          "min": -0.165575
+        }
+      },
+      "driver_name": "Population - Benin",
+      "importance": {
+        "horizon_1": {
+          "0.0": 98.842841,
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 98.842841,
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 98.842841,
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 98.842841,
+          "mean": 49.421421,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.160431,
+        "lag_2": -0.16188,
+        "lag_3": -0.156946,
+        "overall": {
+          "max": -0.156946,
+          "mean": -0.159752,
+          "min": -0.16188
+        }
+      }
+    },
+    "7b86d504-fd42-f28a-6bee-e2573bcd2d09": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.010754
+        },
+        "overall": {
+          "max": -0.010754,
+          "mean": -0.010754,
+          "min": -0.010754
+        }
+      },
+      "driver_name": "India exports of Fabrics (qty, Weight in kilograms)",
+      "importance": {
+        "horizon_1": {
+          "0.0": 62.462352
+        },
+        "horizon_2": {
+          "0.0": 62.462352
+        },
+        "horizon_3": {
+          "0.0": 62.462352
+        },
+        "overall": {
+          "max": 62.462352,
+          "mean": 62.462352,
+          "min": 62.462352
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.013084,
+        "lag_2": 0.021828,
+        "lag_3": 0.038031,
+        "overall": {
+          "max": 0.038031,
+          "mean": 0.024314,
+          "min": 0.013084
+        }
+      }
+    },
+    "7c2fa67e-36b8-00e8-7312-35f97c0b3e8b": {
+      "direction": {
+        "horizon_1": {
+          "3.0": -0.190823,
+          "6.0": 0.020261
+        },
+        "horizon_2": {
+          "3.0": -0.190823,
+          "6.0": 0.020261
+        },
+        "horizon_3": {
+          "3.0": -0.190823,
+          "6.0": 0.020261
+        },
+        "overall": {
+          "max": 0.020261,
+          "mean": -0.085281,
+          "min": -0.190823
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "3.0": 98.256292,
+          "6.0": 99.99959
+        },
+        "horizon_2": {
+          "3.0": 98.256292,
+          "6.0": 99.99959
+        },
+        "horizon_3": {
+          "3.0": 98.256292,
+          "6.0": 99.99959
+        },
+        "overall": {
+          "max": 99.99959,
+          "mean": 99.127941,
+          "min": 98.256292
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.293047,
+        "lag_2": -0.246047,
+        "lag_3": -0.190823,
+        "overall": {
+          "max": -0.190823,
+          "mean": -0.243306,
+          "min": -0.293047
+        }
+      }
+    },
+    "861ba00d-6455-748f-0879-0e888faf2ebc": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.464563
+        },
+        "horizon_1": {
+          "6.0": 0.346843
+        },
+        "horizon_2": {
+          "6.0": 0.346843
+        },
+        "horizon_3": {
+          "6.0": 0.346843
+        },
+        "overall": {
+          "max": 0.464563,
+          "mean": 0.405703,
+          "min": 0.346843
+        }
+      },
+      "driver_name": "Crafts - Turkey",
+      "importance": {
+        "horizon_1": {
+          "0.0": 100.0,
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 100.0,
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 100.0,
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 100.0,
+          "mean": 50.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.475882,
+        "lag_2": 0.46985,
+        "lag_3": 0.452325,
+        "overall": {
+          "max": 0.475882,
+          "mean": 0.466019,
+          "min": 0.452325
+        }
+      }
+    },
+    "93418aff-38be-e881-b755-ede32370e6a9": {
+      "direction": {
+        "horizon_1": {
+          "6.0": -0.153222
+        },
+        "horizon_2": {
+          "6.0": -0.153222
+        },
+        "horizon_3": {
+          "6.0": -0.153222
+        },
+        "overall": {
+          "max": -0.153222,
+          "mean": -0.153222,
+          "min": -0.153222
+        }
+      },
+      "driver_name": "Education, research and culture - Netherlands",
+      "importance": {
+        "horizon_1": {
+          "6.0": 99.986231
+        },
+        "horizon_2": {
+          "6.0": 99.986231
+        },
+        "horizon_3": {
+          "6.0": 99.986231
+        },
+        "overall": {
+          "max": 99.986231,
+          "mean": 99.986231,
+          "min": 99.986231
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.064079,
+        "lag_2": -0.098611,
+        "lag_3": -0.12718,
+        "overall": {
+          "max": -0.064079,
+          "mean": -0.096623,
+          "min": -0.12718
+        }
+      }
+    },
+    "950e81b4-2d83-12d7-4ec6-9a56fc0a33d6": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.381051
+        },
+        "horizon_2": {
+          "1.0": -0.381051
+        },
+        "horizon_3": {
+          "1.0": -0.381051
+        },
+        "overall": {
+          "max": -0.381051,
+          "mean": -0.381051,
+          "min": -0.381051
+        }
+      },
+      "driver_name": "Population - Iran",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.381051,
+        "lag_2": -0.39496,
+        "lag_3": -0.400914,
+        "overall": {
+          "max": -0.381051,
+          "mean": -0.392308,
+          "min": -0.400914
+        }
+      }
+    },
+    "af35116d-7cea-7158-4669-a1f9dd793e2a": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.573939
+        },
+        "horizon_2": {
+          "3.0": 0.573939
+        },
+        "horizon_3": {
+          "3.0": 0.573939
+        },
+        "overall": {
+          "max": 0.573939,
+          "mean": 0.573939,
+          "min": 0.573939
+        }
+      },
+      "driver_name": "Potassium hydroxide in Asia",
+      "importance": {
+        "horizon_1": {
+          "3.0": 99.966334
+        },
+        "horizon_2": {
+          "3.0": 99.966334
+        },
+        "horizon_3": {
+          "3.0": 99.966334
+        },
+        "overall": {
+          "max": 99.966334,
+          "mean": 99.966334,
+          "min": 99.966334
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.725777,
+        "lag_2": 0.653045,
+        "lag_3": 0.573939,
+        "overall": {
+          "max": 0.725777,
+          "mean": 0.65092,
+          "min": 0.573939
+        }
+      }
+    },
+    "b02497a7-80df-532a-b31d-e241e912cc0d": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.632748
+        },
+        "horizon_2": {
+          "3.0": 0.632748
+        },
+        "horizon_3": {
+          "3.0": 0.632748
+        },
+        "overall": {
+          "max": 0.632748,
+          "mean": 0.632748,
+          "min": 0.632748
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of Portugal imports of Fertilizers, mineral or chemical via Road",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.656078,
+        "lag_2": 0.660431,
+        "lag_3": 0.632748,
+        "overall": {
+          "max": 0.660431,
+          "mean": 0.649752,
+          "min": 0.632748
+        }
+      }
+    },
+    "b0dafa4b-9cb5-b263-caa8-e72288e6a88b": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.441366
+        },
+        "horizon_2": {
+          "1.0": 0.441366
+        },
+        "horizon_3": {
+          "1.0": 0.441366
+        },
+        "overall": {
+          "max": 0.441366,
+          "mean": 0.441366,
+          "min": 0.441366
+        }
+      },
+      "driver_name": "Textile and fibres - France",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.630029
+        },
+        "horizon_2": {
+          "1.0": 99.630029
+        },
+        "horizon_3": {
+          "1.0": 99.630029
+        },
+        "overall": {
+          "max": 99.630029,
+          "mean": 99.630029,
+          "min": 99.630029
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.441366,
+        "lag_2": 0.391448,
+        "lag_3": 0.339398,
+        "overall": {
+          "max": 0.441366,
+          "mean": 0.390737,
+          "min": 0.339398
+        }
+      }
+    },
+    "b66b6d62-06d1-9920-d551-a699883058b8": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.517388,
+          "6.0": 0.340063
+        },
+        "horizon_2": {
+          "1.0": 0.517388,
+          "6.0": 0.340063
+        },
+        "horizon_3": {
+          "1.0": 0.517388,
+          "6.0": 0.340063
+        },
+        "overall": {
+          "max": 0.517388,
+          "mean": 0.428725,
+          "min": 0.340063
+        }
+      },
+      "driver_name": "Price per kg of Spain exports of Sodium hydroxide (caustic soda) via Road",
+      "importance": {
+        "horizon_1": {
+          "1.0": 75.36142,
+          "6.0": 99.773012
+        },
+        "horizon_2": {
+          "1.0": 75.36142,
+          "6.0": 99.773012
+        },
+        "horizon_3": {
+          "1.0": 75.36142,
+          "6.0": 99.773012
+        },
+        "overall": {
+          "max": 99.773012,
+          "mean": 87.567216,
+          "min": 75.36142
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.517388,
+        "lag_2": 0.505879,
+        "lag_3": 0.476771,
+        "overall": {
+          "max": 0.517388,
+          "mean": 0.500013,
+          "min": 0.476771
+        }
+      }
+    },
+    "b8667447-8be8-f2ab-6138-4fed634a5024": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.107538
+        },
+        "overall": {
+          "max": -0.107538,
+          "mean": -0.107538,
+          "min": -0.107538
+        }
+      },
+      "driver_name": "Global risk - Saudi Arabia",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.759863
+        },
+        "horizon_2": {
+          "0.0": 99.759863
+        },
+        "horizon_3": {
+          "0.0": 99.759863
+        },
+        "overall": {
+          "max": 99.759863,
+          "mean": 99.759863,
+          "min": 99.759863
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.143069,
+        "lag_2": -0.160521,
+        "lag_3": -0.190096,
+        "overall": {
+          "max": -0.143069,
+          "mean": -0.164562,
+          "min": -0.190096
+        }
+      }
+    },
+    "b9833c93-2c05-ddc7-d410-67ad4547d263": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.362152,
+          "6.0": 0.344152
+        },
+        "horizon_2": {
+          "3.0": 0.362152,
+          "6.0": 0.344152
+        },
+        "horizon_3": {
+          "3.0": 0.362152,
+          "6.0": 0.344152
+        },
+        "overall": {
+          "max": 0.362152,
+          "mean": 0.353152,
+          "min": 0.344152
+        }
+      },
+      "driver_name": "Population - Haiti",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0,
+          "6.0": 96.134386
+        },
+        "horizon_2": {
+          "3.0": 0.0,
+          "6.0": 96.134386
+        },
+        "horizon_3": {
+          "3.0": 0.0,
+          "6.0": 96.134386
+        },
+        "overall": {
+          "max": 96.134386,
+          "mean": 48.067193,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.366647,
+        "lag_2": 0.36464,
+        "lag_3": 0.36208,
+        "overall": {
+          "max": 0.366647,
+          "mean": 0.364456,
+          "min": 0.36208
+        }
+      }
+    },
+    "bfefd8cc-7451-007d-f32f-48b9a7db3936": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.114646
+        },
+        "overall": {
+          "max": 0.114646,
+          "mean": 0.114646,
+          "min": 0.114646
+        }
+      },
+      "driver_name": "Exchange Rates - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.891484
+        },
+        "horizon_2": {
+          "0.0": 99.891484
+        },
+        "horizon_3": {
+          "0.0": 99.891484
+        },
+        "overall": {
+          "max": 99.891484,
+          "mean": 99.891484,
+          "min": 99.891484
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.138382,
+        "lag_2": 0.164167,
+        "lag_3": 0.187222,
+        "overall": {
+          "max": 0.187222,
+          "mean": 0.163257,
+          "min": 0.138382
+        }
+      }
+    },
+    "cc34e6aa-8305-f148-5ef7-10689ada2df5": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.15553
+        },
+        "horizon_1": {
+          "6.0": -0.013604
+        },
+        "horizon_2": {
+          "6.0": -0.013604
+        },
+        "horizon_3": {
+          "6.0": -0.013604
+        },
+        "overall": {
+          "max": 0.15553,
+          "mean": 0.070963,
+          "min": -0.013604
+        }
+      },
+      "driver_name": "Population - Europe",
+      "importance": {
+        "horizon_1": {
+          "0.0": 96.629452,
+          "6.0": 98.723522
+        },
+        "horizon_2": {
+          "0.0": 96.629452,
+          "6.0": 98.723522
+        },
+        "horizon_3": {
+          "0.0": 96.629452,
+          "6.0": 98.723522
+        },
+        "overall": {
+          "max": 98.723522,
+          "mean": 97.676487,
+          "min": 96.629452
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.118297,
+        "lag_2": 0.080968,
+        "lag_3": 0.049309,
+        "overall": {
+          "max": 0.118297,
+          "mean": 0.082858,
+          "min": 0.049309
+        }
+      }
+    },
+    "cd9b63bd-8287-ed1b-3727-f20321c0b646": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.425718
+        },
+        "overall": {
+          "max": 0.425718,
+          "mean": 0.425718,
+          "min": 0.425718
+        }
+      },
+      "driver_name": "Minerals - Italy",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.944952
+        },
+        "horizon_2": {
+          "0.0": 99.944952
+        },
+        "horizon_3": {
+          "0.0": 99.944952
+        },
+        "overall": {
+          "max": 99.944952,
+          "mean": 99.944952,
+          "min": 99.944952
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.377822,
+        "lag_2": 0.328205,
+        "lag_3": 0.289179,
+        "overall": {
+          "max": 0.377822,
+          "mean": 0.331735,
+          "min": 0.289179
+        }
+      }
+    },
+    "cf934669-ce45-6ede-134a-55a4ff03b905": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.018732
+        },
+        "horizon_2": {
+          "1.0": 0.018732
+        },
+        "horizon_3": {
+          "1.0": 0.018732
+        },
+        "overall": {
+          "max": 0.018732,
+          "mean": 0.018732,
+          "min": 0.018732
+        }
+      },
+      "driver_name": "Commodities - World",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.017509,
+        "lag_2": 0.012944,
+        "lag_3": 0.009254,
+        "overall": {
+          "max": 0.017509,
+          "mean": 0.013236,
+          "min": 0.009254
+        }
+      }
+    },
+    "d2a88c4a-57ef-d2b3-775b-af81953ad6dc": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.009252
+        },
+        "overall": {
+          "max": 0.009252,
+          "mean": 0.009252,
+          "min": 0.009252
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of Luxembourg imports of Stoppers, caps, lids (including crown corks, screw caps, pouring stoppers)",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.860444
+        },
+        "horizon_2": {
+          "0.0": 99.860444
+        },
+        "horizon_3": {
+          "0.0": 99.860444
+        },
+        "overall": {
+          "max": 99.860444,
+          "mean": 99.860444,
+          "min": 99.860444
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.018436,
+        "lag_2": -0.051368,
+        "lag_3": -0.049207,
+        "overall": {
+          "max": -0.018436,
+          "mean": -0.03967,
+          "min": -0.051368
+        }
+      }
+    },
+    "d80a121e-c9b9-453d-576d-fbc8c5cd5eca": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.545344
+        },
+        "overall": {
+          "max": 0.545344,
+          "mean": 0.545344,
+          "min": 0.545344
+        }
+      },
+      "driver_name": "Minerals - Czechia",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.615138
+        },
+        "horizon_2": {
+          "0.0": 99.615138
+        },
+        "horizon_3": {
+          "0.0": 99.615138
+        },
+        "overall": {
+          "max": 99.615138,
+          "mean": 99.615138,
+          "min": 99.615138
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.514105,
+        "lag_2": 0.477069,
+        "lag_3": 0.419144,
+        "overall": {
+          "max": 0.514105,
+          "mean": 0.470106,
+          "min": 0.419144
+        }
+      }
+    },
+    "e0da4568-6147-3760-d3dd-e1191717a651": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.680193
+        },
+        "horizon_2": {
+          "1.0": 0.680193
+        },
+        "horizon_3": {
+          "1.0": 0.680193
+        },
+        "overall": {
+          "max": 0.680193,
+          "mean": 0.680193,
+          "min": 0.680193
+        }
+      },
+      "driver_name": "Chemicals - Germany",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.939952
+        },
+        "horizon_2": {
+          "1.0": 99.939952
+        },
+        "horizon_3": {
+          "1.0": 99.939952
+        },
+        "overall": {
+          "max": 99.939952,
+          "mean": 99.939952,
+          "min": 99.939952
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.680193,
+        "lag_2": 0.668486,
+        "lag_3": 0.642552,
+        "overall": {
+          "max": 0.680193,
+          "mean": 0.663744,
+          "min": 0.642552
+        }
+      }
+    },
+    "eccbdbb2-56f3-f1ed-a279-332e54a1fc4b": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.345155
+        },
+        "horizon_2": {
+          "1.0": -0.345155
+        },
+        "horizon_3": {
+          "1.0": -0.345155
+        },
+        "overall": {
+          "max": -0.345155,
+          "mean": -0.345155,
+          "min": -0.345155
+        }
+      },
+      "driver_name": "Population - Europe",
+      "importance": {
+        "horizon_1": {
+          "1.0": 98.934977
+        },
+        "horizon_2": {
+          "1.0": 98.934977
+        },
+        "horizon_3": {
+          "1.0": 98.934977
+        },
+        "overall": {
+          "max": 98.934977,
+          "mean": 98.934977,
+          "min": 98.934977
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.345155,
+        "lag_2": -0.36298,
+        "lag_3": -0.375326,
+        "overall": {
+          "max": -0.345155,
+          "mean": -0.361154,
+          "min": -0.375326
+        }
+      }
+    },
+    "ef750ab6-b1dd-d8ef-a35b-2594a1eaaed9": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.052839
+        },
+        "overall": {
+          "max": -0.052839,
+          "mean": -0.052839,
+          "min": -0.052839
+        }
+      },
+      "driver_name": "Price per kg of Spain exports of Fertilizers, mineral or chemical",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.979227
+        },
+        "horizon_2": {
+          "0.0": 99.979227
+        },
+        "horizon_3": {
+          "0.0": 99.979227
+        },
+        "overall": {
+          "max": 99.979227,
+          "mean": 99.979227,
+          "min": 99.979227
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.077047,
+        "lag_2": -0.032078,
+        "lag_3": -0.030882,
+        "overall": {
+          "max": -0.030882,
+          "mean": -0.046669,
+          "min": -0.077047
+        }
+      }
+    },
+    "f2b1b71e-2cd5-704e-2c60-be0abcfe1a56": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.320172
+        },
+        "horizon_2": {
+          "1.0": -0.320172
+        },
+        "horizon_3": {
+          "1.0": -0.320172
+        },
+        "overall": {
+          "max": -0.320172,
+          "mean": -0.320172,
+          "min": -0.320172
+        }
+      },
+      "driver_name": "Population - Eritrea",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.905143
+        },
+        "horizon_2": {
+          "1.0": 99.905143
+        },
+        "horizon_3": {
+          "1.0": 99.905143
+        },
+        "overall": {
+          "max": 99.905143,
+          "mean": 99.905143,
+          "min": 99.905143
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.320127,
+        "lag_2": -0.32997,
+        "lag_3": -0.342624,
+        "overall": {
+          "max": -0.320127,
+          "mean": -0.330907,
+          "min": -0.342624
+        }
+      }
+    },
+    "f877e6f8-e09a-7107-2384-3ca0be3fae49": {
+      "direction": {
+        "horizon_1": {
+          "6.0": -0.238534
+        },
+        "horizon_2": {
+          "6.0": -0.238534
+        },
+        "horizon_3": {
+          "6.0": -0.238534
+        },
+        "overall": {
+          "max": -0.238534,
+          "mean": -0.238534,
+          "min": -0.238534
+        }
+      },
+      "driver_name": "Labour market - Canada",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.22907,
+        "lag_2": -0.241216,
+        "lag_3": -0.237012,
+        "overall": {
+          "max": -0.22907,
+          "mean": -0.235766,
+          "min": -0.241216
+        }
+      }
+    },
+    "fbbb4ff2-8a22-19df-1bc1-49b9db22289d": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.745201
+        },
+        "horizon_2": {
+          "1.0": 0.745201
+        },
+        "horizon_3": {
+          "1.0": 0.745201
+        },
+        "overall": {
+          "max": 0.745201,
+          "mean": 0.745201,
+          "min": 0.745201
+        }
+      },
+      "driver_name": "Commodity price \u2013 US dollars in Unit prices \u2013 US dollars",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.297808
+        },
+        "horizon_2": {
+          "1.0": 99.297808
+        },
+        "horizon_3": {
+          "1.0": 99.297808
+        },
+        "overall": {
+          "max": 99.297808,
+          "mean": 99.297808,
+          "min": 99.297808
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.745201,
+        "lag_2": 0.707595,
+        "lag_3": 0.650758,
+        "overall": {
+          "max": 0.745201,
+          "mean": 0.701185,
+          "min": 0.650758
+        }
+      }
+    },
+    "fbf01527-ad1a-7812-ee28-c7cd823d6274": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.143995
+        },
+        "overall": {
+          "max": 0.143995,
+          "mean": 0.143995,
+          "min": 0.143995
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of South Africa exports of Fertilizers, mineral or chemical via Road",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.9048
+        },
+        "horizon_2": {
+          "0.0": 99.9048
+        },
+        "horizon_3": {
+          "0.0": 99.9048
+        },
+        "overall": {
+          "max": 99.9048,
+          "mean": 99.9048,
+          "min": 99.9048
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.054942,
+        "lag_2": 0.132055,
+        "lag_3": 0.139262,
+        "overall": {
+          "max": 0.139262,
+          "mean": 0.108753,
+          "min": 0.054942
+        }
+      }
+    },
+    "fd5da46c-3bae-cf4e-93cc-18b2d0cb38c3": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.397322
+        },
+        "overall": {
+          "max": 0.397322,
+          "mean": 0.397322,
+          "min": 0.397322
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of Italy exports of Fertilizers",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.413684,
+        "lag_2": 0.427856,
+        "lag_3": 0.427378,
+        "overall": {
+          "max": 0.427856,
+          "mean": 0.422973,
+          "min": 0.413684
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}

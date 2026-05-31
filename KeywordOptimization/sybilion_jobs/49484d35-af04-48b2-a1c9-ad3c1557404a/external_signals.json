@@ -1,0 +1,1880 @@
+{
+  "data": {
+    "00aaf6a8-c115-28e6-e3a9-64a2bed40eb3": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.288504,
+          "3.0": -0.28138,
+          "6.0": -0.254929
+        },
+        "horizon_2": {
+          "1.0": -0.288504,
+          "3.0": -0.28138,
+          "6.0": -0.254929
+        },
+        "horizon_3": {
+          "1.0": -0.288504,
+          "3.0": -0.28138,
+          "6.0": -0.254929
+        },
+        "overall": {
+          "max": -0.254929,
+          "mean": -0.274938,
+          "min": -0.288504
+        }
+      },
+      "driver_name": "Population - Comoros",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.970245,
+          "3.0": 99.959335,
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 99.970245,
+          "3.0": 99.959335,
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 99.970245,
+          "3.0": 99.959335,
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 99.970245,
+          "mean": 66.643193,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.288736,
+        "lag_2": -0.286465,
+        "lag_3": -0.2813,
+        "overall": {
+          "max": -0.2813,
+          "mean": -0.2855,
+          "min": -0.288736
+        }
+      }
+    },
+    "05c29592-a1d2-de39-395e-e27bf47625dd": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.131641
+        },
+        "overall": {
+          "max": 0.131641,
+          "mean": 0.131641,
+          "min": 0.131641
+        }
+      },
+      "driver_name": "Inflation and general economic data",
+      "importance": {
+        "horizon_1": {
+          "0.0": 93.213039
+        },
+        "horizon_2": {
+          "0.0": 93.213039
+        },
+        "horizon_3": {
+          "0.0": 93.213039
+        },
+        "overall": {
+          "max": 93.213039,
+          "mean": 93.213039,
+          "min": 93.213039
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.128514,
+        "lag_2": 0.124234,
+        "lag_3": 0.119963,
+        "overall": {
+          "max": 0.128514,
+          "mean": 0.124237,
+          "min": 0.119963
+        }
+      }
+    },
+    "064fd88e-428b-863b-d2c8-9663fe95e21e": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.058409
+        },
+        "horizon_2": {
+          "6.0": 0.058409
+        },
+        "horizon_3": {
+          "6.0": 0.058409
+        },
+        "overall": {
+          "max": 0.058409,
+          "mean": 0.058409,
+          "min": 0.058409
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "6.0": 99.976579
+        },
+        "horizon_2": {
+          "6.0": 99.976579
+        },
+        "horizon_3": {
+          "6.0": 99.976579
+        },
+        "overall": {
+          "max": 99.976579,
+          "mean": 99.976579,
+          "min": 99.976579
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.070169,
+        "lag_2": 0.065064,
+        "lag_3": 0.062846,
+        "overall": {
+          "max": 0.070169,
+          "mean": 0.066026,
+          "min": 0.062846
+        }
+      }
+    },
+    "1109376f-cad2-b841-0de0-41ff4d0eddaf": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.654068
+        },
+        "horizon_2": {
+          "1.0": 0.654068
+        },
+        "horizon_3": {
+          "1.0": 0.654068
+        },
+        "overall": {
+          "max": 0.654068,
+          "mean": 0.654068,
+          "min": 0.654068
+        }
+      },
+      "driver_name": "Textile and fibres - Germany",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.999854
+        },
+        "horizon_2": {
+          "1.0": 99.999854
+        },
+        "horizon_3": {
+          "1.0": 99.999854
+        },
+        "overall": {
+          "max": 99.999854,
+          "mean": 99.999854,
+          "min": 99.999854
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.654068,
+        "lag_2": 0.643996,
+        "lag_3": 0.61791,
+        "overall": {
+          "max": 0.654068,
+          "mean": 0.638658,
+          "min": 0.61791
+        }
+      }
+    },
+    "17f709f6-4542-5589-45f8-b1ed8f9e4515": {
+      "direction": {
+        "horizon_1": {
+          "6.0": -0.006195
+        },
+        "horizon_2": {
+          "6.0": -0.006195
+        },
+        "horizon_3": {
+          "6.0": -0.006195
+        },
+        "overall": {
+          "max": -0.006195,
+          "mean": -0.006195,
+          "min": -0.006195
+        }
+      },
+      "driver_name": "Processed food and consumables - Germany",
+      "importance": {
+        "horizon_1": {
+          "6.0": 99.87512
+        },
+        "horizon_2": {
+          "6.0": 99.87512
+        },
+        "horizon_3": {
+          "6.0": 99.87512
+        },
+        "overall": {
+          "max": 99.87512,
+          "mean": 99.87512,
+          "min": 99.87512
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.220696,
+        "lag_2": 0.164684,
+        "lag_3": 0.114321,
+        "overall": {
+          "max": 0.220696,
+          "mean": 0.166567,
+          "min": 0.114321
+        }
+      }
+    },
+    "1903db51-1d98-ef9e-4fc9-4db790a789d7": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.284949
+        },
+        "horizon_2": {
+          "6.0": 0.284949
+        },
+        "horizon_3": {
+          "6.0": 0.284949
+        },
+        "overall": {
+          "max": 0.284949,
+          "mean": 0.284949,
+          "min": 0.284949
+        }
+      },
+      "driver_name": "Potassium chloride (MOP) in America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 99.990039
+        },
+        "horizon_2": {
+          "6.0": 99.990039
+        },
+        "horizon_3": {
+          "6.0": 99.990039
+        },
+        "overall": {
+          "max": 99.990039,
+          "mean": 99.990039,
+          "min": 99.990039
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.770341,
+        "lag_2": 0.679909,
+        "lag_3": 0.5764,
+        "overall": {
+          "max": 0.770341,
+          "mean": 0.67555,
+          "min": 0.5764
+        }
+      }
+    },
+    "194939f7-eee3-f349-062a-2d61378022ff": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.287228
+        },
+        "horizon_2": {
+          "6.0": 0.287228
+        },
+        "horizon_3": {
+          "6.0": 0.287228
+        },
+        "overall": {
+          "max": 0.287228,
+          "mean": 0.287228,
+          "min": 0.287228
+        }
+      },
+      "driver_name": "Potassium sulfate in Europe",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.57239,
+        "lag_2": 0.507874,
+        "lag_3": 0.445631,
+        "overall": {
+          "max": 0.57239,
+          "mean": 0.508632,
+          "min": 0.445631
+        }
+      }
+    },
+    "24d477f1-d2a4-97b6-e9b4-94db1c46d4eb": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.078767
+        },
+        "horizon_2": {
+          "3.0": 0.078767
+        },
+        "horizon_3": {
+          "3.0": 0.078767
+        },
+        "overall": {
+          "max": 0.078767,
+          "mean": 0.078767,
+          "min": 0.078767
+        }
+      },
+      "driver_name": "Inflation and general economic data",
+      "importance": {
+        "horizon_1": {
+          "3.0": 19.664144
+        },
+        "horizon_2": {
+          "3.0": 19.664144
+        },
+        "horizon_3": {
+          "3.0": 19.664144
+        },
+        "overall": {
+          "max": 19.664144,
+          "mean": 19.664144,
+          "min": 19.664144
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.08897,
+        "lag_2": 0.083936,
+        "lag_3": 0.078767,
+        "overall": {
+          "max": 0.08897,
+          "mean": 0.083891,
+          "min": 0.078767
+        }
+      }
+    },
+    "2ac81f7c-da77-1939-5d5e-731550bc56d1": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.31427
+        },
+        "overall": {
+          "max": -0.31427,
+          "mean": -0.31427,
+          "min": -0.31427
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 22.763449
+        },
+        "horizon_2": {
+          "0.0": 22.763449
+        },
+        "horizon_3": {
+          "0.0": 22.763449
+        },
+        "overall": {
+          "max": 22.763449,
+          "mean": 22.763449,
+          "min": 22.763449
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.285124,
+        "lag_2": -0.246707,
+        "lag_3": -0.20142,
+        "overall": {
+          "max": -0.20142,
+          "mean": -0.244417,
+          "min": -0.285124
+        }
+      }
+    },
+    "2b686dc2-d027-e6fc-c597-8ca260f251ce": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.051248,
+          "6.0": -0.073113
+        },
+        "horizon_2": {
+          "1.0": -0.051248,
+          "6.0": -0.073113
+        },
+        "horizon_3": {
+          "1.0": -0.051248,
+          "6.0": -0.073113
+        },
+        "overall": {
+          "max": -0.051248,
+          "mean": -0.06218,
+          "min": -0.073113
+        }
+      },
+      "driver_name": "Services - Belgium",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.971973,
+          "6.0": 99.565363
+        },
+        "horizon_2": {
+          "1.0": 99.971973,
+          "6.0": 99.565363
+        },
+        "horizon_3": {
+          "1.0": 99.971973,
+          "6.0": 99.565363
+        },
+        "overall": {
+          "max": 99.971973,
+          "mean": 99.768668,
+          "min": 99.565363
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.051248,
+        "lag_2": -0.054063,
+        "lag_3": -0.057154,
+        "overall": {
+          "max": -0.051248,
+          "mean": -0.054155,
+          "min": -0.057154
+        }
+      }
+    },
+    "2b86cc06-5b10-193c-7443-d23b1aae019d": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.412899
+        },
+        "horizon_1": {
+          "3.0": 0.539082
+        },
+        "horizon_2": {
+          "3.0": 0.539082
+        },
+        "horizon_3": {
+          "3.0": 0.539082
+        },
+        "overall": {
+          "max": 0.539082,
+          "mean": 0.45496,
+          "min": 0.412899
+        }
+      },
+      "driver_name": "Commodities - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0,
+          "3.0": 100.0
+        },
+        "horizon_2": {
+          "0.0": 0.0,
+          "3.0": 100.0
+        },
+        "horizon_3": {
+          "0.0": 0.0,
+          "3.0": 100.0
+        },
+        "overall": {
+          "max": 100.0,
+          "mean": 33.333333,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.447513,
+        "lag_2": 0.496837,
+        "lag_3": 0.539082,
+        "overall": {
+          "max": 0.539082,
+          "mean": 0.494477,
+          "min": 0.447513
+        }
+      }
+    },
+    "3521a6ff-aea8-5447-3e29-acc028c6486a": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.403101
+        },
+        "overall": {
+          "max": 0.403101,
+          "mean": 0.403101,
+          "min": 0.403101
+        }
+      },
+      "driver_name": "Processed food and consumables - France",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.875015
+        },
+        "horizon_2": {
+          "0.0": 99.875015
+        },
+        "horizon_3": {
+          "0.0": 99.875015
+        },
+        "overall": {
+          "max": 99.875015,
+          "mean": 99.875015,
+          "min": 99.875015
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.344593,
+        "lag_2": 0.290541,
+        "lag_3": 0.231135,
+        "overall": {
+          "max": 0.344593,
+          "mean": 0.288756,
+          "min": 0.231135
+        }
+      }
+    },
+    "3cde5472-3a0e-ee68-cdbf-0846ec297e4f": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.258557
+        },
+        "horizon_1": {
+          "1.0": 0.218167,
+          "6.0": -0.001658
+        },
+        "horizon_2": {
+          "1.0": 0.218167,
+          "6.0": -0.001658
+        },
+        "horizon_3": {
+          "1.0": 0.218167,
+          "6.0": -0.001658
+        },
+        "overall": {
+          "max": 0.258557,
+          "mean": 0.158355,
+          "min": -0.001658
+        }
+      },
+      "driver_name": "Industry, manufacturing - Europe",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.847109,
+          "1.0": 98.660112,
+          "6.0": 99.332619
+        },
+        "horizon_2": {
+          "0.0": 99.847109,
+          "1.0": 98.660112,
+          "6.0": 99.332619
+        },
+        "horizon_3": {
+          "0.0": 99.847109,
+          "1.0": 98.660112,
+          "6.0": 99.332619
+        },
+        "overall": {
+          "max": 99.847109,
+          "mean": 99.279947,
+          "min": 98.660112
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.218167,
+        "lag_2": 0.170204,
+        "lag_3": 0.114337,
+        "overall": {
+          "max": 0.218167,
+          "mean": 0.167569,
+          "min": 0.114337
+        }
+      }
+    },
+    "47afa922-68af-ce6d-a24c-a709635ee2de": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.034267,
+          "6.0": -0.020625
+        },
+        "horizon_2": {
+          "3.0": 0.034267,
+          "6.0": -0.020625
+        },
+        "horizon_3": {
+          "3.0": 0.034267,
+          "6.0": -0.020625
+        },
+        "overall": {
+          "max": 0.034267,
+          "mean": 0.006821,
+          "min": -0.020625
+        }
+      },
+      "driver_name": "Population - Syrian Arab Republic",
+      "importance": {
+        "horizon_1": {
+          "3.0": 99.875484,
+          "6.0": 99.989296
+        },
+        "horizon_2": {
+          "3.0": 99.875484,
+          "6.0": 99.989296
+        },
+        "horizon_3": {
+          "3.0": 99.875484,
+          "6.0": 99.989296
+        },
+        "overall": {
+          "max": 99.989296,
+          "mean": 99.93239,
+          "min": 99.875484
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.076098,
+        "lag_2": 0.054943,
+        "lag_3": 0.034267,
+        "overall": {
+          "max": 0.076098,
+          "mean": 0.055103,
+          "min": 0.034267
+        }
+      }
+    },
+    "49520231-bb75-53cc-12eb-fab322bf73b9": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.690228,
+          "6.0": 0.571234
+        },
+        "horizon_2": {
+          "3.0": 0.690228,
+          "6.0": 0.571234
+        },
+        "horizon_3": {
+          "3.0": 0.690228,
+          "6.0": 0.571234
+        },
+        "overall": {
+          "max": 0.690228,
+          "mean": 0.630731,
+          "min": 0.571234
+        }
+      },
+      "driver_name": "Commodity price \u2013 Index, percent change from a year ago in percent change from a year ago",
+      "importance": {
+        "horizon_1": {
+          "3.0": 95.241926,
+          "6.0": 60.114478
+        },
+        "horizon_2": {
+          "3.0": 95.241926,
+          "6.0": 60.114478
+        },
+        "horizon_3": {
+          "3.0": 95.241926,
+          "6.0": 60.114478
+        },
+        "overall": {
+          "max": 95.241926,
+          "mean": 77.678202,
+          "min": 60.114478
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.679348,
+        "lag_2": 0.697256,
+        "lag_3": 0.690228,
+        "overall": {
+          "max": 0.697256,
+          "mean": 0.688944,
+          "min": 0.679348
+        }
+      }
+    },
+    "59eb0f03-d9dc-c937-0c2e-7ca97b53c04e": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.164227
+        },
+        "overall": {
+          "max": 0.164227,
+          "mean": 0.164227,
+          "min": 0.164227
+        }
+      },
+      "driver_name": "Chemicals - Turkey",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.841564
+        },
+        "horizon_2": {
+          "0.0": 99.841564
+        },
+        "horizon_3": {
+          "0.0": 99.841564
+        },
+        "overall": {
+          "max": 99.841564,
+          "mean": 99.841564,
+          "min": 99.841564
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.125804,
+        "lag_2": 0.08506,
+        "lag_3": 0.045888,
+        "overall": {
+          "max": 0.125804,
+          "mean": 0.085584,
+          "min": 0.045888
+        }
+      }
+    },
+    "601ae423-d479-8023-eb19-2dcaadd883d8": {
+      "direction": {
+        "horizon_1": {
+          "3.0": -0.106286,
+          "6.0": -0.151535
+        },
+        "horizon_2": {
+          "3.0": -0.106286,
+          "6.0": -0.151535
+        },
+        "horizon_3": {
+          "3.0": -0.106286,
+          "6.0": -0.151535
+        },
+        "overall": {
+          "max": -0.106286,
+          "mean": -0.128911,
+          "min": -0.151535
+        }
+      },
+      "driver_name": "Population - Guinea-Bissau",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.074991,
+        "lag_2": -0.091315,
+        "lag_3": -0.106286,
+        "overall": {
+          "max": -0.074991,
+          "mean": -0.090864,
+          "min": -0.106286
+        }
+      }
+    },
+    "6c4363a0-df4a-dcdb-4aff-6c8ed30f6c53": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.073824
+        },
+        "overall": {
+          "max": 0.073824,
+          "mean": 0.073824,
+          "min": 0.073824
+        }
+      },
+      "driver_name": "Commodities - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.095381,
+        "lag_2": 0.152524,
+        "lag_3": 0.210158,
+        "overall": {
+          "max": 0.210158,
+          "mean": 0.152688,
+          "min": 0.095381
+        }
+      }
+    },
+    "6cc1e6ca-2890-e39f-3100-1793763a0d31": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.612722
+        },
+        "horizon_2": {
+          "6.0": 0.612722
+        },
+        "horizon_3": {
+          "6.0": 0.612722
+        },
+        "overall": {
+          "max": 0.612722,
+          "mean": 0.612722,
+          "min": 0.612722
+        }
+      },
+      "driver_name": "Minerals - France",
+      "importance": {
+        "horizon_1": {
+          "6.0": 99.995504
+        },
+        "horizon_2": {
+          "6.0": 99.995504
+        },
+        "horizon_3": {
+          "6.0": 99.995504
+        },
+        "overall": {
+          "max": 99.995504,
+          "mean": 99.995504,
+          "min": 99.995504
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.658966,
+        "lag_2": 0.681047,
+        "lag_3": 0.687244,
+        "overall": {
+          "max": 0.687244,
+          "mean": 0.675752,
+          "min": 0.658966
+        }
+      }
+    },
+    "6cd9bf5f-3f46-f30f-8cde-9664b9932e40": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.37795
+        },
+        "overall": {
+          "max": 0.37795,
+          "mean": 0.37795,
+          "min": 0.37795
+        }
+      },
+      "driver_name": "Transport - Luxembourg",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.971666
+        },
+        "horizon_2": {
+          "0.0": 99.971666
+        },
+        "horizon_3": {
+          "0.0": 99.971666
+        },
+        "overall": {
+          "max": 99.971666,
+          "mean": 99.971666,
+          "min": 99.971666
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.299776,
+        "lag_2": 0.225392,
+        "lag_3": 0.159211,
+        "overall": {
+          "max": 0.299776,
+          "mean": 0.228126,
+          "min": 0.159211
+        }
+      }
+    },
+    "741163ad-666f-52f5-2603-725e1b3b7c88": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.160431,
+          "3.0": -0.156946,
+          "6.0": -0.157571
+        },
+        "horizon_2": {
+          "1.0": -0.160431,
+          "3.0": -0.156946,
+          "6.0": -0.157571
+        },
+        "horizon_3": {
+          "1.0": -0.160431,
+          "3.0": -0.156946,
+          "6.0": -0.157571
+        },
+        "overall": {
+          "max": -0.156946,
+          "mean": -0.158316,
+          "min": -0.160431
+        }
+      },
+      "driver_name": "Population - Benin",
+      "importance": {
+        "horizon_1": {
+          "1.0": 73.815624,
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 73.815624,
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 73.815624,
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 73.815624,
+          "mean": 24.605208,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.160431,
+        "lag_2": -0.16188,
+        "lag_3": -0.156946,
+        "overall": {
+          "max": -0.156946,
+          "mean": -0.159752,
+          "min": -0.16188
+        }
+      }
+    },
+    "7c2fa67e-36b8-00e8-7312-35f97c0b3e8b": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.293047
+        },
+        "horizon_2": {
+          "1.0": -0.293047
+        },
+        "horizon_3": {
+          "1.0": -0.293047
+        },
+        "overall": {
+          "max": -0.293047,
+          "mean": -0.293047,
+          "min": -0.293047
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.293047,
+        "lag_2": -0.246047,
+        "lag_3": -0.190823,
+        "overall": {
+          "max": -0.190823,
+          "mean": -0.243306,
+          "min": -0.293047
+        }
+      }
+    },
+    "7e626b8d-59a1-100a-63b5-9f9238f0ca73": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.788626
+        },
+        "overall": {
+          "max": 0.788626,
+          "mean": 0.788626,
+          "min": 0.788626
+        }
+      },
+      "driver_name": "Potassium nitrate in Asia",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.582918
+        },
+        "horizon_2": {
+          "0.0": 99.582918
+        },
+        "horizon_3": {
+          "0.0": 99.582918
+        },
+        "overall": {
+          "max": 99.582918,
+          "mean": 99.582918,
+          "min": 99.582918
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.789843,
+        "lag_2": 0.769179,
+        "lag_3": 0.728557,
+        "overall": {
+          "max": 0.789843,
+          "mean": 0.762526,
+          "min": 0.728557
+        }
+      }
+    },
+    "814accd5-62de-b7b0-fc50-60fa4d94e776": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.212665
+        },
+        "overall": {
+          "max": -0.212665,
+          "mean": -0.212665,
+          "min": -0.212665
+        }
+      },
+      "driver_name": "Equities - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.97448
+        },
+        "horizon_2": {
+          "0.0": 99.97448
+        },
+        "horizon_3": {
+          "0.0": 99.97448
+        },
+        "overall": {
+          "max": 99.97448,
+          "mean": 99.97448,
+          "min": 99.97448
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.199508,
+        "lag_2": -0.187265,
+        "lag_3": -0.175244,
+        "overall": {
+          "max": -0.175244,
+          "mean": -0.187339,
+          "min": -0.199508
+        }
+      }
+    },
+    "82fb2e19-c625-6878-3cea-761d7d786cfb": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.016366
+        },
+        "overall": {
+          "max": 0.016366,
+          "mean": 0.016366,
+          "min": 0.016366
+        }
+      },
+      "driver_name": "Minerals - Finland",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.493696
+        },
+        "horizon_2": {
+          "0.0": 99.493696
+        },
+        "horizon_3": {
+          "0.0": 99.493696
+        },
+        "overall": {
+          "max": 99.493696,
+          "mean": 99.493696,
+          "min": 99.493696
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.024289,
+        "lag_2": -0.061714,
+        "lag_3": -0.102025,
+        "overall": {
+          "max": -0.024289,
+          "mean": -0.062676,
+          "min": -0.102025
+        }
+      }
+    },
+    "861ba00d-6455-748f-0879-0e888faf2ebc": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.475882
+        },
+        "horizon_2": {
+          "1.0": 0.475882
+        },
+        "horizon_3": {
+          "1.0": 0.475882
+        },
+        "overall": {
+          "max": 0.475882,
+          "mean": 0.475882,
+          "min": 0.475882
+        }
+      },
+      "driver_name": "Crafts - Turkey",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.999954
+        },
+        "horizon_2": {
+          "1.0": 99.999954
+        },
+        "horizon_3": {
+          "1.0": 99.999954
+        },
+        "overall": {
+          "max": 99.999954,
+          "mean": 99.999954,
+          "min": 99.999954
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.475882,
+        "lag_2": 0.46985,
+        "lag_3": 0.452325,
+        "overall": {
+          "max": 0.475882,
+          "mean": 0.466019,
+          "min": 0.452325
+        }
+      }
+    },
+    "8c81cee5-bf14-5108-929c-7309e734a8fb": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.264371
+        },
+        "overall": {
+          "max": 0.264371,
+          "mean": 0.264371,
+          "min": 0.264371
+        }
+      },
+      "driver_name": "Inflation and general economic data",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.98369
+        },
+        "horizon_2": {
+          "0.0": 99.98369
+        },
+        "horizon_3": {
+          "0.0": 99.98369
+        },
+        "overall": {
+          "max": 99.98369,
+          "mean": 99.98369,
+          "min": 99.98369
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.259196,
+        "lag_2": 0.252024,
+        "lag_3": 0.240829,
+        "overall": {
+          "max": 0.259196,
+          "mean": 0.250683,
+          "min": 0.240829
+        }
+      }
+    },
+    "9048c575-3c2d-6964-7174-4a76d613137e": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.194073
+        },
+        "overall": {
+          "max": -0.194073,
+          "mean": -0.194073,
+          "min": -0.194073
+        }
+      },
+      "driver_name": "Chemicals - Germany",
+      "importance": {
+        "horizon_1": {
+          "0.0": 77.154085
+        },
+        "horizon_2": {
+          "0.0": 77.154085
+        },
+        "horizon_3": {
+          "0.0": 77.154085
+        },
+        "overall": {
+          "max": 77.154085,
+          "mean": 77.154085,
+          "min": 77.154085
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.196593,
+        "lag_2": -0.211358,
+        "lag_3": -0.225238,
+        "overall": {
+          "max": -0.196593,
+          "mean": -0.211063,
+          "min": -0.225238
+        }
+      }
+    },
+    "93418aff-38be-e881-b755-ede32370e6a9": {
+      "direction": {
+        "horizon_1": {
+          "3.0": -0.12718,
+          "6.0": -0.153222
+        },
+        "horizon_2": {
+          "3.0": -0.12718,
+          "6.0": -0.153222
+        },
+        "horizon_3": {
+          "3.0": -0.12718,
+          "6.0": -0.153222
+        },
+        "overall": {
+          "max": -0.12718,
+          "mean": -0.140201,
+          "min": -0.153222
+        }
+      },
+      "driver_name": "Education, research and culture - Netherlands",
+      "importance": {
+        "horizon_1": {
+          "3.0": 99.973614,
+          "6.0": 99.986234
+        },
+        "horizon_2": {
+          "3.0": 99.973614,
+          "6.0": 99.986234
+        },
+        "horizon_3": {
+          "3.0": 99.973614,
+          "6.0": 99.986234
+        },
+        "overall": {
+          "max": 99.986234,
+          "mean": 99.979924,
+          "min": 99.973614
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.064079,
+        "lag_2": -0.098611,
+        "lag_3": -0.12718,
+        "overall": {
+          "max": -0.064079,
+          "mean": -0.096623,
+          "min": -0.12718
+        }
+      }
+    },
+    "950e81b4-2d83-12d7-4ec6-9a56fc0a33d6": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.381051,
+          "6.0": -0.409005
+        },
+        "horizon_2": {
+          "1.0": -0.381051,
+          "6.0": -0.409005
+        },
+        "horizon_3": {
+          "1.0": -0.381051,
+          "6.0": -0.409005
+        },
+        "overall": {
+          "max": -0.381051,
+          "mean": -0.395028,
+          "min": -0.409005
+        }
+      },
+      "driver_name": "Population - Iran",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0,
+          "6.0": 94.990907
+        },
+        "horizon_2": {
+          "1.0": 0.0,
+          "6.0": 94.990907
+        },
+        "horizon_3": {
+          "1.0": 0.0,
+          "6.0": 94.990907
+        },
+        "overall": {
+          "max": 94.990907,
+          "mean": 47.495453,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.381051,
+        "lag_2": -0.39496,
+        "lag_3": -0.400914,
+        "overall": {
+          "max": -0.381051,
+          "mean": -0.392308,
+          "min": -0.400914
+        }
+      }
+    },
+    "aaf49a19-1414-7730-806f-63a344a77f7b": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.611937
+        },
+        "horizon_2": {
+          "3.0": 0.611937
+        },
+        "horizon_3": {
+          "3.0": 0.611937
+        },
+        "overall": {
+          "max": 0.611937,
+          "mean": 0.611937,
+          "min": 0.611937
+        }
+      },
+      "driver_name": "Textile and fibres - Slovenia",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.620749,
+        "lag_2": 0.620013,
+        "lag_3": 0.611937,
+        "overall": {
+          "max": 0.620749,
+          "mean": 0.617566,
+          "min": 0.611937
+        }
+      }
+    },
+    "af35116d-7cea-7158-4669-a1f9dd793e2a": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.573939
+        },
+        "horizon_2": {
+          "3.0": 0.573939
+        },
+        "horizon_3": {
+          "3.0": 0.573939
+        },
+        "overall": {
+          "max": 0.573939,
+          "mean": 0.573939,
+          "min": 0.573939
+        }
+      },
+      "driver_name": "Potassium hydroxide in Asia",
+      "importance": {
+        "horizon_1": {
+          "3.0": 99.966336
+        },
+        "horizon_2": {
+          "3.0": 99.966336
+        },
+        "horizon_3": {
+          "3.0": 99.966336
+        },
+        "overall": {
+          "max": 99.966336,
+          "mean": 99.966336,
+          "min": 99.966336
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.725777,
+        "lag_2": 0.653045,
+        "lag_3": 0.573939,
+        "overall": {
+          "max": 0.725777,
+          "mean": 0.65092,
+          "min": 0.573939
+        }
+      }
+    },
+    "b02497a7-80df-532a-b31d-e241e912cc0d": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.632748
+        },
+        "horizon_2": {
+          "3.0": 0.632748
+        },
+        "horizon_3": {
+          "3.0": 0.632748
+        },
+        "overall": {
+          "max": 0.632748,
+          "mean": 0.632748,
+          "min": 0.632748
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of Portugal imports of Fertilizers, mineral or chemical via Road",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.656078,
+        "lag_2": 0.660431,
+        "lag_3": 0.632748,
+        "overall": {
+          "max": 0.660431,
+          "mean": 0.649752,
+          "min": 0.632748
+        }
+      }
+    },
+    "b9833c93-2c05-ddc7-d410-67ad4547d263": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.366563,
+          "6.0": 0.344152
+        },
+        "horizon_2": {
+          "1.0": 0.366563,
+          "6.0": 0.344152
+        },
+        "horizon_3": {
+          "1.0": 0.366563,
+          "6.0": 0.344152
+        },
+        "overall": {
+          "max": 0.366563,
+          "mean": 0.355357,
+          "min": 0.344152
+        }
+      },
+      "driver_name": "Population - Haiti",
+      "importance": {
+        "horizon_1": {
+          "1.0": 90.796118,
+          "6.0": 96.134388
+        },
+        "horizon_2": {
+          "1.0": 90.796118,
+          "6.0": 96.134388
+        },
+        "horizon_3": {
+          "1.0": 90.796118,
+          "6.0": 96.134388
+        },
+        "overall": {
+          "max": 96.134388,
+          "mean": 93.465253,
+          "min": 90.796118
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.366647,
+        "lag_2": 0.36464,
+        "lag_3": 0.36208,
+        "overall": {
+          "max": 0.366647,
+          "mean": 0.364456,
+          "min": 0.36208
+        }
+      }
+    },
+    "cf934669-ce45-6ede-134a-55a4ff03b905": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.018732
+        },
+        "horizon_2": {
+          "1.0": 0.018732
+        },
+        "horizon_3": {
+          "1.0": 0.018732
+        },
+        "overall": {
+          "max": 0.018732,
+          "mean": 0.018732,
+          "min": 0.018732
+        }
+      },
+      "driver_name": "Commodities - World",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.017509,
+        "lag_2": 0.012944,
+        "lag_3": 0.009254,
+        "overall": {
+          "max": 0.017509,
+          "mean": 0.013236,
+          "min": 0.009254
+        }
+      }
+    },
+    "d5b8a73d-3bb7-528a-0c61-a57dea276d30": {
+      "direction": {
+        "horizon_1": {
+          "3.0": -0.119874,
+          "6.0": -0.11115
+        },
+        "horizon_2": {
+          "3.0": -0.119874,
+          "6.0": -0.11115
+        },
+        "horizon_3": {
+          "3.0": -0.119874,
+          "6.0": -0.11115
+        },
+        "overall": {
+          "max": -0.11115,
+          "mean": -0.115512,
+          "min": -0.119874
+        }
+      },
+      "driver_name": "Inflation and general economic data",
+      "importance": {
+        "horizon_1": {
+          "3.0": 57.165649,
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 57.165649,
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 57.165649,
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 57.165649,
+          "mean": 28.582824,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.10697,
+        "lag_2": -0.11303,
+        "lag_3": -0.119874,
+        "overall": {
+          "max": -0.10697,
+          "mean": -0.113291,
+          "min": -0.119874
+        }
+      }
+    },
+    "eb6bc9f2-725a-3238-a6bc-e72db9b01f80": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.174773
+        },
+        "overall": {
+          "max": 0.174773,
+          "mean": 0.174773,
+          "min": 0.174773
+        }
+      },
+      "driver_name": "Inflation and general economic data",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.174689,
+        "lag_2": 0.174211,
+        "lag_3": 0.173699,
+        "overall": {
+          "max": 0.174689,
+          "mean": 0.1742,
+          "min": 0.173699
+        }
+      }
+    },
+    "eb97b0c9-8acb-5085-a4a1-8dcd1d69a6f7": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.555773
+        },
+        "overall": {
+          "max": 0.555773,
+          "mean": 0.555773,
+          "min": 0.555773
+        }
+      },
+      "driver_name": "Chemicals - France",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.999968
+        },
+        "horizon_2": {
+          "0.0": 99.999968
+        },
+        "horizon_3": {
+          "0.0": 99.999968
+        },
+        "overall": {
+          "max": 99.999968,
+          "mean": 99.999968,
+          "min": 99.999968
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.521106,
+        "lag_2": 0.479038,
+        "lag_3": 0.42867,
+        "overall": {
+          "max": 0.521106,
+          "mean": 0.476271,
+          "min": 0.42867
+        }
+      }
+    },
+    "edb6b585-99a6-4042-519b-16cae54f28f6": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.262141,
+          "6.0": -0.352932
+        },
+        "horizon_2": {
+          "1.0": -0.262141,
+          "6.0": -0.352932
+        },
+        "horizon_3": {
+          "1.0": -0.262141,
+          "6.0": -0.352932
+        },
+        "overall": {
+          "max": -0.262141,
+          "mean": -0.307536,
+          "min": -0.352932
+        }
+      },
+      "driver_name": "Inflation and general economic data",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0,
+          "6.0": 71.922464
+        },
+        "horizon_2": {
+          "1.0": 0.0,
+          "6.0": 71.922464
+        },
+        "horizon_3": {
+          "1.0": 0.0,
+          "6.0": 71.922464
+        },
+        "overall": {
+          "max": 71.922464,
+          "mean": 35.961232,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.262141,
+        "lag_2": -0.279513,
+        "lag_3": -0.299832,
+        "overall": {
+          "max": -0.262141,
+          "mean": -0.280495,
+          "min": -0.299832
+        }
+      }
+    },
+    "fa9658a8-342b-7001-bee7-c61b80a582cf": {
+      "direction": {
+        "horizon_1": {
+          "3.0": -0.211801,
+          "6.0": -0.255033
+        },
+        "horizon_2": {
+          "3.0": -0.211801,
+          "6.0": -0.255033
+        },
+        "horizon_3": {
+          "3.0": -0.211801,
+          "6.0": -0.255033
+        },
+        "overall": {
+          "max": -0.211801,
+          "mean": -0.233417,
+          "min": -0.255033
+        }
+      },
+      "driver_name": "Population - Bangladesh",
+      "importance": {
+        "horizon_1": {
+          "3.0": 92.736475,
+          "6.0": 99.898237
+        },
+        "horizon_2": {
+          "3.0": 92.736475,
+          "6.0": 99.898237
+        },
+        "horizon_3": {
+          "3.0": 92.736475,
+          "6.0": 99.898237
+        },
+        "overall": {
+          "max": 99.898237,
+          "mean": 96.317356,
+          "min": 92.736475
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.194625,
+        "lag_2": -0.200969,
+        "lag_3": -0.211761,
+        "overall": {
+          "max": -0.194625,
+          "mean": -0.202452,
+          "min": -0.211761
+        }
+      }
+    },
+    "fbbb4ff2-8a22-19df-1bc1-49b9db22289d": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.650758,
+          "6.0": 0.450712
+        },
+        "horizon_2": {
+          "3.0": 0.650758,
+          "6.0": 0.450712
+        },
+        "horizon_3": {
+          "3.0": 0.650758,
+          "6.0": 0.450712
+        },
+        "overall": {
+          "max": 0.650758,
+          "mean": 0.550735,
+          "min": 0.450712
+        }
+      },
+      "driver_name": "Commodity price \u2013 US dollars in Unit prices \u2013 US dollars",
+      "importance": {
+        "horizon_1": {
+          "3.0": 99.626141,
+          "6.0": 98.141415
+        },
+        "horizon_2": {
+          "3.0": 99.626141,
+          "6.0": 98.141415
+        },
+        "horizon_3": {
+          "3.0": 99.626141,
+          "6.0": 98.141415
+        },
+        "overall": {
+          "max": 99.626141,
+          "mean": 98.883778,
+          "min": 98.141415
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.745201,
+        "lag_2": 0.707595,
+        "lag_3": 0.650758,
+        "overall": {
+          "max": 0.745201,
+          "mean": 0.701185,
+          "min": 0.650758
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}

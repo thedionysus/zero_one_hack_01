@@ -1,0 +1,3554 @@
+{
+  "data": {
+    "00141e82-0dce-0bc1-7645-cd19e49be955": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.822955
+        },
+        "horizon_2": {
+          "3.0": 0.822955
+        },
+        "horizon_3": {
+          "3.0": 0.822955
+        },
+        "overall": {
+          "max": 0.822955,
+          "mean": 0.822955,
+          "min": 0.822955
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.833273,
+        "lag_2": 0.825699,
+        "lag_3": 0.822955,
+        "overall": {
+          "max": 0.833273,
+          "mean": 0.827309,
+          "min": 0.822955
+        }
+      }
+    },
+    "02b3c019-a70b-7536-bb1e-6071262a9a65": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.807062
+        },
+        "horizon_2": {
+          "6.0": 0.807062
+        },
+        "horizon_3": {
+          "6.0": 0.807062
+        },
+        "overall": {
+          "max": 0.807062,
+          "mean": 0.807062,
+          "min": 0.807062
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.851507,
+        "lag_2": 0.844324,
+        "lag_3": 0.833735,
+        "overall": {
+          "max": 0.851507,
+          "mean": 0.843189,
+          "min": 0.833735
+        }
+      }
+    },
+    "04cb1d22-412f-de6a-c417-0438c8f8329f": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.913082
+        },
+        "horizon_2": {
+          "6.0": 0.913082
+        },
+        "horizon_3": {
+          "6.0": 0.913082
+        },
+        "overall": {
+          "max": 0.913082,
+          "mean": 0.913082,
+          "min": 0.913082
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 62.427687
+        },
+        "horizon_2": {
+          "6.0": 62.427687
+        },
+        "horizon_3": {
+          "6.0": 62.427687
+        },
+        "overall": {
+          "max": 62.427687,
+          "mean": 62.427687,
+          "min": 62.427687
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.915532,
+        "lag_2": 0.917509,
+        "lag_3": 0.918802,
+        "overall": {
+          "max": 0.918802,
+          "mean": 0.917281,
+          "min": 0.915532
+        }
+      }
+    },
+    "0692c51d-9570-5fd7-26c6-45869ba09d13": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.608423
+        },
+        "overall": {
+          "max": 0.608423,
+          "mean": 0.608423,
+          "min": 0.608423
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.595188,
+        "lag_2": 0.580868,
+        "lag_3": 0.575617,
+        "overall": {
+          "max": 0.595188,
+          "mean": 0.583891,
+          "min": 0.575617
+        }
+      }
+    },
+    "071cd224-ab4c-8785-d220-7d0e10fe48e9": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.215267
+        },
+        "horizon_2": {
+          "1.0": 0.215267
+        },
+        "horizon_3": {
+          "1.0": 0.215267
+        },
+        "overall": {
+          "max": 0.215267,
+          "mean": 0.215267,
+          "min": 0.215267
+        }
+      },
+      "driver_name": "Wheat hrs in United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 67.463063
+        },
+        "horizon_2": {
+          "1.0": 67.463063
+        },
+        "horizon_3": {
+          "1.0": 67.463063
+        },
+        "overall": {
+          "max": 67.463063,
+          "mean": 67.463063,
+          "min": 67.463063
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.215267,
+        "lag_2": 0.21266,
+        "lag_3": 0.227614,
+        "overall": {
+          "max": 0.227614,
+          "mean": 0.218514,
+          "min": 0.21266
+        }
+      }
+    },
+    "07650bd9-8df5-0839-1c66-dc4ec2cfc3e3": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.238071
+        },
+        "overall": {
+          "max": -0.238071,
+          "mean": -0.238071,
+          "min": -0.238071
+        }
+      },
+      "driver_name": "Wheat srw in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.245647,
+        "lag_2": -0.239925,
+        "lag_3": -0.249308,
+        "overall": {
+          "max": -0.239925,
+          "mean": -0.24496,
+          "min": -0.249308
+        }
+      }
+    },
+    "0a774641-fd03-6f77-4035-1e99198ca80c": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.258041
+        },
+        "horizon_2": {
+          "3.0": 0.258041
+        },
+        "horizon_3": {
+          "3.0": 0.258041
+        },
+        "overall": {
+          "max": 0.258041,
+          "mean": 0.258041,
+          "min": 0.258041
+        }
+      },
+      "driver_name": "Population - Europe",
+      "importance": {
+        "horizon_1": {
+          "3.0": 91.734867
+        },
+        "horizon_2": {
+          "3.0": 91.734867
+        },
+        "horizon_3": {
+          "3.0": 91.734867
+        },
+        "overall": {
+          "max": 91.734867,
+          "mean": 91.734867,
+          "min": 91.734867
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.244713,
+        "lag_2": 0.250971,
+        "lag_3": 0.258041,
+        "overall": {
+          "max": 0.258041,
+          "mean": 0.251242,
+          "min": 0.244713
+        }
+      }
+    },
+    "0eb6c8f2-a8ee-d60b-91f3-5273711d809d": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.06554
+        },
+        "overall": {
+          "max": 0.06554,
+          "mean": 0.06554,
+          "min": 0.06554
+        }
+      },
+      "driver_name": "Corn in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.074401,
+        "lag_2": 0.052777,
+        "lag_3": 0.013084,
+        "overall": {
+          "max": 0.074401,
+          "mean": 0.046754,
+          "min": 0.013084
+        }
+      }
+    },
+    "0efe4cb8-e73f-07a0-6699-d33a5df3a058": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.012481
+        },
+        "horizon_2": {
+          "1.0": 0.012481
+        },
+        "horizon_3": {
+          "1.0": 0.012481
+        },
+        "overall": {
+          "max": 0.012481,
+          "mean": 0.012481,
+          "min": 0.012481
+        }
+      },
+      "driver_name": "Wheat products in United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.832247
+        },
+        "horizon_2": {
+          "1.0": 99.832247
+        },
+        "horizon_3": {
+          "1.0": 99.832247
+        },
+        "overall": {
+          "max": 99.832247,
+          "mean": 99.832247,
+          "min": 99.832247
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.012481,
+        "lag_2": 0.028858,
+        "lag_3": 0.028582,
+        "overall": {
+          "max": 0.028858,
+          "mean": 0.023307,
+          "min": 0.012481
+        }
+      }
+    },
+    "1185cf95-3b47-adad-a0e1-41d19d85a31f": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.870711
+        },
+        "horizon_2": {
+          "6.0": 0.870711
+        },
+        "horizon_3": {
+          "6.0": 0.870711
+        },
+        "overall": {
+          "max": 0.870711,
+          "mean": 0.870711,
+          "min": 0.870711
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.856828,
+        "lag_2": 0.860446,
+        "lag_3": 0.863225,
+        "overall": {
+          "max": 0.863225,
+          "mean": 0.860166,
+          "min": 0.856828
+        }
+      }
+    },
+    "11a4f364-8c51-64e5-a7ce-100191a9fc8c": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.524587
+        },
+        "overall": {
+          "max": -0.524587,
+          "mean": -0.524587,
+          "min": -0.524587
+        }
+      },
+      "driver_name": "Price per kg of Italy imports of Prepared foods obtained",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.513313,
+        "lag_2": -0.505275,
+        "lag_3": -0.496658,
+        "overall": {
+          "max": -0.496658,
+          "mean": -0.505082,
+          "min": -0.513313
+        }
+      }
+    },
+    "14aa20dd-5444-f54f-9029-3056d230ecb7": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.77085
+        },
+        "overall": {
+          "max": 0.77085,
+          "mean": 0.77085,
+          "min": 0.77085
+        }
+      },
+      "driver_name": "Exchange Rates - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.774701,
+        "lag_2": 0.78109,
+        "lag_3": 0.78554,
+        "overall": {
+          "max": 0.78554,
+          "mean": 0.780444,
+          "min": 0.774701
+        }
+      }
+    },
+    "159ef07f-bedc-3fe7-614e-71f6f4fbe625": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.517505
+        },
+        "horizon_2": {
+          "6.0": 0.517505
+        },
+        "horizon_3": {
+          "6.0": 0.517505
+        },
+        "overall": {
+          "max": 0.517505,
+          "mean": 0.517505,
+          "min": 0.517505
+        }
+      },
+      "driver_name": "Rice Index in World",
+      "importance": {
+        "horizon_1": {
+          "6.0": 58.124207
+        },
+        "horizon_2": {
+          "6.0": 58.124207
+        },
+        "horizon_3": {
+          "6.0": 58.124207
+        },
+        "overall": {
+          "max": 58.124207,
+          "mean": 58.124207,
+          "min": 58.124207
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.370161,
+        "lag_2": 0.40338,
+        "lag_3": 0.432125,
+        "overall": {
+          "max": 0.432125,
+          "mean": 0.401889,
+          "min": 0.370161
+        }
+      }
+    },
+    "197210ac-52c8-3f36-d3f5-d1c3f78c2bdc": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.875677
+        },
+        "overall": {
+          "max": 0.875677,
+          "mean": 0.875677,
+          "min": 0.875677
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.866166,
+        "lag_2": 0.859465,
+        "lag_3": 0.85947,
+        "overall": {
+          "max": 0.866166,
+          "mean": 0.8617,
+          "min": 0.859465
+        }
+      }
+    },
+    "1ca524a7-38e7-faea-3dc8-c247cc96f251": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.299574
+        },
+        "overall": {
+          "max": 0.299574,
+          "mean": 0.299574,
+          "min": 0.299574
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of India imports of Cereals",
+      "importance": {
+        "horizon_1": {
+          "0.0": 98.082873
+        },
+        "horizon_2": {
+          "0.0": 98.082873
+        },
+        "horizon_3": {
+          "0.0": 98.082873
+        },
+        "overall": {
+          "max": 98.082873,
+          "mean": 98.082873,
+          "min": 98.082873
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.277709,
+        "lag_2": 0.267463,
+        "lag_3": 0.250361,
+        "overall": {
+          "max": 0.277709,
+          "mean": 0.265178,
+          "min": 0.250361
+        }
+      }
+    },
+    "1dfc4d86-7315-fccd-6041-777d239d18c2": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.305909
+        },
+        "horizon_2": {
+          "1.0": -0.305909
+        },
+        "horizon_3": {
+          "1.0": -0.305909
+        },
+        "overall": {
+          "max": -0.305909,
+          "mean": -0.305909,
+          "min": -0.305909
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of Germany exports of Cereal flours via Sea",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.305909,
+        "lag_2": -0.289565,
+        "lag_3": -0.28117,
+        "overall": {
+          "max": -0.28117,
+          "mean": -0.292215,
+          "min": -0.305909
+        }
+      }
+    },
+    "1dfe0622-8f13-2db5-f98b-a2b8cde9d7b9": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.784407
+        },
+        "overall": {
+          "max": 0.784407,
+          "mean": 0.784407,
+          "min": 0.784407
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 79.953711
+        },
+        "horizon_2": {
+          "0.0": 79.953711
+        },
+        "horizon_3": {
+          "0.0": 79.953711
+        },
+        "overall": {
+          "max": 79.953711,
+          "mean": 79.953711,
+          "min": 79.953711
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.781574,
+        "lag_2": 0.778184,
+        "lag_3": 0.771905,
+        "overall": {
+          "max": 0.781574,
+          "mean": 0.777221,
+          "min": 0.771905
+        }
+      }
+    },
+    "23c65d92-62c3-3224-c818-f6857b460b06": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.391434
+        },
+        "horizon_1": {
+          "1.0": 0.379877
+        },
+        "horizon_2": {
+          "1.0": 0.379877
+        },
+        "horizon_3": {
+          "1.0": 0.379877
+        },
+        "overall": {
+          "max": 0.391434,
+          "mean": 0.385656,
+          "min": 0.379877
+        }
+      },
+      "driver_name": "CIF value of Sweden imports of Prepared foods obtained",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0,
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0,
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0,
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.379877,
+        "lag_2": 0.359487,
+        "lag_3": 0.340213,
+        "overall": {
+          "max": 0.379877,
+          "mean": 0.359859,
+          "min": 0.340213
+        }
+      }
+    },
+    "2985b94c-03ca-b1c4-9f69-a35e38b9640d": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.359414
+        },
+        "overall": {
+          "max": 0.359414,
+          "mean": 0.359414,
+          "min": 0.359414
+        }
+      },
+      "driver_name": "Corn in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 84.334691
+        },
+        "horizon_2": {
+          "0.0": 84.334691
+        },
+        "horizon_3": {
+          "0.0": 84.334691
+        },
+        "overall": {
+          "max": 84.334691,
+          "mean": 84.334691,
+          "min": 84.334691
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.348855,
+        "lag_2": 0.316008,
+        "lag_3": 0.290404,
+        "overall": {
+          "max": 0.348855,
+          "mean": 0.318422,
+          "min": 0.290404
+        }
+      }
+    },
+    "2ebd7af8-1dcf-1a1b-642b-c7b9fd109a51": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.939681
+        },
+        "overall": {
+          "max": 0.939681,
+          "mean": 0.939681,
+          "min": 0.939681
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.940362,
+        "lag_2": 0.940255,
+        "lag_3": 0.93986,
+        "overall": {
+          "max": 0.940362,
+          "mean": 0.940159,
+          "min": 0.93986
+        }
+      }
+    },
+    "302471b3-8ca2-7166-25ac-c0cf639b767d": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.278171
+        },
+        "horizon_1": {
+          "3.0": 0.289963
+        },
+        "horizon_2": {
+          "3.0": 0.289963
+        },
+        "horizon_3": {
+          "3.0": 0.289963
+        },
+        "overall": {
+          "max": 0.289963,
+          "mean": 0.284067,
+          "min": 0.278171
+        }
+      },
+      "driver_name": "All wheat in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0,
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0,
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0,
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.290066,
+        "lag_2": 0.292786,
+        "lag_3": 0.289963,
+        "overall": {
+          "max": 0.292786,
+          "mean": 0.290938,
+          "min": 0.289963
+        }
+      }
+    },
+    "309f4096-4033-8827-2dfc-ce7becbe25e3": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.489174
+        },
+        "overall": {
+          "max": -0.489174,
+          "mean": -0.489174,
+          "min": -0.489174
+        }
+      },
+      "driver_name": "Price per kg of Luxembourg imports of Maize (corn)",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.999524
+        },
+        "horizon_2": {
+          "0.0": 99.999524
+        },
+        "horizon_3": {
+          "0.0": 99.999524
+        },
+        "overall": {
+          "max": 99.999524,
+          "mean": 99.999524,
+          "min": 99.999524
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.489958,
+        "lag_2": -0.49118,
+        "lag_3": -0.490425,
+        "overall": {
+          "max": -0.489958,
+          "mean": -0.490521,
+          "min": -0.49118
+        }
+      }
+    },
+    "31a1f3c1-d3c8-1e9e-088a-38e8368dbed9": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.258799
+        },
+        "overall": {
+          "max": 0.258799,
+          "mean": 0.258799,
+          "min": 0.258799
+        }
+      },
+      "driver_name": "Energy - India",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.999344
+        },
+        "horizon_2": {
+          "0.0": 99.999344
+        },
+        "horizon_3": {
+          "0.0": 99.999344
+        },
+        "overall": {
+          "max": 99.999344,
+          "mean": 99.999344,
+          "min": 99.999344
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.238327,
+        "lag_2": 0.218909,
+        "lag_3": 0.195454,
+        "overall": {
+          "max": 0.238327,
+          "mean": 0.217563,
+          "min": 0.195454
+        }
+      }
+    },
+    "36ba469a-7047-6037-9c37-dd677104a421": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.676673
+        },
+        "horizon_2": {
+          "6.0": 0.676673
+        },
+        "horizon_3": {
+          "6.0": 0.676673
+        },
+        "overall": {
+          "max": 0.676673,
+          "mean": 0.676673,
+          "min": 0.676673
+        }
+      },
+      "driver_name": "Energy - Oman",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.683573,
+        "lag_2": 0.684603,
+        "lag_3": 0.684979,
+        "overall": {
+          "max": 0.684979,
+          "mean": 0.684385,
+          "min": 0.683573
+        }
+      }
+    },
+    "48af30eb-411b-efeb-ca43-0d6ba0bf4b1b": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.215401
+        },
+        "horizon_2": {
+          "6.0": 0.215401
+        },
+        "horizon_3": {
+          "6.0": 0.215401
+        },
+        "overall": {
+          "max": 0.215401,
+          "mean": 0.215401,
+          "min": 0.215401
+        }
+      },
+      "driver_name": "Wheat hrw in United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.159635,
+        "lag_2": 0.163607,
+        "lag_3": 0.159828,
+        "overall": {
+          "max": 0.163607,
+          "mean": 0.161023,
+          "min": 0.159635
+        }
+      }
+    },
+    "49e092ee-fdad-8154-070f-739384c7b106": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.004021
+        },
+        "overall": {
+          "max": -0.004021,
+          "mean": -0.004021,
+          "min": -0.004021
+        }
+      },
+      "driver_name": "Commodity price \u2013 Index, percent change from a year ago in percent change from a year ago",
+      "importance": {
+        "horizon_1": {
+          "0.0": 49.719702
+        },
+        "horizon_2": {
+          "0.0": 49.719702
+        },
+        "horizon_3": {
+          "0.0": 49.719702
+        },
+        "overall": {
+          "max": 49.719702,
+          "mean": 49.719702,
+          "min": 49.719702
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.006887,
+        "lag_2": -0.00811,
+        "lag_3": -0.008377,
+        "overall": {
+          "max": -0.006887,
+          "mean": -0.007791,
+          "min": -0.008377
+        }
+      }
+    },
+    "523729fd-1be9-72d6-0f49-c12bb08fc138": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.900162
+        },
+        "overall": {
+          "max": 0.900162,
+          "mean": 0.900162,
+          "min": 0.900162
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.988812
+        },
+        "horizon_2": {
+          "0.0": 99.988812
+        },
+        "horizon_3": {
+          "0.0": 99.988812
+        },
+        "overall": {
+          "max": 99.988812,
+          "mean": 99.988812,
+          "min": 99.988812
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.894744,
+        "lag_2": 0.891284,
+        "lag_3": 0.888035,
+        "overall": {
+          "max": 0.894744,
+          "mean": 0.891354,
+          "min": 0.888035
+        }
+      }
+    },
+    "55dbc0e4-1960-5433-b3d7-e073807c8f0d": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.427725,
+          "3.0": 0.378029,
+          "6.0": 0.302282
+        },
+        "horizon_2": {
+          "1.0": 0.427725,
+          "3.0": 0.378029,
+          "6.0": 0.302282
+        },
+        "horizon_3": {
+          "1.0": 0.427725,
+          "3.0": 0.378029,
+          "6.0": 0.302282
+        },
+        "overall": {
+          "max": 0.427725,
+          "mean": 0.369345,
+          "min": 0.302282
+        }
+      },
+      "driver_name": "Corn in United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0,
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0,
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0,
+          "3.0": 0.0,
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.427725,
+        "lag_2": 0.409283,
+        "lag_3": 0.378029,
+        "overall": {
+          "max": 0.427725,
+          "mean": 0.405012,
+          "min": 0.378029
+        }
+      }
+    },
+    "5677cec4-9994-0112-6020-5bca0b2317b5": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.839124
+        },
+        "horizon_1": {
+          "1.0": 0.837654
+        },
+        "horizon_2": {
+          "1.0": 0.837654
+        },
+        "horizon_3": {
+          "1.0": 0.837654
+        },
+        "overall": {
+          "max": 0.839124,
+          "mean": 0.838389,
+          "min": 0.837654
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.386683,
+          "1.0": 99.999967
+        },
+        "horizon_2": {
+          "0.0": 99.386683,
+          "1.0": 99.999967
+        },
+        "horizon_3": {
+          "0.0": 99.386683,
+          "1.0": 99.999967
+        },
+        "overall": {
+          "max": 99.999967,
+          "mean": 99.693325,
+          "min": 99.386683
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.837654,
+        "lag_2": 0.835827,
+        "lag_3": 0.833827,
+        "overall": {
+          "max": 0.837654,
+          "mean": 0.835769,
+          "min": 0.833827
+        }
+      }
+    },
+    "59c635c3-512d-9c5b-a1e9-40ad00d9813b": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.067866
+        },
+        "horizon_1": {
+          "1.0": -0.062175
+        },
+        "horizon_2": {
+          "1.0": -0.062175
+        },
+        "horizon_3": {
+          "1.0": -0.062175
+        },
+        "overall": {
+          "max": -0.062175,
+          "mean": -0.06502,
+          "min": -0.067866
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of Germany exports of Cereal groats and meal",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.999112,
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 99.999112,
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 99.999112,
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 99.999112,
+          "mean": 49.999556,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.062175,
+        "lag_2": -0.053831,
+        "lag_3": -0.048267,
+        "overall": {
+          "max": -0.048267,
+          "mean": -0.054758,
+          "min": -0.062175
+        }
+      }
+    },
+    "5ca9e7df-658b-abcb-cf1c-8e62c7765828": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.82849
+        },
+        "horizon_2": {
+          "6.0": 0.82849
+        },
+        "horizon_3": {
+          "6.0": 0.82849
+        },
+        "overall": {
+          "max": 0.82849,
+          "mean": 0.82849,
+          "min": 0.82849
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.836304,
+        "lag_2": 0.835148,
+        "lag_3": 0.833467,
+        "overall": {
+          "max": 0.836304,
+          "mean": 0.834973,
+          "min": 0.833467
+        }
+      }
+    },
+    "5d8b4487-a9a1-ebef-c781-8e629a3f7eeb": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.292581
+        },
+        "horizon_2": {
+          "1.0": -0.292581
+        },
+        "horizon_3": {
+          "1.0": -0.292581
+        },
+        "overall": {
+          "max": -0.292581,
+          "mean": -0.292581,
+          "min": -0.292581
+        }
+      },
+      "driver_name": "All wheat in United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.999182
+        },
+        "horizon_2": {
+          "1.0": 99.999182
+        },
+        "horizon_3": {
+          "1.0": 99.999182
+        },
+        "overall": {
+          "max": 99.999182,
+          "mean": 99.999182,
+          "min": 99.999182
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.292581,
+        "lag_2": -0.28973,
+        "lag_3": -0.281295,
+        "overall": {
+          "max": -0.281295,
+          "mean": -0.287869,
+          "min": -0.292581
+        }
+      }
+    },
+    "5e532205-42a5-074d-84cb-5fab6c2a09d1": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.112953
+        },
+        "horizon_1": {
+          "1.0": 0.133092
+        },
+        "horizon_2": {
+          "1.0": 0.133092
+        },
+        "horizon_3": {
+          "1.0": 0.133092
+        },
+        "overall": {
+          "max": 0.133092,
+          "mean": 0.119666,
+          "min": 0.112953
+        }
+      },
+      "driver_name": "Corn in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0,
+          "1.0": 46.458201
+        },
+        "horizon_2": {
+          "0.0": 0.0,
+          "1.0": 46.458201
+        },
+        "horizon_3": {
+          "0.0": 0.0,
+          "1.0": 46.458201
+        },
+        "overall": {
+          "max": 46.458201,
+          "mean": 15.486067,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.133092,
+        "lag_2": 0.108379,
+        "lag_3": 0.092009,
+        "overall": {
+          "max": 0.133092,
+          "mean": 0.11116,
+          "min": 0.092009
+        }
+      }
+    },
+    "5ea9bd98-fe92-20bd-3824-4a475b7c2b6b": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.709637
+        },
+        "horizon_2": {
+          "1.0": 0.709637
+        },
+        "horizon_3": {
+          "1.0": 0.709637
+        },
+        "overall": {
+          "max": 0.709637,
+          "mean": 0.709637,
+          "min": 0.709637
+        }
+      },
+      "driver_name": "Industry, manufacturing - United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 92.022195
+        },
+        "horizon_2": {
+          "1.0": 92.022195
+        },
+        "horizon_3": {
+          "1.0": 92.022195
+        },
+        "overall": {
+          "max": 92.022195,
+          "mean": 92.022195,
+          "min": 92.022195
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.709637,
+        "lag_2": 0.694458,
+        "lag_3": 0.678544,
+        "overall": {
+          "max": 0.709637,
+          "mean": 0.694213,
+          "min": 0.678544
+        }
+      }
+    },
+    "6543f961-2c08-cb0e-6576-7b6bd32a3a01": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.187855
+        },
+        "horizon_2": {
+          "6.0": 0.187855
+        },
+        "horizon_3": {
+          "6.0": 0.187855
+        },
+        "overall": {
+          "max": 0.187855,
+          "mean": 0.187855,
+          "min": 0.187855
+        }
+      },
+      "driver_name": "Corn in United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 19.799556
+        },
+        "horizon_2": {
+          "6.0": 19.799556
+        },
+        "horizon_3": {
+          "6.0": 19.799556
+        },
+        "overall": {
+          "max": 19.799556,
+          "mean": 19.799556,
+          "min": 19.799556
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.232877,
+        "lag_2": 0.228038,
+        "lag_3": 0.221951,
+        "overall": {
+          "max": 0.232877,
+          "mean": 0.227622,
+          "min": 0.221951
+        }
+      }
+    },
+    "67425ea7-87bf-1899-4166-89cdd88c2f1c": {
+      "direction": {
+        "horizon_1": {
+          "6.0": -0.239972
+        },
+        "horizon_2": {
+          "6.0": -0.239972
+        },
+        "horizon_3": {
+          "6.0": -0.239972
+        },
+        "overall": {
+          "max": -0.239972,
+          "mean": -0.239972,
+          "min": -0.239972
+        }
+      },
+      "driver_name": "Transport - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.242013,
+        "lag_2": -0.255179,
+        "lag_3": -0.255256,
+        "overall": {
+          "max": -0.242013,
+          "mean": -0.250816,
+          "min": -0.255256
+        }
+      }
+    },
+    "6fb85eb6-141a-c0a8-53b3-7e35e0f3394c": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.124798
+        },
+        "horizon_2": {
+          "1.0": -0.124798
+        },
+        "horizon_3": {
+          "1.0": -0.124798
+        },
+        "overall": {
+          "max": -0.124798,
+          "mean": -0.124798,
+          "min": -0.124798
+        }
+      },
+      "driver_name": "Wheat srw in United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 72.923876
+        },
+        "horizon_2": {
+          "1.0": 72.923876
+        },
+        "horizon_3": {
+          "1.0": 72.923876
+        },
+        "overall": {
+          "max": 72.923876,
+          "mean": 72.923876,
+          "min": 72.923876
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.124798,
+        "lag_2": -0.134234,
+        "lag_3": -0.126485,
+        "overall": {
+          "max": -0.124798,
+          "mean": -0.128506,
+          "min": -0.134234
+        }
+      }
+    },
+    "72ad5140-08de-8314-0539-235b9781bd00": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.17759
+        },
+        "overall": {
+          "max": 0.17759,
+          "mean": 0.17759,
+          "min": 0.17759
+        }
+      },
+      "driver_name": "All wheat in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.153277,
+        "lag_2": 0.141922,
+        "lag_3": 0.150856,
+        "overall": {
+          "max": 0.153277,
+          "mean": 0.148685,
+          "min": 0.141922
+        }
+      }
+    },
+    "738b80f2-880a-c027-ebd7-9e728e29ad57": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.013494
+        },
+        "horizon_2": {
+          "1.0": 0.013494
+        },
+        "horizon_3": {
+          "1.0": 0.013494
+        },
+        "overall": {
+          "max": 0.013494,
+          "mean": 0.013494,
+          "min": 0.013494
+        }
+      },
+      "driver_name": "Income, consumption and living conditions - Estonia",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.022176,
+        "lag_2": -0.049871,
+        "lag_3": -0.062447,
+        "overall": {
+          "max": -0.022176,
+          "mean": -0.044831,
+          "min": -0.062447
+        }
+      }
+    },
+    "783d7841-a0a8-20fe-1261-bbb7406765f5": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.921558
+        },
+        "overall": {
+          "max": 0.921558,
+          "mean": 0.921558,
+          "min": 0.921558
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 86.11375
+        },
+        "horizon_2": {
+          "0.0": 86.11375
+        },
+        "horizon_3": {
+          "0.0": 86.11375
+        },
+        "overall": {
+          "max": 86.11375,
+          "mean": 86.11375,
+          "min": 86.11375
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.921688,
+        "lag_2": 0.921619,
+        "lag_3": 0.921422,
+        "overall": {
+          "max": 0.921688,
+          "mean": 0.921576,
+          "min": 0.921422
+        }
+      }
+    },
+    "82679d57-bb3d-3332-3758-14749d869be3": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.138449
+        },
+        "overall": {
+          "max": -0.138449,
+          "mean": -0.138449,
+          "min": -0.138449
+        }
+      },
+      "driver_name": "All wheat in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.988666
+        },
+        "horizon_2": {
+          "0.0": 99.988666
+        },
+        "horizon_3": {
+          "0.0": 99.988666
+        },
+        "overall": {
+          "max": 99.988666,
+          "mean": 99.988666,
+          "min": 99.988666
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.142891,
+        "lag_2": -0.144224,
+        "lag_3": -0.135266,
+        "overall": {
+          "max": -0.135266,
+          "mean": -0.140794,
+          "min": -0.144224
+        }
+      }
+    },
+    "8341e223-772d-2f0d-ee59-fad3c8e54280": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.476934
+        },
+        "overall": {
+          "max": -0.476934,
+          "mean": -0.476934,
+          "min": -0.476934
+        }
+      },
+      "driver_name": "Price per kg of Germany exports of Cereal flours via Road",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.998391
+        },
+        "horizon_2": {
+          "0.0": 99.998391
+        },
+        "horizon_3": {
+          "0.0": 99.998391
+        },
+        "overall": {
+          "max": 99.998391,
+          "mean": 99.998391,
+          "min": 99.998391
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.475935,
+        "lag_2": -0.469576,
+        "lag_3": -0.461663,
+        "overall": {
+          "max": -0.461663,
+          "mean": -0.469058,
+          "min": -0.475935
+        }
+      }
+    },
+    "84f9a430-f7a2-d105-9006-1dc936053c11": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.309253
+        },
+        "overall": {
+          "max": -0.309253,
+          "mean": -0.309253,
+          "min": -0.309253
+        }
+      },
+      "driver_name": "Global price of Rice, Thailand in Thailand",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.999151
+        },
+        "horizon_2": {
+          "0.0": 99.999151
+        },
+        "horizon_3": {
+          "0.0": 99.999151
+        },
+        "overall": {
+          "max": 99.999151,
+          "mean": 99.999151,
+          "min": 99.999151
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.299078,
+        "lag_2": -0.293855,
+        "lag_3": -0.291625,
+        "overall": {
+          "max": -0.291625,
+          "mean": -0.294853,
+          "min": -0.299078
+        }
+      }
+    },
+    "88b20eee-1d8d-cd5c-1571-fda3edf48cd7": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.92221
+        },
+        "horizon_2": {
+          "1.0": -0.92221
+        },
+        "horizon_3": {
+          "1.0": -0.92221
+        },
+        "overall": {
+          "max": -0.92221,
+          "mean": -0.92221,
+          "min": -0.92221
+        }
+      },
+      "driver_name": "Central bank foreign reserve assets including gold and SDR components",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.921426,
+        "lag_2": -0.921309,
+        "lag_3": -0.920385,
+        "overall": {
+          "max": -0.920385,
+          "mean": -0.92104,
+          "min": -0.921426
+        }
+      }
+    },
+    "8c0cc0d6-f510-9437-d8d0-3bb4445104ee": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.01586
+        },
+        "horizon_2": {
+          "3.0": 0.01586
+        },
+        "horizon_3": {
+          "3.0": 0.01586
+        },
+        "overall": {
+          "max": 0.01586,
+          "mean": 0.01586,
+          "min": 0.01586
+        }
+      },
+      "driver_name": "Corn in United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.00517,
+        "lag_2": 0.00053,
+        "lag_3": 0.01586,
+        "overall": {
+          "max": 0.01586,
+          "mean": 0.00374,
+          "min": -0.00517
+        }
+      }
+    },
+    "8e6aa318-cdbc-ad99-c4e9-68a2e495813c": {
+      "direction": {
+        "horizon_1": {
+          "1.0": -0.23687
+        },
+        "horizon_2": {
+          "1.0": -0.23687
+        },
+        "horizon_3": {
+          "1.0": -0.23687
+        },
+        "overall": {
+          "max": -0.23687,
+          "mean": -0.23687,
+          "min": -0.23687
+        }
+      },
+      "driver_name": "All wheat in United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.23687,
+        "lag_2": -0.234109,
+        "lag_3": -0.230565,
+        "overall": {
+          "max": -0.230565,
+          "mean": -0.233848,
+          "min": -0.23687
+        }
+      }
+    },
+    "8f82f760-9d9f-2b6f-8c29-58ab7bac6a65": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.831941
+        },
+        "horizon_2": {
+          "3.0": 0.831941
+        },
+        "horizon_3": {
+          "3.0": 0.831941
+        },
+        "overall": {
+          "max": 0.831941,
+          "mean": 0.831941,
+          "min": 0.831941
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.851109,
+        "lag_2": 0.842601,
+        "lag_3": 0.831941,
+        "overall": {
+          "max": 0.851109,
+          "mean": 0.841884,
+          "min": 0.831941
+        }
+      }
+    },
+    "8fe0fde2-e60d-a423-565b-df9b340e26ab": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.71619
+        },
+        "horizon_2": {
+          "6.0": 0.71619
+        },
+        "horizon_3": {
+          "6.0": 0.71619
+        },
+        "overall": {
+          "max": 0.71619,
+          "mean": 0.71619,
+          "min": 0.71619
+        }
+      },
+      "driver_name": "Industry, manufacturing - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.744187,
+        "lag_2": 0.736275,
+        "lag_3": 0.737054,
+        "overall": {
+          "max": 0.744187,
+          "mean": 0.739172,
+          "min": 0.736275
+        }
+      }
+    },
+    "90450ce2-58da-0a86-da78-291501b9b572": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.032367
+        },
+        "horizon_2": {
+          "3.0": 0.032367
+        },
+        "horizon_3": {
+          "3.0": 0.032367
+        },
+        "overall": {
+          "max": 0.032367,
+          "mean": 0.032367,
+          "min": 0.032367
+        }
+      },
+      "driver_name": "Corn in United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.051642,
+        "lag_2": 0.044294,
+        "lag_3": 0.032367,
+        "overall": {
+          "max": 0.051642,
+          "mean": 0.042768,
+          "min": 0.032367
+        }
+      }
+    },
+    "925557a1-5caa-eccd-cd2e-a82096267426": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.010099
+        },
+        "horizon_2": {
+          "6.0": 0.010099
+        },
+        "horizon_3": {
+          "6.0": 0.010099
+        },
+        "overall": {
+          "max": 0.010099,
+          "mean": 0.010099,
+          "min": 0.010099
+        }
+      },
+      "driver_name": "Wheat srw in United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 89.48504
+        },
+        "horizon_2": {
+          "6.0": 89.48504
+        },
+        "horizon_3": {
+          "6.0": 89.48504
+        },
+        "overall": {
+          "max": 89.48504,
+          "mean": 89.48504,
+          "min": 89.48504
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.036396,
+        "lag_2": 0.032341,
+        "lag_3": 0.030931,
+        "overall": {
+          "max": 0.036396,
+          "mean": 0.033223,
+          "min": 0.030931
+        }
+      }
+    },
+    "93a68286-4583-f87d-91ff-d865c4fd4371": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.07606
+        },
+        "overall": {
+          "max": -0.07606,
+          "mean": -0.07606,
+          "min": -0.07606
+        }
+      },
+      "driver_name": "All wheat in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.061439,
+        "lag_2": -0.052709,
+        "lag_3": -0.058592,
+        "overall": {
+          "max": -0.052709,
+          "mean": -0.05758,
+          "min": -0.061439
+        }
+      }
+    },
+    "9489a268-7e85-ab9a-0e0e-447ad6fe867b": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.196049
+        },
+        "overall": {
+          "max": -0.196049,
+          "mean": -0.196049,
+          "min": -0.196049
+        }
+      },
+      "driver_name": "Price per Weight in kilograms of India imports of Rice via Road",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.184406,
+        "lag_2": -0.157153,
+        "lag_3": -0.133169,
+        "overall": {
+          "max": -0.133169,
+          "mean": -0.158243,
+          "min": -0.184406
+        }
+      }
+    },
+    "98df091e-84aa-eaa5-f6ad-32bdb07743ee": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.465182
+        },
+        "horizon_2": {
+          "1.0": 0.465182
+        },
+        "horizon_3": {
+          "1.0": 0.465182
+        },
+        "overall": {
+          "max": 0.465182,
+          "mean": 0.465182,
+          "min": 0.465182
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.465182,
+        "lag_2": 0.473095,
+        "lag_3": 0.482735,
+        "overall": {
+          "max": 0.482735,
+          "mean": 0.473671,
+          "min": 0.465182
+        }
+      }
+    },
+    "a2e60e4c-f5a4-bfe9-87e4-0ef33119abbb": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.036798
+        },
+        "horizon_1": {
+          "6.0": -0.02123
+        },
+        "horizon_2": {
+          "6.0": -0.02123
+        },
+        "horizon_3": {
+          "6.0": -0.02123
+        },
+        "overall": {
+          "max": -0.02123,
+          "mean": -0.029014,
+          "min": -0.036798
+        }
+      },
+      "driver_name": "Wheat products in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.99971,
+          "6.0": 93.302611
+        },
+        "horizon_2": {
+          "0.0": 99.99971,
+          "6.0": 93.302611
+        },
+        "horizon_3": {
+          "0.0": 99.99971,
+          "6.0": 93.302611
+        },
+        "overall": {
+          "max": 99.99971,
+          "mean": 96.65116,
+          "min": 93.302611
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.032387,
+        "lag_2": -0.055543,
+        "lag_3": -0.046121,
+        "overall": {
+          "max": -0.032387,
+          "mean": -0.044684,
+          "min": -0.055543
+        }
+      }
+    },
+    "a6ffaf7d-551a-f773-0c01-667e11224495": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.864795
+        },
+        "overall": {
+          "max": 0.864795,
+          "mean": 0.864795,
+          "min": 0.864795
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 55.578247
+        },
+        "horizon_2": {
+          "0.0": 55.578247
+        },
+        "horizon_3": {
+          "0.0": 55.578247
+        },
+        "overall": {
+          "max": 55.578247,
+          "mean": 55.578247,
+          "min": 55.578247
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.860818,
+        "lag_2": 0.852784,
+        "lag_3": 0.847302,
+        "overall": {
+          "max": 0.860818,
+          "mean": 0.853635,
+          "min": 0.847302
+        }
+      }
+    },
+    "a98e6fb5-b581-4cfe-1e2e-90d49ef5199a": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.904112
+        },
+        "overall": {
+          "max": 0.904112,
+          "mean": 0.904112,
+          "min": 0.904112
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.896098,
+        "lag_2": 0.88859,
+        "lag_3": 0.88133,
+        "overall": {
+          "max": 0.896098,
+          "mean": 0.888673,
+          "min": 0.88133
+        }
+      }
+    },
+    "a9e8407a-f285-2efb-4a56-47d6d7d72051": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.823507
+        },
+        "horizon_2": {
+          "6.0": 0.823507
+        },
+        "horizon_3": {
+          "6.0": 0.823507
+        },
+        "overall": {
+          "max": 0.823507,
+          "mean": 0.823507,
+          "min": 0.823507
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.85425,
+        "lag_2": 0.848368,
+        "lag_3": 0.838694,
+        "overall": {
+          "max": 0.85425,
+          "mean": 0.847104,
+          "min": 0.838694
+        }
+      }
+    },
+    "b2328864-a908-d6f2-9a0e-a2dc1c3e5357": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.120143
+        },
+        "overall": {
+          "max": 0.120143,
+          "mean": 0.120143,
+          "min": 0.120143
+        }
+      },
+      "driver_name": "Wheat hrs in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 81.853676
+        },
+        "horizon_2": {
+          "0.0": 81.853676
+        },
+        "horizon_3": {
+          "0.0": 81.853676
+        },
+        "overall": {
+          "max": 81.853676,
+          "mean": 81.853676,
+          "min": 81.853676
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.127768,
+        "lag_2": 0.13148,
+        "lag_3": 0.148528,
+        "overall": {
+          "max": 0.148528,
+          "mean": 0.135925,
+          "min": 0.127768
+        }
+      }
+    },
+    "b26f118b-3883-c12b-1a1f-28e48221426d": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.586073
+        },
+        "horizon_2": {
+          "3.0": 0.586073
+        },
+        "horizon_3": {
+          "3.0": 0.586073
+        },
+        "overall": {
+          "max": 0.586073,
+          "mean": 0.586073,
+          "min": 0.586073
+        }
+      },
+      "driver_name": "Grains in India, excluding Sikkim",
+      "importance": {
+        "horizon_1": {
+          "3.0": 92.225787
+        },
+        "horizon_2": {
+          "3.0": 92.225787
+        },
+        "horizon_3": {
+          "3.0": 92.225787
+        },
+        "overall": {
+          "max": 92.225787,
+          "mean": 92.225787,
+          "min": 92.225787
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.582822,
+        "lag_2": 0.586412,
+        "lag_3": 0.586073,
+        "overall": {
+          "max": 0.586412,
+          "mean": 0.585102,
+          "min": 0.582822
+        }
+      }
+    },
+    "b46548d4-9053-a17f-6eaf-50239575bfcd": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.88741
+        },
+        "overall": {
+          "max": 0.88741,
+          "mean": 0.88741,
+          "min": 0.88741
+        }
+      },
+      "driver_name": "Industry, manufacturing - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 92.693949
+        },
+        "horizon_2": {
+          "0.0": 92.693949
+        },
+        "horizon_3": {
+          "0.0": 92.693949
+        },
+        "overall": {
+          "max": 92.693949,
+          "mean": 92.693949,
+          "min": 92.693949
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.877194,
+        "lag_2": 0.868507,
+        "lag_3": 0.860036,
+        "overall": {
+          "max": 0.877194,
+          "mean": 0.868579,
+          "min": 0.860036
+        }
+      }
+    },
+    "b8667447-8be8-f2ab-6138-4fed634a5024": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.270488
+        },
+        "overall": {
+          "max": 0.270488,
+          "mean": 0.270488,
+          "min": 0.270488
+        }
+      },
+      "driver_name": "Global risk - Saudi Arabia",
+      "importance": {
+        "horizon_1": {
+          "0.0": 100.0
+        },
+        "horizon_2": {
+          "0.0": 100.0
+        },
+        "horizon_3": {
+          "0.0": 100.0
+        },
+        "overall": {
+          "max": 100.0,
+          "mean": 100.0,
+          "min": 100.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.223994,
+        "lag_2": 0.10825,
+        "lag_3": 0.095986,
+        "overall": {
+          "max": 0.223994,
+          "mean": 0.142743,
+          "min": 0.095986
+        }
+      }
+    },
+    "b8c628ab-2d5a-2443-7540-ee049ab911b5": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.479651
+        },
+        "horizon_2": {
+          "3.0": 0.479651
+        },
+        "horizon_3": {
+          "3.0": 0.479651
+        },
+        "overall": {
+          "max": 0.479651,
+          "mean": 0.479651,
+          "min": 0.479651
+        }
+      },
+      "driver_name": "Wheat Index in World",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.492046,
+        "lag_2": 0.485906,
+        "lag_3": 0.479651,
+        "overall": {
+          "max": 0.492046,
+          "mean": 0.485868,
+          "min": 0.479651
+        }
+      }
+    },
+    "be5c0bdf-7a30-4dba-7aa9-207cf8b010a4": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.866302
+        },
+        "overall": {
+          "max": 0.866302,
+          "mean": 0.866302,
+          "min": 0.866302
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.856919,
+        "lag_2": 0.847463,
+        "lag_3": 0.838548,
+        "overall": {
+          "max": 0.856919,
+          "mean": 0.847643,
+          "min": 0.838548
+        }
+      }
+    },
+    "c385afa2-b80b-7580-76e0-aeb58dccdb7d": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.822136
+        },
+        "overall": {
+          "max": 0.822136,
+          "mean": 0.822136,
+          "min": 0.822136
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.805662,
+        "lag_2": 0.790565,
+        "lag_3": 0.781443,
+        "overall": {
+          "max": 0.805662,
+          "mean": 0.792557,
+          "min": 0.781443
+        }
+      }
+    },
+    "c738d6dd-1b59-d852-8174-980049ff9d3b": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.034168
+        },
+        "overall": {
+          "max": -0.034168,
+          "mean": -0.034168,
+          "min": -0.034168
+        }
+      },
+      "driver_name": "Wheat hrs in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 89.442345
+        },
+        "horizon_2": {
+          "0.0": 89.442345
+        },
+        "horizon_3": {
+          "0.0": 89.442345
+        },
+        "overall": {
+          "max": 89.442345,
+          "mean": 89.442345,
+          "min": 89.442345
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.030225,
+        "lag_2": -0.044757,
+        "lag_3": -0.040357,
+        "overall": {
+          "max": -0.030225,
+          "mean": -0.038446,
+          "min": -0.044757
+        }
+      }
+    },
+    "ca2e80ef-3f3d-760e-85db-6b2f9ed269cc": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.029179
+        },
+        "overall": {
+          "max": 0.029179,
+          "mean": 0.029179,
+          "min": 0.029179
+        }
+      },
+      "driver_name": "Wheat hrs in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.004062,
+        "lag_2": 0.004215,
+        "lag_3": 0.007047,
+        "overall": {
+          "max": 0.007047,
+          "mean": 0.005108,
+          "min": 0.004062
+        }
+      }
+    },
+    "cb954768-45ef-bf6a-2241-0cd24d8a3a26": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.131967
+        },
+        "overall": {
+          "max": -0.131967,
+          "mean": -0.131967,
+          "min": -0.131967
+        }
+      },
+      "driver_name": "All wheat in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.140247,
+        "lag_2": -0.152551,
+        "lag_3": -0.149286,
+        "overall": {
+          "max": -0.140247,
+          "mean": -0.147361,
+          "min": -0.152551
+        }
+      }
+    },
+    "cbd0f2ae-9855-61c8-43d1-f9322cd06282": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.273912
+        },
+        "overall": {
+          "max": 0.273912,
+          "mean": 0.273912,
+          "min": 0.273912
+        }
+      },
+      "driver_name": "Corn in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.281541,
+        "lag_2": 0.283032,
+        "lag_3": 0.282558,
+        "overall": {
+          "max": 0.283032,
+          "mean": 0.282377,
+          "min": 0.281541
+        }
+      }
+    },
+    "d0d23104-ab64-442a-ba63-4a0d312eb33b": {
+      "direction": {
+        "horizon_1": {
+          "6.0": -0.644875
+        },
+        "horizon_2": {
+          "6.0": -0.644875
+        },
+        "horizon_3": {
+          "6.0": -0.644875
+        },
+        "overall": {
+          "max": -0.644875,
+          "mean": -0.644875,
+          "min": -0.644875
+        }
+      },
+      "driver_name": "Exchange Rates - World",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.57898,
+        "lag_2": -0.587333,
+        "lag_3": -0.600196,
+        "overall": {
+          "max": -0.57898,
+          "mean": -0.588836,
+          "min": -0.600196
+        }
+      }
+    },
+    "d10f1478-9311-47a9-da85-5fd42f954b12": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.552847
+        },
+        "overall": {
+          "max": -0.552847,
+          "mean": -0.552847,
+          "min": -0.552847
+        }
+      },
+      "driver_name": "Exchange Rates - World",
+      "importance": {
+        "horizon_1": {
+          "0.0": 90.250903
+        },
+        "horizon_2": {
+          "0.0": 90.250903
+        },
+        "horizon_3": {
+          "0.0": 90.250903
+        },
+        "overall": {
+          "max": 90.250903,
+          "mean": 90.250903,
+          "min": 90.250903
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.54452,
+        "lag_2": -0.543332,
+        "lag_3": -0.547495,
+        "overall": {
+          "max": -0.543332,
+          "mean": -0.545116,
+          "min": -0.547495
+        }
+      }
+    },
+    "d52c0bd5-83d0-6c52-1fb9-2381eec67319": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.089363
+        },
+        "overall": {
+          "max": 0.089363,
+          "mean": 0.089363,
+          "min": 0.089363
+        }
+      },
+      "driver_name": "All wheat in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 71.13957
+        },
+        "horizon_2": {
+          "0.0": 71.13957
+        },
+        "horizon_3": {
+          "0.0": 71.13957
+        },
+        "overall": {
+          "max": 71.13957,
+          "mean": 71.13957,
+          "min": 71.13957
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.091389,
+        "lag_2": 0.086199,
+        "lag_3": 0.09024,
+        "overall": {
+          "max": 0.091389,
+          "mean": 0.089276,
+          "min": 0.086199
+        }
+      }
+    },
+    "d610fe00-08bb-c835-9469-93cb93ce711c": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.932815
+        },
+        "overall": {
+          "max": 0.932815,
+          "mean": 0.932815,
+          "min": 0.932815
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.931701,
+        "lag_2": 0.931193,
+        "lag_3": 0.931791,
+        "overall": {
+          "max": 0.931791,
+          "mean": 0.931562,
+          "min": 0.931193
+        }
+      }
+    },
+    "dc927223-9424-0c68-b047-76307de8da87": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.693817
+        },
+        "horizon_2": {
+          "1.0": 0.693817
+        },
+        "horizon_3": {
+          "1.0": 0.693817
+        },
+        "overall": {
+          "max": 0.693817,
+          "mean": 0.693817,
+          "min": 0.693817
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 0.0
+        },
+        "horizon_2": {
+          "1.0": 0.0
+        },
+        "horizon_3": {
+          "1.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.697338,
+        "lag_2": 0.693305,
+        "lag_3": 0.689993,
+        "overall": {
+          "max": 0.697338,
+          "mean": 0.693545,
+          "min": 0.689993
+        }
+      }
+    },
+    "dd01186f-30d5-5e4c-a266-8ba724d5c5f4": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.871208
+        },
+        "horizon_2": {
+          "6.0": 0.871208
+        },
+        "horizon_3": {
+          "6.0": 0.871208
+        },
+        "overall": {
+          "max": 0.871208,
+          "mean": 0.871208,
+          "min": 0.871208
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 0.0
+        },
+        "horizon_2": {
+          "6.0": 0.0
+        },
+        "horizon_3": {
+          "6.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.872924,
+        "lag_2": 0.872402,
+        "lag_3": 0.872208,
+        "overall": {
+          "max": 0.872924,
+          "mean": 0.872511,
+          "min": 0.872208
+        }
+      }
+    },
+    "def0e4f9-96a1-417b-ce0f-94dac7e678d1": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.178304
+        },
+        "overall": {
+          "max": -0.178304,
+          "mean": -0.178304,
+          "min": -0.178304
+        }
+      },
+      "driver_name": "All wheat in United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.174686,
+        "lag_2": -0.168242,
+        "lag_3": -0.162,
+        "overall": {
+          "max": -0.162,
+          "mean": -0.168309,
+          "min": -0.174686
+        }
+      }
+    },
+    "dfb18dd6-0830-6d4c-5c26-b80aac08a957": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.892342
+        },
+        "overall": {
+          "max": 0.892342,
+          "mean": 0.892342,
+          "min": 0.892342
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 26.384971
+        },
+        "horizon_2": {
+          "0.0": 26.384971
+        },
+        "horizon_3": {
+          "0.0": 26.384971
+        },
+        "overall": {
+          "max": 26.384971,
+          "mean": 26.384971,
+          "min": 26.384971
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.890045,
+        "lag_2": 0.88717,
+        "lag_3": 0.885631,
+        "overall": {
+          "max": 0.890045,
+          "mean": 0.887615,
+          "min": 0.885631
+        }
+      }
+    },
+    "eb9da6b9-51bb-cfc5-b454-1ce5d1dd168c": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.902028
+        },
+        "horizon_2": {
+          "1.0": 0.902028
+        },
+        "horizon_3": {
+          "1.0": 0.902028
+        },
+        "overall": {
+          "max": 0.902028,
+          "mean": 0.902028,
+          "min": 0.902028
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 48.234883
+        },
+        "horizon_2": {
+          "1.0": 48.234883
+        },
+        "horizon_3": {
+          "1.0": 48.234883
+        },
+        "overall": {
+          "max": 48.234883,
+          "mean": 48.234883,
+          "min": 48.234883
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.902028,
+        "lag_2": 0.899488,
+        "lag_3": 0.896593,
+        "overall": {
+          "max": 0.902028,
+          "mean": 0.89937,
+          "min": 0.896593
+        }
+      }
+    },
+    "efb67d05-c8a8-e987-faa9-ebb33d75c8ff": {
+      "direction": {
+        "horizon_0": {
+          "0.0": -0.148671
+        },
+        "overall": {
+          "max": -0.148671,
+          "mean": -0.148671,
+          "min": -0.148671
+        }
+      },
+      "driver_name": "Austria imports of Prepared foods obtained (qty, Weight in kilograms)",
+      "importance": {
+        "horizon_1": {
+          "0.0": 0.0
+        },
+        "horizon_2": {
+          "0.0": 0.0
+        },
+        "horizon_3": {
+          "0.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.132463,
+        "lag_2": -0.125354,
+        "lag_3": -0.112203,
+        "overall": {
+          "max": -0.112203,
+          "mean": -0.12334,
+          "min": -0.132463
+        }
+      }
+    },
+    "f2411321-8648-ab68-35a9-e375de851eb4": {
+      "direction": {
+        "horizon_1": {
+          "3.0": 0.67881
+        },
+        "horizon_2": {
+          "3.0": 0.67881
+        },
+        "horizon_3": {
+          "3.0": 0.67881
+        },
+        "overall": {
+          "max": 0.67881,
+          "mean": 0.67881,
+          "min": 0.67881
+        }
+      },
+      "driver_name": "Industry, manufacturing - United States of America",
+      "importance": {
+        "horizon_1": {
+          "3.0": 0.0
+        },
+        "horizon_2": {
+          "3.0": 0.0
+        },
+        "horizon_3": {
+          "3.0": 0.0
+        },
+        "overall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.708578,
+        "lag_2": 0.693661,
+        "lag_3": 0.67881,
+        "overall": {
+          "max": 0.708578,
+          "mean": 0.693683,
+          "min": 0.67881
+        }
+      }
+    },
+    "f645b7a8-c206-a203-9935-e3646f3fc125": {
+      "direction": {
+        "horizon_1": {
+          "3.0": -0.12979
+        },
+        "horizon_2": {
+          "3.0": -0.12979
+        },
+        "horizon_3": {
+          "3.0": -0.12979
+        },
+        "overall": {
+          "max": -0.12979,
+          "mean": -0.12979,
+          "min": -0.12979
+        }
+      },
+      "driver_name": "Price per kg of Germany exports of Cereal groats and meal via Sea",
+      "importance": {
+        "horizon_1": {
+          "3.0": 99.989617
+        },
+        "horizon_2": {
+          "3.0": 99.989617
+        },
+        "horizon_3": {
+          "3.0": 99.989617
+        },
+        "overall": {
+          "max": 99.989617,
+          "mean": 99.989617,
+          "min": 99.989617
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": -0.132638,
+        "lag_2": -0.135959,
+        "lag_3": -0.12979,
+        "overall": {
+          "max": -0.12979,
+          "mean": -0.132796,
+          "min": -0.135959
+        }
+      }
+    },
+    "f955b2c0-e7cc-89a6-1f82-0a03a752e5e1": {
+      "direction": {
+        "horizon_1": {
+          "6.0": 0.480599
+        },
+        "horizon_2": {
+          "6.0": 0.480599
+        },
+        "horizon_3": {
+          "6.0": 0.480599
+        },
+        "overall": {
+          "max": 0.480599,
+          "mean": 0.480599,
+          "min": 0.480599
+        }
+      },
+      "driver_name": "Services - United States of America",
+      "importance": {
+        "horizon_1": {
+          "6.0": 99.999849
+        },
+        "horizon_2": {
+          "6.0": 99.999849
+        },
+        "horizon_3": {
+          "6.0": 99.999849
+        },
+        "overall": {
+          "max": 99.999849,
+          "mean": 99.999849,
+          "min": 99.999849
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.549516,
+        "lag_2": 0.534375,
+        "lag_3": 0.518894,
+        "overall": {
+          "max": 0.549516,
+          "mean": 0.534262,
+          "min": 0.518894
+        }
+      }
+    },
+    "fd79b80f-d33d-5ae8-1f36-b1bdd0e99818": {
+      "direction": {
+        "horizon_0": {
+          "0.0": 0.659587
+        },
+        "overall": {
+          "max": 0.659587,
+          "mean": 0.659587,
+          "min": 0.659587
+        }
+      },
+      "driver_name": "Energy - United States of America",
+      "importance": {
+        "horizon_1": {
+          "0.0": 99.962502
+        },
+        "horizon_2": {
+          "0.0": 99.962502
+        },
+        "horizon_3": {
+          "0.0": 99.962502
+        },
+        "overall": {
+          "max": 99.962502,
+          "mean": 99.962502,
+          "min": 99.962502
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.652132,
+        "lag_2": 0.64437,
+        "lag_3": 0.636674,
+        "overall": {
+          "max": 0.652132,
+          "mean": 0.644392,
+          "min": 0.636674
+        }
+      }
+    },
+    "fda7311e-c804-2966-4a0b-c8ef3485b102": {
+      "direction": {
+        "horizon_1": {
+          "1.0": 0.130897
+        },
+        "horizon_2": {
+          "1.0": 0.130897
+        },
+        "horizon_3": {
+          "1.0": 0.130897
+        },
+        "overall": {
+          "max": 0.130897,
+          "mean": 0.130897,
+          "min": 0.130897
+        }
+      },
+      "driver_name": "Wheat hrw in United States of America",
+      "importance": {
+        "horizon_1": {
+          "1.0": 99.28472
+        },
+        "horizon_2": {
+          "1.0": 99.28472
+        },
+        "horizon_3": {
+          "1.0": 99.28472
+        },
+        "overall": {
+          "max": 99.28472,
+          "mean": 99.28472,
+          "min": 99.28472
+        }
+      },
+      "pearson_correlation": {
+        "lag_1": 0.130897,
+        "lag_2": 0.117145,
+        "lag_3": 0.110825,
+        "overall": {
+          "max": 0.130897,
+          "mean": 0.119622,
+          "min": 0.110825
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}
