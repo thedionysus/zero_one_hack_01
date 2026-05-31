@@ -1,3 +1,15 @@
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Local environment / secrets — never commit
+.env
+.venv/
+
+# Copied complete stdlib (demo workaround for slimmed system python)
+.stdlib314/
+
+# Editor / OS / tooling cruft
+.claude/
+.DS_Store
+**/.DS_Store

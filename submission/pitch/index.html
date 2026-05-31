@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Granary — Pitch</title>
+<style>
+  :root{
+    --bg:#070b0a; --bg2:#0c1311; --surface:rgba(255,255,255,.035);
+    --surface2:rgba(255,255,255,.06); --line:rgba(255,255,255,.09);
+    --text:#e9f1ec; --muted:#8fa39a; --faint:#5f7068;
+    --accent:#34d399; --accent-bright:#6ee7a8; --amber:#fbbf24; --blue:#60a5fa; --red:#f87171;
+    --font:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    background:radial-gradient(120% 100% at 80% -10%,#10201a 0%,var(--bg2) 38%,var(--bg) 100%);
+    color:var(--text);font-family:var(--font);overflow:hidden;
+    -webkit-font-smoothing:antialiased;letter-spacing:-.01em;
+  }
+  .deck{position:fixed;inset:0}
+  .slide{
+    position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;
+    padding:clamp(32px,6vw,96px);opacity:0;visibility:hidden;
+    transform:translateY(14px) scale(.995);
+    transition:opacity .55s ease,transform .55s ease,visibility .55s;
+  }
+  .slide.active{opacity:1;visibility:visible;transform:none}
+  .slide.past{transform:translateY(-14px) scale(.995)}
+
+  /* staggered reveal */
+  .slide.active [data-rise]{animation:rise .6s cubic-bezier(.2,.7,.2,1) both}
+  .slide.active [data-rise="2"]{animation-delay:.08s}
+  .slide.active [data-rise="3"]{animation-delay:.16s}
+  .slide.active [data-rise="4"]{animation-delay:.24s}
+  .slide.active [data-rise="5"]{animation-delay:.32s}
+  .slide.active [data-rise="6"]{animation-delay:.40s}
+  @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:9px;font-size:clamp(11px,1.05vw,14px);
+    text-transform:uppercase;letter-spacing:.22em;color:var(--accent-bright);font-weight:600;
+    margin-bottom:22px;
+  }
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--accent);border-radius:2px}
+  h1{font-size:clamp(40px,8vw,104px);line-height:.98;font-weight:800;letter-spacing:-.035em}
+  h2{font-size:clamp(28px,4.6vw,58px);line-height:1.04;font-weight:800;letter-spacing:-.03em}
+  .lede{font-size:clamp(16px,1.9vw,26px);line-height:1.45;color:var(--muted);max-width:60ch;margin-top:22px;font-weight:420}
+  .lede strong{color:var(--text);font-weight:650}
+  .accent{color:var(--accent-bright)}
+  .amber{color:var(--amber)}
+
+  /* layout helpers */
+  .grid2{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(28px,4vw,72px);align-items:center}
+  @media(max-width:880px){.grid2{grid-template-columns:1fr;gap:28px}}
+
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:clamp(18px,2vw,28px)}
+  .stat-row{display:flex;gap:18px;flex-wrap:wrap;margin-top:30px}
+  .stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 22px;flex:1;min-width:150px}
+  .stat .n{font-size:clamp(26px,3.4vw,42px);font-weight:800;letter-spacing:-.03em;line-height:1}
+  .stat .l{font-size:13px;color:var(--muted);margin-top:8px;line-height:1.35}
+
+  /* pipeline */
+  .pipe{display:flex;align-items:stretch;gap:0;margin-top:14px;flex-wrap:wrap}
+  .step{flex:1;min-width:128px;background:var(--surface);border:1px solid var(--line);border-radius:14px;
+    padding:18px 16px;position:relative;display:flex;flex-direction:column;gap:8px}
+  .step+.step{margin-left:34px}
+  .step+.step::before{content:"→";position:absolute;left:-27px;top:50%;transform:translateY(-50%);
+    color:var(--accent);font-size:22px;font-weight:700}
+  .step .k{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-bright);font-weight:700}
+  .step .t{font-size:clamp(14px,1.3vw,17px);font-weight:650;line-height:1.2}
+  .step .d{font-size:12.5px;color:var(--muted);line-height:1.4}
+  .step.final{background:linear-gradient(180deg,rgba(52,211,153,.16),rgba(52,211,153,.04));border-color:rgba(52,211,153,.4)}
+  @media(max-width:880px){.step+.step{margin-left:0;margin-top:30px}
+    .step+.step::before{left:50%;top:-26px;transform:translateX(-50%) rotate(90deg)}}
+
+  ul.feat{list-style:none;display:flex;flex-direction:column;gap:16px;margin-top:8px}
+  ul.feat li{display:flex;gap:14px;align-items:flex-start;font-size:clamp(15px,1.5vw,19px);line-height:1.4}
+  ul.feat li b{font-weight:700;color:var(--text)}
+  ul.feat .ic{flex:none;width:30px;height:30px;border-radius:9px;display:grid;place-items:center;
+    background:var(--surface2);border:1px solid var(--line);font-size:15px;margin-top:1px}
+  ul.feat li span:last-child{color:var(--muted)}
+
+  /* calibration bars */
+  .cal{display:flex;flex-direction:column;gap:18px;margin-top:6px}
+  .bar{display:flex;align-items:center;gap:16px}
+  .bar .lab{width:104px;flex:none;font-size:13.5px;color:var(--muted);text-align:right;line-height:1.2}
+  .bar .track{flex:1;height:30px;background:rgba(255,255,255,.05);border-radius:8px;overflow:hidden;position:relative}
+  .bar .fill{height:100%;border-radius:8px;width:0;transition:width 1s cubic-bezier(.2,.7,.2,1) .2s}
+  .slide.active .bar .fill{width:var(--w)}
+  .bar .val{position:absolute;right:10px;top:50%;transform:translateY(-50%);font-size:13px;font-weight:700;color:#06140f}
+  .bar.claim .fill{background:repeating-linear-gradient(45deg,rgba(255,255,255,.25),rgba(255,255,255,.25) 7px,rgba(255,255,255,.12) 7px,rgba(255,255,255,.12) 14px);border:1px dashed rgba(255,255,255,.4)}
+  .bar.claim .val{color:var(--text)}
+  .bar.actual .fill{background:linear-gradient(90deg,#b45309,var(--amber))}
+  .bar.fixed .fill{background:linear-gradient(90deg,#059669,var(--accent-bright))}
+  .target{position:absolute;left:80%;top:-7px;bottom:-7px;width:2px;background:var(--accent);opacity:.7}
+  .target::after{content:"target 80%";position:absolute;top:-20px;left:6px;font-size:10.5px;color:var(--accent-bright);white-space:nowrap;letter-spacing:.04em}
+
+  .chartwrap{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px 22px 14px;position:relative}
+  .chartwrap .cap{font-size:12.5px;color:var(--faint);margin-top:6px;display:flex;justify-content:space-between}
+  svg .anno{font-size:13px;font-weight:700;fill:var(--text)}
+  svg .anno-s{font-size:11px;fill:var(--muted)}
+
+  .tiers{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}
+  @media(max-width:880px){.tiers{grid-template-columns:1fr}}
+  .tier{border-radius:18px;padding:26px;border:1px solid var(--line);position:relative;overflow:hidden}
+  .tier.econ{background:linear-gradient(170deg,rgba(52,211,153,.13),rgba(52,211,153,.02))}
+  .tier.soc{background:linear-gradient(170deg,rgba(96,165,250,.13),rgba(96,165,250,.02))}
+  .tier .tag{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;margin-bottom:14px}
+  .tier.econ .tag{color:var(--accent-bright)} .tier.soc .tag{color:var(--blue)}
+  .tier .big{font-size:clamp(30px,4vw,50px);font-weight:800;letter-spacing:-.03em;line-height:1}
+  .tier .sub{color:var(--muted);font-size:15px;line-height:1.5;margin-top:14px}
+  .pill{display:inline-block;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;font-weight:700;
+    padding:3px 9px;border-radius:999px;background:var(--surface2);border:1px solid var(--line);color:var(--muted);margin-left:8px;vertical-align:middle}
+
+  .footer-note{margin-top:30px;font-size:14px;color:var(--faint);max-width:70ch;line-height:1.5}
+
+  .brandrow{display:flex;align-items:center;gap:18px;margin-top:44px;flex-wrap:wrap;color:var(--faint);font-size:14px}
+  .brandrow .dot{width:5px;height:5px;border-radius:50%;background:var(--faint)}
+  .logo{display:flex;align-items:center;gap:14px;margin-bottom:30px}
+  .logo .mark{width:46px;height:46px;border-radius:13px;background:linear-gradient(145deg,var(--accent),#0f7a52);
+    display:grid;place-items:center;box-shadow:0 10px 30px -8px rgba(52,211,153,.5)}
+  .logo .mark svg{width:26px;height:26px}
+  .logo .name{font-size:24px;font-weight:800;letter-spacing:-.02em}
+
+  /* chrome */
+  .progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent-bright));
+    width:0;transition:width .4s ease;z-index:30;box-shadow:0 0 14px rgba(52,211,153,.6)}
+  .chrome{position:fixed;bottom:26px;left:0;right:0;display:flex;align-items:center;justify-content:center;
+    gap:26px;z-index:30;pointer-events:none}
+  .dots{display:flex;gap:10px;pointer-events:auto}
+  .dots button{width:9px;height:9px;border-radius:50%;border:0;background:rgba(255,255,255,.18);cursor:pointer;padding:0;transition:.3s}
+  .dots button.on{background:var(--accent);transform:scale(1.3)}
+  .count{position:fixed;bottom:24px;right:34px;font-size:13px;color:var(--faint);z-index:30;font-variant-numeric:tabular-nums}
+  .count b{color:var(--text);font-weight:700}
+  .hint{position:fixed;bottom:24px;left:34px;font-size:12px;color:var(--faint);z-index:30;letter-spacing:.04em}
+  .nav{position:fixed;top:50%;transform:translateY(-50%);z-index:30;background:var(--surface);border:1px solid var(--line);
+    color:var(--text);width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:18px;opacity:.5;transition:.25s}
+  .nav:hover{opacity:1;background:var(--surface2)}
+  .nav.prev{left:20px} .nav.next{right:20px}
+  @media(max-width:880px){.nav{display:none}}
+  .kicker{font-size:clamp(13px,1.4vw,16px);color:var(--muted);margin-top:18px;font-style:italic}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<div class="deck" id="deck">
+
+  <!-- SLIDE 1 — TITLE -->
+  <section class="slide active">
+    <div class="logo" data-rise>
+      <div class="mark"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2 L20 7 V17 L12 22 L4 17 V7 Z" stroke="#06140f" stroke-width="1.7"/><path d="M8 13l3 3 5-6" stroke="#06140f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="name">Granary</div>
+    </div>
+    <div class="eyebrow" data-rise="2">Forecasting AI · Sybilion · Zero One Hack</div>
+    <h1 data-rise="3">Buy at the<br><span class="accent">right moment.</span></h1>
+    <p class="lede" data-rise="4">A procurement decision agent that turns probabilistic fertilizer-price
+      forecasts into <strong>buy / wait / split</strong> calls — cutting what warehouses pay,
+      and <strong>making food cheaper</strong> downstream.</p>
+    <div class="brandrow" data-rise="5">
+      <span>Built on the Sybilion forecasting API</span><span class="dot"></span>
+      <span>Decision logic, not a forecast wrapper</span><span class="dot"></span>
+      <span>Adapts live when assumptions shift</span>
+    </div>
+  </section>
+
+  <!-- SLIDE 2 — PROBLEM -->
+  <section class="slide">
+    <div class="grid2">
+      <div>
+        <div class="eyebrow" data-rise>The problem</div>
+        <h2 data-rise="2">A forecast is a number.<br>A number doesn't<br><span class="amber">change a decision.</span></h2>
+        <p class="lede" data-rise="3">Fertilizer prices swing <strong>10×</strong>. Warehouses still buy on gut feel —
+          so they overpay, farmers pay more for inputs, and that cost lands in the price of food.</p>
+        <div class="stat-row" data-rise="4">
+          <div class="stat"><div class="n amber">0.06→0.93</div><div class="l">USD/kg range, urea FOB benchmark, 1996–2026</div></div>
+          <div class="stat"><div class="n amber">+85%</div><div class="l">urea spike in the last 3 months of data alone</div></div>
+        </div>
+      </div>
+      <div data-rise="5">
+        <div class="chartwrap">
+          <svg viewBox="0 0 1000 300" width="100%" role="img" aria-label="Urea price history">
+            <defs><linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></linearGradient></defs>
+            <polyline fill="none" stroke="#34d399" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"
+              points="8.0,242.1 40.9,249.9 71.0,265.3 101.2,271.6 131.3,267.5 161.5,261.8 191.6,261.7 221.8,263.0 251.9,246.3 282.1,231.1 312.2,223.3 342.4,226.9 372.5,201.5 402.7,149.6 413.7,50.9 421.9,203.2 452.0,219.3 482.2,196.7 506.9,144.6 537.0,134.1 567.2,179.3 597.3,190.9 627.5,197.8 657.6,219.6 687.8,224.5 717.9,205.5 748.1,208.5 778.2,218.4 808.4,214.8 838.5,156.0 849.5,15.5 863.2,8.0 893.3,195.2 923.5,183.7 953.6,174.7 981.0,165.9 992.0,69.0"/>
+            <circle cx="413.7" cy="50.9" r="4" fill="#fbbf24"/><text class="anno" x="402" y="40" text-anchor="middle">2008</text>
+            <circle cx="863.2" cy="8.0" r="4" fill="#fbbf24"/><text class="anno" x="935" y="28" text-anchor="end">2022 energy crisis</text>
+            <circle cx="992" cy="69" r="5" fill="#f87171" stroke="#070b0a" stroke-width="2"/><text class="anno" x="985" y="92" text-anchor="end">2026 ▲</text>
+          </svg>
+          <div class="cap"><span>Urea FOB benchmark · monthly · USD/kg</span><span>World Bank Pink Sheet</span></div>
+        </div>
+        <p class="kicker" data-rise="6">Every one of these swings was a buy-now-or-wait decision someone got wrong.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 3 — SOLUTION -->
+  <section class="slide">
+    <div class="eyebrow" data-rise>How Granary works</div>
+    <h2 data-rise="2">From a probabilistic forecast<br>to a <span class="accent">defensible decision.</span></h2>
+    <p class="lede" data-rise="3">A deterministic decision core does the math; the agent narrates it and re-runs it live.
+      <strong>Every number comes from code — the LLM explains, it doesn't decide.</strong></p>
+    <div class="pipe" data-rise="4">
+      <div class="step"><span class="k">Forecast</span><span class="t">Sybilion API</span><span class="d">12-mo price bands + backtest, per fertilizer</span></div>
+      <div class="step"><span class="k">Correct</span><span class="t">Recalibrate + trust</span><span class="d">rebuild the bands the model gets wrong; score reliability</span></div>
+      <div class="step"><span class="k">Optimize</span><span class="t">Cost-min schedule</span><span class="d">inventory, runway, carrying cost, risk → order plan</span></div>
+      <div class="step final"><span class="k">Decide</span><span class="t">Buy / Wait / Split</span><span class="d">target month + € saved vs buying on autopilot</span></div>
+    </div>
+    <p class="footer-note" data-rise="5">Demo persona: a mid-size Austrian agri co-op (~12,000 t/yr urea, 3-month runway).
+      Change any input on stage and the recommendation re-solves instantly — no black box.</p>
+  </section>
+
+  <!-- SLIDE 4 — TECHNICAL EDGE -->
+  <section class="slide">
+    <div class="grid2">
+      <div>
+        <div class="eyebrow" data-rise>Why it isn't a wrapper</div>
+        <h2 data-rise="2">The forecast's own<br>confidence bands <span class="amber">lie.</span></h2>
+        <p class="lede" data-rise="3">An 80% band should contain reality 80% of the time. On real urea backtests it caught
+          just <strong class="amber">22%</strong>. Acting on raw bands means acting on false certainty.
+          <strong>Fixing that is our core.</strong></p>
+        <ul class="feat" data-rise="5">
+          <li><span class="ic">🎯</span><span><b>Conformal recalibration</b> — rebuild bands from hindcast error so 80% means 80%.</span></li>
+          <li><span class="ic">⚖️</span><span><b>Trust score</b> — down-weight forecasts the model can't get right.</span></li>
+          <li><span class="ic">⚡</span><span><b>Adaptive</b> — shift any assumption mid-run; the decision visibly re-solves.</span></li>
+        </ul>
+      </div>
+      <div data-rise="4">
+        <div class="chartwrap">
+          <div class="cal">
+            <div class="bar claim"><span class="lab">claimed by<br>the model</span><div class="track"><div class="fill" style="--w:80%"></div><div class="target"></div><span class="val">80%</span></div></div>
+            <div class="bar actual"><span class="lab">what it<br>actually caught</span><div class="track"><div class="fill" style="--w:22%"></div><div class="target"></div><span class="val">22%</span></div></div>
+            <div class="bar fixed"><span class="lab">after Granary<br>recalibration</span><div class="track"><div class="fill" style="--w:80%"></div><div class="target"></div><span class="val">~80%</span></div></div>
+          </div>
+          <div class="cap" style="margin-top:18px"><span>80% confidence band — real coverage</span><span>13 urea hindcast windows</span></div>
+        </div>
+        <p class="kicker">The model also under-shoots sustained rallies → Granary biases toward buying earlier.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 5 — IMPACT -->
+  <section class="slide">
+    <div class="eyebrow" data-rise>Impact &amp; vision</div>
+    <h2 data-rise="2">Cheaper inputs for farmers.<br><span class="accent">More affordable food</span> for everyone.</h2>
+    <div class="tiers" data-rise="3">
+      <div class="tier econ">
+        <div class="tag">Economic · backtested</div>
+        <div class="big">Lower procurement cost <span class="pill">vs buy-as-you-go</span></div>
+        <div class="sub">Replayed over 30 years of prices using only the forecast available at each point —
+          the agent's timing beats buying on autopilot. Grounded in backtest evidence, not a promise.</div>
+      </div>
+      <div class="tier soc">
+        <div class="tag">Social · pass-through</div>
+        <div class="big">Fertilizer ≈ 15–20% of cereal input cost</div>
+        <div class="sub">Lower fertilizer spend flows through to grain, then to the shelf. Cheaper food is
+          more accessible food — quantified transparently with a cited sensitivity range.</div>
+      </div>
+    </div>
+    <p class="footer-note" data-rise="4"><strong style="color:var(--text)">Any warehouse plugs in its own numbers.</strong>
+      Independent decision intelligence on top of European forecasting infrastructure — the kind of edge a
+      generic dashboard can't replicate.</p>
+    <div class="brandrow" data-rise="5">
+      <div class="logo" style="margin:0"><div class="mark" style="width:34px;height:34px;border-radius:10px"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2 L20 7 V17 L12 22 L4 17 V7 Z" stroke="#06140f" stroke-width="1.7"/><path d="M8 13l3 3 5-6" stroke="#06140f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="name" style="font-size:18px">Granary</div></div>
+      <span class="dot"></span><span>Decide when to buy — not just what's coming.</span>
+    </div>
+  </section>
+
+</div>
+
+<button class="nav prev" id="prev" aria-label="Previous">‹</button>
+<button class="nav next" id="next" aria-label="Next">›</button>
+<div class="chrome"><div class="dots" id="dots"></div></div>
+<div class="count"><b id="cur">1</b> / <span id="tot">5</span></div>
+<div class="hint">← → or space to navigate</div>
+
+<script>
+  const slides=[...document.querySelectorAll('.slide')];
+  const dotsWrap=document.getElementById('dots');
+  const progress=document.getElementById('progress');
+  const curEl=document.getElementById('cur'), totEl=document.getElementById('tot');
+  let i=0; totEl.textContent=slides.length;
+  slides.forEach((_,idx)=>{const b=document.createElement('button');b.onclick=()=>go(idx);dotsWrap.appendChild(b);});
+  const dots=[...dotsWrap.children];
+  function go(n){
+    n=Math.max(0,Math.min(slides.length-1,n));
+    slides.forEach((s,idx)=>{s.classList.toggle('active',idx===n);s.classList.toggle('past',idx<n);});
+    dots.forEach((d,idx)=>d.classList.toggle('on',idx===n));
+    progress.style.width=((n+1)/slides.length*100)+'%';
+    curEl.textContent=n+1; i=n;
+  }
+  document.getElementById('next').onclick=()=>go(i+1);
+  document.getElementById('prev').onclick=()=>go(i-1);
+  addEventListener('keydown',e=>{
+    if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){e.preventDefault();go(i+1);}
+    else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();go(i-1);}
+    else if(e.key==='Home')go(0); else if(e.key==='End')go(slides.length-1);
+  });
+  let sx=0; addEventListener('touchstart',e=>sx=e.touches[0].clientX,{passive:true});
+  addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-sx; if(Math.abs(dx)>50)go(i+(dx<0?1:-1));},{passive:true});
+  go(0);
+</script>
+</body>
+</html>
