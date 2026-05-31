@@ -3,6 +3,15 @@
 Kept import-isolated (plotly only) so the rest of the app's logic stays stdlib
 and unit-testable without the UI stack.
 """
+# Eagerly fully-initialize numpy here, at module import (main load), BEFORE any
+# chart is built. Plotly probes numpy via get_module("numpy", should_load=False),
+# i.e. it reads sys.modules without finishing the import. Under Streamlit, plotly's
+# own lazy first-import of numpy runs in the ScriptRunner worker thread; if a rerun
+# interrupts it, a *partially initialized* numpy is left cached and every later
+# render crashes with "partially initialized module 'numpy' ... circular import"
+# until the process restarts. Importing it fully here closes that window.
+import numpy  # noqa: F401
+
 import plotly.graph_objects as go
 
 from lib.ts_utils import month_index
